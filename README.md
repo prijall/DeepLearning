@@ -16,3 +16,4 @@
  - **Training Time:** The training time for deep learning algorithm is very huge whereas ml model needs less training time.
  - **Feature Selection:** It is automatically done ny algo itself whereas feature engineering is manually done by humans in ml.
  - **Interpretability:** DL works in black box software engineering concpet so everything is hidden whereas in ml we know how we got that specific result.
+ ![alt text](Photo/DeepLearningVsMachineLearning.webp)
