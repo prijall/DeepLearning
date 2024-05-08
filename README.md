@@ -16,4 +16,11 @@
  - **Training Time:** The training time for deep learning algorithm is very huge whereas ml model needs less training time.
  - **Feature Selection:** It is automatically done ny algo itself whereas feature engineering is manually done by humans in ml.
  - **Interpretability:** DL works in black box software engineering concpet so everything is hidden whereas in ml we know how we got that specific result.
+
  ![alt text](Photo/DeepLearningVsMachineLearning.webp)
+
+ # Day 2
+ 
+ In Deep Learning, the word deep means multiple hidden layers. Learning about the history of deep learning is very amazing. Deep Diving into the topic, today i learned about the certain types of neural network, they are; **Artificial Neural Network(ANN), Convoluational Neural Network(CNN), Recurrent Neural Network(RNN), etc.** All these have diiferent fucntionalities according to different use-cases. Multiple hidden neural network is later termed as **Deep Learning.**
+ 
+![alt text](Photo/TypesOfNeuralNetwork.webp)
