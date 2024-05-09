@@ -4,6 +4,7 @@
 | Books & Resources                                                | Completion Status |
 |------------------------------------------------------------------|-------------------|
 | [Deep Learning Playlist @CampusX](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) | 🏊                 |
+| [ MIT Deep Learning Playlist](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | 🏊                 |
 
 
   # Day 1
