@@ -24,3 +24,16 @@
  In Deep Learning, the word deep means multiple hidden layers. Learning about the history of deep learning is very amazing. Deep Diving into the topic, today i learned about the certain types of neural network, they are; **Artificial Neural Network(ANN), Convoluational Neural Network(CNN), Recurrent Neural Network(RNN), etc.** All these have diiferent fucntionalities according to different use-cases. Multiple hidden neural network is later termed as **Deep Learning.**
  
 ![alt text](Photo/TypesOfNeuralNetwork.webp)
+
+# Day 3
+
+**Perceptron** is the basic unit of whole neural network. It is weakly inspired by Nerurons from human nervous system. Today, I understood the basics of perceptron and its geometric intuition. Perceptron works similar to that of machine learning models where data inputs are given and the preceptron will do prediction based on it's training with dataset. Perceptron works with more of linear sort of data and failes to maintain good accuracy on non linear data. 
+
+- Basic Pictoral Representation of Perceptron:
+![alt text](Photo/Perceptron_Basic_Diagram.webp)
+
+- Data for perceptron:
+![alt text](Photo/DataForPerceptron.png)
+
+- classified Data using perceptron:
+![alt text](Photo/DataClassifiedUsingPerceptron.png)
