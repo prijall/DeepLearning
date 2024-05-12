@@ -38,3 +38,23 @@
 
 - classified Data using perceptron:
 ![alt text](Photo/DataClassifiedUsingPerceptron.png)
+
+# Day 4
+
+**Perceptron Training,** Today I learnt about perceptron training. First, I created a dataset for classification using sklearn and then developed perceptron model to train on those dataset.
+
+#### Algorithm to train perceptron(trick):
+- Step 1: train the built model with the dataset.
+- Step 2: Select random datapoint from the dataset, if the actual value is 0 and predicted value is 1 then we should subtract that point with certain learning rate to old metric and update.
+- Step 3: if the actual value is 1 and predicted value is 0 then we should add  that point with certain learning rate to old coefficient metric and update.
+- Step 4: this step continues untill our coeff metric is stagnant.
+
+- This is given by formula:
+  
+  New metric of eqn = old metric from eqn +learning_rate*(actual value- predicted_value)*datapoint
+
+- Code Snippet:
+
+![alt text](Photo/DataForPercpetron.png)
+![alt text](Photo/Perceptron_Training.png)
+![alt text](Photo/PerceptronTrainedData.png)
