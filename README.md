@@ -58,3 +58,12 @@
 ![alt text](Photo/DataForPercpetron.png)
 ![alt text](Photo/Perceptron_Training.png)
 ![alt text](Photo/PerceptronTrainedData.png)
+
+# Day 5
+Yesterday, I learnt the trick to find the optimized line equation which will do deep learning classification. That trick might work must of the time but it doesn't guarantee the **convergence** and **Perfect seperation in line for classification**. Therefore, there is a need of **loss function**, which helps to find optimized weights and bias which will help in getting best separation line.
+                                There are many loss function but we will use loss function similar to that of hinge loss function, which is 
+
+- Loss Function = max(0, -Yi*f(Xi))  where Yi is the target value of each rows and F(Xi)=WiXi+b.
+
+- Code Snippet:
+![alt text](Photo/loss_function_perceptron.png)
