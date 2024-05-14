@@ -71,4 +71,5 @@ Yesterday, I learnt the trick to find the optimized line equation which will do 
 # Day 6
 Today, I learnt about other loss function in perceptron. Perceptron is very flexible in nature. It can be used as linear regression, softmax regression, logistic regression and as perceptron itself depending upon the activation function used along with the loss function.Below is the table, I created to overview using various activation function and loss function:
 
+- Table:
 ![alt text](<Photo/Loss Functions.png>)
