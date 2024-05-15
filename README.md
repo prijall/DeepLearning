@@ -80,4 +80,4 @@ Dive diving into perceptron, it is in the notice that perceptron works on the li
 
 - Demonstration:
 
-<video controls src="Photo/Percpetron_Weakness_Visual.mp4" title="Title"></video>
+[Watch the video](https://drive.google.com/file/d/1bjEwrqMVKu4_cXiYtlqe44gsCh1VsHX9/view?usp=drive_link)
