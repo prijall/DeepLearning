@@ -72,4 +72,12 @@ Yesterday, I learnt the trick to find the optimized line equation which will do 
 Today, I learnt about other loss function in perceptron. Perceptron is very flexible in nature. It can be used as linear regression, softmax regression, logistic regression and as perceptron itself depending upon the activation function used along with the loss function.Below is the table, I created to overview using various activation function and loss function:
 
 - Table:
+
 ![alt text](<Photo/Loss Functions.png>)
+
+# Day 7
+Dive diving into perceptron, it is in the notice that perceptron works on the linear model only. If given non-linear dataset to perceptron, how many epochs will it takes but it won't be able  to classify dataset due to which perceptron as a concept in deep learning couldn't grow further more.
+
+- Demonstration:
+
+<video controls src="Photo/Percpetron_Weakness_Visual.mp4" title="Title"></video>
