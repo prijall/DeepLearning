@@ -81,3 +81,9 @@ Dive diving into perceptron, it is in the notice that perceptron works on the li
 - Demonstration:
 
 [Watch the video](https://drive.google.com/file/d/1bjEwrqMVKu4_cXiYtlqe44gsCh1VsHX9/view?usp=drive_link)
+
+# Day 8
+Perceptron wasn't solely enough to use for prediction in deep learning due to which the concept of Multi-Layered Perceptron(MLP). Today, I understood the notation of MLP and revised the fundamental concept of perceptron. Understanding the notation helps to understand training of mlp later in learning.
+
+- SnapShot:
+![alt text](Photo/MLP_Notation.png)
