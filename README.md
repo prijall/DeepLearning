@@ -87,3 +87,15 @@ Perceptron wasn't solely enough to use for prediction in deep learning due to wh
 
 - SnapShot:
 ![alt text](Photo/MLP_Notation.png)
+
+# Day 9
+How MLP solves non linear decision boundary problems in complex data? Well, MLP does this by linear combination of different perceptrons and smoothening them.
+What are the ways to improve performance in MLP?
+- By adding nodes in hidden layer
+- By adding nodes in input layer
+- By adding nodes in output layer
+- By adding hidden layers.
+
+- Below is the snapshot of Tensorflow playground which depicts adding multiple hidden layers improves model performance of the model:
+
+![alt text](Photo/MLP_Intuition.png)
