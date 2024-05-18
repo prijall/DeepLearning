@@ -99,3 +99,10 @@ What are the ways to improve performance in MLP?
 - Below is the snapshot of Tensorflow playground which depicts adding multiple hidden layers improves model performance of the model:
 
 ![alt text](Photo/MLP_Intuition.png)
+
+# Day 10
+Today, I understood the concept of Forward Propagation in Neural network. It is very important to learn forward propagation in first place as it makes learning Back-Propagation easy.Forward Propagation is nothing but a method to feed data show that neural network can train itself and make prediction. We just have to feed data and all the other operations are handled by Linear algebra itself that's what the beauty of linear algebra. We shouldn't apply back propagation algorithm unless forward propagation is done.
+
+- Below is the code snippet:
+![alt text](Photo/forward_Prop.png)
+
