@@ -109,6 +109,8 @@ Today, I understood the concept of Forward Propagation in Neural network. It is 
 # Day 11
 Today, I roughly trained ANN using keras and tensorflow where I learnt how prediction is made by neural networks.
 
+- Below is the code snippet:
+ 
 ![alt text](Photo/ANNTraining_Part1.png)
 
 ![alt text](Photo/EpocsDuringANNTraining.png)
