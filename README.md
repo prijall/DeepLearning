@@ -106,3 +106,9 @@ Today, I understood the concept of Forward Propagation in Neural network. It is 
 - Below is the code snippet:
 ![alt text](Photo/forward_Prop.png)
 
+# Day 11
+Today, I roughly trained ANN using keras and tensorflow where I learnt how prediction is made by neural networks.
+
+![alt text](Photo/ANNTraining_Part1.png)
+
+![alt text](Photo/EpocsDuringANNTraining.png)
