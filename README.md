@@ -114,3 +114,8 @@ Today, I roughly trained ANN using keras and tensorflow where I learnt how predi
 ![alt text](Photo/ANNTraining_Part1.png)
 
 ![alt text](Photo/EpocsDuringANNTraining.png)
+
+# Day 12
+Today, I build the layers of neurons from scratch using python and saw how it does prediction which was all revision from forward propagation and saw how linear algebra work in deep learning.
+
+![alt text](Photo/neurons_layers.png)
