@@ -119,3 +119,10 @@ Today, I roughly trained ANN using keras and tensorflow where I learnt how predi
 Today, I build the layers of neurons from scratch using python and saw how it does prediction which was all revision from forward propagation and saw how linear algebra work in deep learning.
 
 ![alt text](Photo/neurons_layers.png)
+
+# Day 13
+Today, I implemented code for dense layer from scratch and uderstood how forward propagation is done. First, I created a class named **Dense Layer** where I created simply two fucntions where one takes **no of inputs and no of neurons** and assign weights and biases with these inputs. Similarly, I created class for forward propagation which gives output using dot product(or say Matrix Multiplication) from calculated inputs, weights and biases and finally print out results.
+
+- Below is the code snippet:
+
+![alt text](Photo/dense_layer.png)
