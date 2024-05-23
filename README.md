@@ -126,3 +126,10 @@ Today, I implemented code for dense layer from scratch and uderstood how forward
 - Below is the code snippet:
 
 ![alt text](Photo/dense_layer.png)
+
+# Day 14
+Implemented **RELU ACtivation Function** where ReLu stands for **Rectified Linear Unit**. It is as simple as other activation functions such as sigmoid, ect. The basic concept of RELU is it’s quite literally y=x, clipped at 0 from the negative side. If x is less than or equal to 0, then y is 0 — otherwise, y is equal to x. Also Saw their learning process from book **Neural Network From Scratch**.
+
+-Below is the code implementation:
+
+![alt text](Photo/ReLU.png)
