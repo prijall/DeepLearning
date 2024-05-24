@@ -133,3 +133,21 @@ Implemented **RELU ACtivation Function** where ReLu stands for **Rectified Linea
 -Below is the code implementation:
 
 ![alt text](Photo/ReLU.png)
+
+# Day 15
+Today, I implemented **SOftmax Function**. The Softmax activation function addresses these limitations of ReLU Function by transforming the output into a probability distribution. 
+ #### Properties of Softmax:
+- **Normalization**: 
+The outputs of the softmax function are probabilities that sum up to 1. This normalization provides a clear, interpretable measure of confidence for each class.
+- **Bounded Outputs**: The output values are between 0 and 1, representing probabilities.
+- **Contextual Output:** The probability for each class is calculated considering the scores of all classes, meaning each output is dependent on the others. This provides a comparative measure of confidence across all classes.
+
+#### How Softmax Works in Classification:
+When using softmax in the output layer of a neural network for classification:
+- The network produces raw scores (logits) for each class.
+- These logits are then transformed into probabilities using the softmax function.
+- The class with the highest probability is considered the predicted class.
+
+- Below is the code snippet:
+
+![alt text](Photo/Softmax_Function.png)
