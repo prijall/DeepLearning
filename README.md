@@ -151,3 +151,11 @@ When using softmax in the output layer of a neural network for classification:
 - Below is the code snippet:
 
 ![alt text](Photo/Softmax_Function.png)
+
+# Day 16
+Today, I built the loss function for neural network from scratch. The loss function, also referred to as the cost function, is the algorithm that quantifies how wrong a model is.Loss is the measure of this metric. Since loss is the model’s error, we ideally want it to be 0. The model has a softmax activation function for the output layer, which means it’s
+outputting a probability distribution. **Categorical cross-entropy** is explicitly used to compare a **“ground-truth” probability (y or “targets”)** and some predicted distribution **(y-hat or “predictions”)**, so it makes sense to use cross-entropy here. It is also one of the most commonly used loss functions with a softmax activation on the output layer.
+
+- Below is the code snippet:
+
+![alt text](<Photo/loss function.png>)
