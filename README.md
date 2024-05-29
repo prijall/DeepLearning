@@ -159,3 +159,8 @@ outputting a probability distribution. **Categorical cross-entropy** is explicit
 - Below is the code snippet:
 
 ![alt text](<Photo/loss function.png>)
+
+# Day 17
+While loss is a useful metric for optimizing a model, the metric commonly used in practice along with loss is the **accuracy**, which describes how often the largest confidence is the correct class in terms of a fraction. Conveniently, we can reuse existing variable definitions to calculate the accuracy metric. We will use the argmax values from the softmax outputs and then compare these to the targets. This is as simple as doing (note that we slightly modified the softmax_outputs for the purpose of this example):
+
+![alt text](Photo/accuracy.png)
