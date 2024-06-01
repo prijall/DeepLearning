@@ -175,4 +175,10 @@ biases to randomly adjusting them:
 - Output:
 ![alt text](Photo/iterations.png)
 
+# Day 19
+Today, I studied about Gradeint Descent. Gradient descent is an optimization algorithm which is commonly-used to train machine learning models and neural networks. It trains machine learning models by minimizing errors between predicted and actual results. Implemented gradient descent from scratch, First I have created function which has equation and then I built function for calculation of gredient descent using derivatives. After that using numpy, created random datapoints aligning with equation. After that I select one random data point which has to be descent and use loop to do so with learning rate and basic maths to make that data point global minima.
+
+- Below is the code snippet:
+![alt text](Photo/gradient_descent.png)
+
 
