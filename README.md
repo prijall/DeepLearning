@@ -181,4 +181,8 @@ Today, I studied about Gradeint Descent. Gradient descent is an optimization alg
 - Below is the code snippet:
 ![alt text](Photo/gradient_descent.png)
 
+# Day 20
+Derivative is very important in neural network, which is widely used in backpropagation in neural network. Backpropagation is an optimization technique which is done combining both forward propagation and gradient descent. First, we train our neural network and predict value using forward propagation and then calculate loss afterwhich gradient descent comes into play and updates our trainable parameter. Today, I just calculated partial derivative of neural network.
 
+- Below is the code snippet:
+![alt text](Photo/backpropagation_part1.png)
