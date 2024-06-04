@@ -186,3 +186,9 @@ Derivative is very important in neural network, which is widely used in backprop
 
 - Below is the code snippet:
 ![alt text](Photo/backpropagation_part1.png)
+
+# Day 21
+Completed backpropagation on single set of neuron and reduced the loss function. Now the main aim to pratice this under the deep neural network.
+
+- Below is the snapshot:
+![alt text](Photo/backpropagation_single_neuron_Part2.png)
