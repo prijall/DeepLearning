@@ -192,3 +192,17 @@ Completed backpropagation on single set of neuron and reduced the loss function.
 
 - Below is the snapshot:
 ![alt text](Photo/backpropagation_single_neuron_Part2.png)
+
+# Day 22
+Today, I implemented backpropagation for **Dense Layer, ReLU Activation and SoftMax Activation.** 
+
+#### Dense Layer Backward Pass:
+- Created backward function which takes dvalues which is  Gradient of the loss with respect to the output of this layer (this is the gradient flowing back from the next layer). After that, computed the gradient of the loss with respect to the weight, biases and input of the layer by dot product of transposed(repsective) matrix with dvalues (for weights and inputs) and by summing up dvalues across the samples (rows).
+
+#### Backward pass for ReLU Activation:
+- Created backward function which takes dvalues which is  Gradient of the loss with respect to the output of this layer (this is the gradient flowing back from the next layer).after that, copied values to preserve the original dvalues. Setting the gradient to zero where the input to the ReLU was zero or negative, because ReLU outputs zero in those regions during the forward pass and thus does not contribute to the gradient.
+
+#### Softmax Activation Backward Pass:
+-  Computes gradients using the Jacobian matrix of the softmax function, iterating over each sample.
+
+![alt text](Photo/backpropagation_for_layers.png)
