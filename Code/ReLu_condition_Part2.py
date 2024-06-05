@@ -8,8 +8,18 @@ from LayersofNeurons_part2 import Dense_layer
 class ReLu_Activation:
     # forward pass
     def forward(self, inputs):
+        #Remember the input value:
+        self.inputs=inputs
         #calculate output values from input:
         self.output=np.maximum(0, inputs)
+
+    # Backward pass:
+    def backward(self, dvalues):
+        #before modifying original variable, let's make a copy
+        self.dinputs=dvalues.copy()
+
+        #Zero gradient where input values were negative:
+        self.dinputs[self.inputs<=0]=0
 
 #@ Creating a dataset:
 X, y=spiral_data(samples=100, classes=3)

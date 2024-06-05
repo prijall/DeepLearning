@@ -16,8 +16,18 @@ class Dense_layer:
     
     #@ Forward Pass:
     def forward(self, inputs):
+        #Remember the input value:
+        self.inputs=inputs
         #@ Calculate output values from inputs, weights and biases:
         self.output=np.dot(inputs, self.weights)+self.biases
+
+    #@ Backward Pass:
+    def backward(self, dvalues):
+        #Gradients on parameters:
+        self.dweights=np.dot(self.inputs>T, dvalues)
+        self.dbiases=np.sum(dvalues, axis=0, keepdims=True)
+        # Gradient on values:
+        self.dinputs=np.dot(dvalues, self.weights.T)
 
 
 #@ Creating Dataset:

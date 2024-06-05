@@ -11,6 +11,9 @@ class Softmax_Activation:
 
     #Forward Pass:
      def forward(self, inputs):
+        #Remember the input value:
+        self.inputs=inputs
+
         #@ Getting Unnormaalized probabilities:
         exp_values=np.exp(inputs- np.max(inputs, axis=1, keepdims=True))
 
@@ -18,6 +21,25 @@ class Softmax_Activation:
         probabilities=exp_values/np.sum(exp_values, axis=1, keepdims=True)
 
         self.output=probabilities
+    
+    #Backward Pass:
+     def backward(self, dvalues):
+         #creating uninitialized array:
+         self.dinputs=np.empty_like(dvalues)
+
+         #Enumerate outputs and gradients:
+         for index, (single_output, single_dvalues) in \
+               enumerate(zip(self.output, dvalues)):
+             #Flatten o/p array:
+             single_output=single_output.reshape(-1,1)
+
+             #calculating Jacobian matrix of the output
+             jacobian_matrix=np.diagflat(single_output)- \
+                             np.dot(single_output, single_output.T)
+             
+             # Calculating sample-wise gradient
+             # and adding it to the array of sample gradients:
+             self.dinputs[index]=np.dot(jacobian_matrix, single_dvalues)
     
 # Creating dataset
 X, y = spiral_data(samples=100, classes=3)
