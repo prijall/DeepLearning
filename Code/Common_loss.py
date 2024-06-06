@@ -39,6 +39,29 @@ class Loss_CategoricalCrossentropy(Loss):
 
      negative_log_likelihoods = -np.log(correct_confidences)
      return negative_log_likelihoods
+   
+
+   def backward(self, dvalues, y_true):
+     #number of samples
+     samples=len(dvalues)
+
+     #number of labels in every sample
+     # we'll use the first sample to count them
+     labels=len(dvalues[0])
+
+     # If labels are sparse, turn them into one-hot vector:
+     if len(y_true.shape)==1:
+       y_true=np.eye(labels)[y_true]
+
+    # Calculate gradient:
+     self.dinputs=-y_true / dvalues
+
+     # Normalize gradient:
+     self.dinputs= self.dinputs / samples
+
+
+
+     
 
 # Create dataset
 X, y = spiral_data(samples=100, classes=3)
