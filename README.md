@@ -193,6 +193,7 @@ Completed backpropagation on single set of neuron and reduced the loss function.
 - Below is the snapshot:
 ![alt text](Photo/backpropagation_single_neuron_Part2.png)
 
+
 # Day 22
 Today, I implemented backpropagation for **Dense Layer, ReLU Activation and SoftMax Activation.** 
 
@@ -206,3 +207,10 @@ Today, I implemented backpropagation for **Dense Layer, ReLU Activation and Soft
 -  Computes gradients using the Jacobian matrix of the softmax function, iterating over each sample.
 
 ![alt text](Photo/backpropagation_for_layers.png)
+
+
+# Day 23
+Created backward pass for **Common Loss and Categorical loss entropy**.
+- **Backward Method:** Computed the gradient of the loss with respect to the input predictions, converting true labels to one-hot format if necessary, and normalizing the gradients.
+
+![alt text](Photo/backward_for_loss.png)
