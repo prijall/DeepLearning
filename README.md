@@ -214,3 +214,15 @@ Created backward pass for **Common Loss and Categorical loss entropy**.
 - **Backward Method:** Computed the gradient of the loss with respect to the input predictions, converting true labels to one-hot format if necessary, and normalizing the gradients.
 
 ![alt text](Photo/backward_for_loss.png)
+
+# Day 24
+Today, I implemented code for both **Softmax and Loss Categorical Entropy** for both forward pass and backward pass. This class calculates the combined gradient of the loss and activation functions. Firstly, I did class initialization which will be called automatically when their objects are created.
+
+#### Forward Pass
+- Took input values and output values in the argument. afterthat fed input to softmax activation and got the result of prediction. Finally, returned loss by comparing with output values.
+
+#### Backward Pass
+- Took dvalues(the gradients of the loss with respect to the output of the softmax layer) and output values as argument. aftermath , if labels are one-hot encoded, turned them into discrete values because gradient calculation is based on class indices rather than one-hot vectors. Then copied dvalues to dinputs for safe modification. Finally, calculated gradient and normalized it.
+
+- Below is the code snippet:
+![alt text](Photo/softmax_categoryentropy_combined.png)
