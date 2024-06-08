@@ -226,3 +226,10 @@ Today, I implemented code for both **Softmax and Loss Categorical Entropy** for 
 
 - Below is the code snippet:
 ![alt text](Photo/softmax_categoryentropy_combined.png)
+
+# Day 25
+Today, I tested all the module that i have built over a period of time for training Neural network. I did Forward pass and Backpass and calculated loss and adjusted right weights and biases.At this point, thanks to gradients and backpropagation using the chain rule, we’re able to adjust the weights and biases with the goal of lowering loss, but we’d be doing it in a very rudimentaryway. This process of adjusting weights and biases using gradients to decrease loss is the job of the optimizer, which will study next. Here comes end for backpropagation.
+
+- Below is the code snippet:
+
+  ![alt text](Photo/Backpropagation_testing.png)
