@@ -240,3 +240,16 @@ Today, I performed **Stochastic Gradient Descent(SGD)** for neural network.In th
 - Below is the code snippet:
 
 ![alt text](Photo/SGD_Optimizer.png)
+
+# Day 27
+Today I implemented 2 concepts in SGD Optimizer i.e. **Learning Rate Decay and Learning rate with Momentum**.
+
+#### Learning Rate Decay
+The idea of a learning rate decay is to start with a large learning rate, say 1.0 in our case, and then decrease it during training. There are a few methods for doing this. One is to decrease the learning rate in response to the loss across epochs — for example, if the loss begins to level out/plateau or starts “jumping” over large deltas. You can either program this behavior-monitoring logically or simply track your loss over time and manually decrease the learning rate when you deem it appropriate. Another option, which we will implement, is to program a Decay Rate, which steadily decays the learning rate per batch or epoch.
+
+#### Learning rate with Momentum
+Momentum creates a rolling average of gradients over some number of updates and uses this average with the unique gradient at each step. Another way of understanding this is to imagine a ball going down a hill — even if it finds a small hole or hill, momentum will let it go straight through it towards a lower minimum — the bottom of this hill. This can help in cases where you’re stuck in some local minimum (a hole), bouncing back and forth. With momentum, a model is more likely to pass through local minimums, further decreases.
+
+- Below is the code snippet:
+
+![alt text](Photo/SGD_With_Momentum.png)
