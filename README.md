@@ -253,3 +253,11 @@ Momentum creates a rolling average of gradients over some number of updates and 
 - Below is the code snippet:
 
 ![alt text](Photo/SGD_With_Momentum.png)
+
+# Day 28
+Adam, short for Adaptive Momentum, is currently the most widely-used optimizer and is built atop RMSProp, with the momentum concept from SGD added back in. This means that, instead
+of applying current gradients, we’re going to apply momentums like in the SGD optimizer with momentum, then apply a per-weight adaptive learning rate with the cache as done in RMSProp. 
+The Adam optimizer additionally adds a bias correction mechanism. Do not confuse this with the layer’s bias. The bias correction mechanism is applied to the cache and momentum, compensating for the initial zeroed values before they warm up with initial steps. To achieve this correction, both momentum and caches are divided by 1-beta<sub>step</sub>
+. As step raises, beta<sub>step</sub> approaches 0 (a fraction to the power of a rising value decreases), solving this whole expression to a fraction during the first steps and approaching 1 as training progresses. For example, beta 1, a fraction of momentum to apply, defaults to 0.9.
+
+![alt text](Photo/adam_Optimizer_ss.png)
