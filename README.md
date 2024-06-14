@@ -261,3 +261,27 @@ The Adam optimizer additionally adds a bias correction mechanism. Do not confuse
 . As step raises, beta<sup>step</sup> approaches 0 (a fraction to the power of a rising value decreases), solving this whole expression to a fraction during the first steps and approaching 1 as training progresses. For example, beta 1, a fraction of momentum to apply, defaults to 0.9.
 
 ![alt text](Photo/adam_Optimizer_ss.png)
+
+# Day 29
+Did Practical implementation of code for Forward pass regularization. Types of Regularization present in Machine learning are:
+
+#### L1 Regularization(Lasso)
+- **Penalty Calculation:** L1 regularization adds up the absolute values of all the weights and biases in the model. This sum is the penalty that gets added to the model's loss.
+- **Linear Nature:** The penalty increases directly in proportion to the weights' values. If you double a weight, its penalty also doubles.
+
+###### Impact on Weights:
+- **Sparsity:** L1 regularization often leads to many weights being exactly zero. This means the model uses fewer features, which can help in feature selection.
+- **Small Weights:** L1 can make small weights go to zero, making the model ignore small inputs and focus on larger ones.
+
+#### L2 Regularization(Ridge)
+- **Penalty Calculation:**  L2 regularization adds up the squares of all the weights and biases. This sum is the penalty that gets added to the model's loss.
+- **Non-Linear Nature:** The penalty increases faster as the weights grow. If you double a weight, its penalty quadruples.
+
+##### Impact on Weights:
+- **Discourages Large Weights:** L2 regularization heavily penalizes large weights, preventing any single weight from becoming too large.
+- **Allows Small Weights:** It doesn't significantly penalize small weights, so the model remains sensitive to small variations in input.
+
+#### Combining L1 and L2 (Elastic Net)
+- Balanced Approach: Often, both L1 and L2 regularization are used together in a method called Elastic Net. This combines the benefits of both, creating models that are both sparse and well-regularized.
+
+![alt text](Photo/Regularization_on_forward_Pass.png)
