@@ -9,10 +9,17 @@ nnfs.init()
 class Dense_layer:
 
     #@ Layers Initialization:
-    def __init__(self, n_inputs, n_neurons):
+    def __init__(self, n_inputs, n_neurons, weight_regularizer_L1=0, 
+                 weight_regularizer_L2=0, bias_regularizer_L1=0, bias_regularizer_L2=0):
         #@ Initializing weights and bias:
         self.weights=0.01*np.random.randn(n_inputs, n_neurons)
         self.biases=np.zeros((1, n_neurons))
+
+    #@ Setting regularization strength
+        self.weight_regularizer_L1=weight_regularizer_L1
+        self.weight_regularizer_L2=weight_regularizer_L2
+        self.bias_regularizer_L1=bias_regularizer_L1
+        self.bias_regularizer_L2=bias_regularizer_L2
     
     #@ Forward Pass:
     def forward(self, inputs):

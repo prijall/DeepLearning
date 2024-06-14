@@ -10,13 +10,40 @@ nnfs.init()
 
 # Common loss class
 class Loss:
+ 
+ #@ Regularization loss calculation:
+   def regularization_loss(self, Layer):
+     regularization_loss=0 #By default
+     
+     #@ L1 regularization - weights
+     #@ Calculating only when factor greater than 0
+     if Layer.weight_regularizer_L1>0:
+       regularization_loss+= Layer.weight_regularizer_L1 * np.sum(np.abs(Layer.weights))
+
+     #@ L2 regularization - weights
+     if Layer.weight_regularizer_L2>0:
+        regularization_loss+= Layer.weight_regularizer_L2 * np.sum(Layer.weights * Layer.weights)
+     
+     #@ L1 regularization - biases
+     #@ Calculating only when factor greater than 0
+     if Layer.bias_regularizer_L1>0:
+       regularization_loss+= Layer.bias_regularizer_L1 * np.sum(np.abs(Layer.biases))
+ 
+     #@ L2 regularization - weights
+     if Layer.bias_regularizer_L2>0:
+        regularization_loss+= Layer.bias_regularizer_L2 * np.sum(Layer.biases* Layer.biases)
+     
+      
+     return regularization_loss
+
 # Calculates the data and regularization losses
 # given model output and ground truth values
- def calculate(self, output, y):
+   def calculate(self, output, y):
 
-  sample_losses = self.forward(output, y)
-  data_loss = np.mean(sample_losses)
-  return data_loss
+       sample_losses = self.forward(output, y)
+       data_loss = np.mean(sample_losses)
+       return data_loss
+     
  
 # Cross-entropy loss
 class Loss_CategoricalCrossentropy(Loss):
