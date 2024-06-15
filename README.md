@@ -285,3 +285,14 @@ Did Practical implementation of code for Forward pass regularization. Types of R
 - Balanced Approach: Often, both L1 and L2 regularization are used together in a method called Elastic Net. This combines the benefits of both, creating models that are both sparse and well-regularized.
 
 ![alt text](Photo/Regularization_on_forward_Pass.png)
+
+# Day 30 
+Completed regularization for backward pass as well.
+
+- L1 regularization’s derivative, on the other hand, requires more explanation. In the case of L1 regularization, we must calculate the derivative of the absolute value piecewise function, which effectively multiplies a value by -1 if it is less than 0; otherwise, it’s multiplied by 1.
+
+
+- For L2, Lambda is a constant, so we can move it outside of the derivative term. We can remove the sum operator since we calculate the partial derivative with respect to the given
+parameter only, and the sum of one element equals this element. So, we only need to calculate the derivative of w<sup>2</sup>, which we know is 2w. From the coding perspective, we will multiply all of the weights by 2λ. We’ll implement this with NumPy directly as it’s just a simple multiplicationoperation.
+
+![alt text](Photo/Regularization_for_backpass.png)
