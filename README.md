@@ -329,3 +329,44 @@ model definition code
 - Created **Mean Absolute Error** that take the absolute difference between the predicted and true values in a single output and average those absolute values.This function, used as a loss, penalizes the error linearly.
 
 ![alt text](Photo/Regression.png)
+
+# Day 35
+Learnt about confusion matrix. **Confusion Matrix** is a matrix the summarize the performance of ML model on a set of test data.There are Four categories in confusion matrix, they are:
+
+- **True Positive:** When the actual value is true and predicted value is also true.
+- **True Negative:** when the actual value is false and predicted value is false.
+- **False Positive:** when the predicted value is true but the actual value is false.
+- **False Negative:** when the predicted value is false but the actual value is true.
+
+##### Following metrics are calculated based on Confusion matrix data:
+- **Accuracy:** It is used to measure performance of model.
+       
+           Accuracy=(TP+TN)/(TP+TN+FP+FN)
+
+- **Recall:** It measures the effectiveness of a classification model in identifying all relevant instances from a dataset.
+​
+           
+           Recall= TP/(TP+FN)
+
+
+- **Precision:** It is a measure of how accurate a model’s positive predictions are.
+
+
+             Precision= TP/(TP+FP)
+
+- **F1-Score:** It is used to evaluate the overall performance of a classification model. 
+
+ 
+         F1-Score= (2*Precision*Recall)/(Precision+Recall)
+
+
+​![alt text](Photo/Confusion_Matirx_Code.png)
+
+![alt text](Photo/Confusion_Matirx.png)
+ 
+
+
+
+
+​
+
