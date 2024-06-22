@@ -364,6 +364,10 @@ Learnt about confusion matrix. **Confusion Matrix** is a matrix the summarize th
 
 ![alt text](Photo/Confusion_Matirx.png)
  
+# Day 36
+Today, I Implemented code for object modeling which helps to do things like save and load this object to use for future prediction tasks. Created **Model** class which has any array that contains the layers and set function for Loss and optimizer. Similarly, the main part of the code here is function **Finalize** which creates an input layer and sets next and prev references for each layer contained within the self.layers list of a model object. We wanted to create the Layer_Input class to set the prev property of the first hidden layer in a loop since we are going to call all of the layers in a uniform way. The next layer for the final layer will be the loss, which we already have created.
+
+![alt text](Photo/Object_Modeling_Part1.png)
 
 
 
