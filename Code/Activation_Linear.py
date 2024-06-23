@@ -10,6 +10,10 @@ class Linear_Activation:
         #derivative is 1, 1* dvalues - dvalues - the chain rule
         self.dinputs=dvalues.copy()
 
+    # adding prediction for output:
+    def predictions(self, outputs):
+          return outputs
+
 #@Example:
 
 # import numpy as np

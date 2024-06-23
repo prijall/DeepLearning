@@ -21,15 +21,20 @@ class ReLu_Activation:
         #Zero gradient where input values were negative:
         self.dinputs[self.inputs<=0]=0
 
-#@ Creating a dataset:
-X, y=spiral_data(samples=100, classes=3)
+     # adding prediction for output:
+    def predictions(self, outputs):
+          return outputs
 
-#@ Creating a dense layer with 2 input features and 3 output value
-dense1=Dense_layer(2, 3)
 
-#@ Creating RELU Activation:
-activation1=ReLu_Activation()
-dense1.forward(X)
-activation1.forward(dense1.output)
+# #@ Creating a dataset:
+# X, y=spiral_data(samples=100, classes=3)
 
-print(activation1.output[:5])
+# #@ Creating a dense layer with 2 input features and 3 output value
+# dense1=Dense_layer(2, 3)
+
+# #@ Creating RELU Activation:
+# activation1=ReLu_Activation()
+# dense1.forward(X)
+# activation1.forward(dense1.output)
+
+# print(activation1.output[:5])
