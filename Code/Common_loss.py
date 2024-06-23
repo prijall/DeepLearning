@@ -12,29 +12,33 @@ nnfs.init()
 class Loss:
  
  #@ Regularization loss calculation:
-   def regularization_loss(self, Layer):
+   def regularization_loss(self):
      regularization_loss=0 #By default
      
-     #@ L1 regularization - weights
-     #@ Calculating only when factor greater than 0
-     if Layer.weight_regularizer_L1>0:
-       regularization_loss+= Layer.weight_regularizer_L1 * np.sum(np.abs(Layer.weights))
+     for Layer in self.trainable_Layers:
+      #@ L1 regularization - weights
+      #@ Calculating only when factor greater than 0
+      if Layer.weight_regularizer_L1>0:
+        regularization_loss+= Layer.weight_regularizer_L1 * np.sum(np.abs(Layer.weights))
 
-     #@ L2 regularization - weights
-     if Layer.weight_regularizer_L2>0:
-        regularization_loss+= Layer.weight_regularizer_L2 * np.sum(Layer.weights * Layer.weights)
-     
-     #@ L1 regularization - biases
-     #@ Calculating only when factor greater than 0
-     if Layer.bias_regularizer_L1>0:
-       regularization_loss+= Layer.bias_regularizer_L1 * np.sum(np.abs(Layer.biases))
- 
-     #@ L2 regularization - weights
-     if Layer.bias_regularizer_L2>0:
-        regularization_loss+= Layer.bias_regularizer_L2 * np.sum(Layer.biases* Layer.biases)
-     
+      #@ L2 regularization - weights
+      if Layer.weight_regularizer_L2>0:
+          regularization_loss+= Layer.weight_regularizer_L2 * np.sum(Layer.weights * Layer.weights)
       
-     return regularization_loss
+      #@ L1 regularization - biases
+      #@ Calculating only when factor greater than 0
+      if Layer.bias_regularizer_L1>0:
+        regularization_loss+= Layer.bias_regularizer_L1 * np.sum(np.abs(Layer.biases))
+  
+      #@ L2 regularization - weights
+      if Layer.bias_regularizer_L2>0:
+          regularization_loss+= Layer.bias_regularizer_L2 * np.sum(Layer.biases* Layer.biases)
+        
+      return regularization_loss
+    
+   #@ Setting trainable layers:
+   def remember_trainable_layers(self, trainable_Layers):
+      self.trainable_Layers=trainable_Layers 
 
 # Calculates the data and regularization losses
 # given model output and ground truth values
@@ -42,7 +46,7 @@ class Loss:
 
        sample_losses = self.forward(output, y)
        data_loss = np.mean(sample_losses)
-       return data_loss
+       return data_loss, self.regularization_loss()
      
  
 # Cross-entropy loss
@@ -90,35 +94,35 @@ class Loss_CategoricalCrossentropy(Loss):
 
      
 
-# Create dataset
-X, y = spiral_data(samples=100, classes=3)
-# Create Dense layer with 2 input features and 3 output values
-dense1 = Dense_layer(2, 3)
-# Create ReLU activation (to be used with Dense layer):
-activation1 = ReLu_Activation()
-# Create second Dense layer with 3 input features (as we take output
-# of previous layer here) and 3 output values
-dense2 = Dense_layer(3, 3)
-# Create Softmax activation (to be used with Dense layer):
-activation2 = Softmax_Activation()
-# Create loss function
-loss_function = Loss_CategoricalCrossentropy()
-# Perform a forward pass of our training data through this layer
-dense1.forward(X)
-# Perform a forward pass through activation function
-# it takes the output of first dense layer here
-activation1.forward(dense1.output)
+# # Create dataset
+# X, y = spiral_data(samples=100, classes=3)
+# # Create Dense layer with 2 input features and 3 output values
+# dense1 = Dense_layer(2, 3)
+# # Create ReLU activation (to be used with Dense layer):
+# activation1 = ReLu_Activation()
+# # Create second Dense layer with 3 input features (as we take output
+# # of previous layer here) and 3 output values
+# dense2 = Dense_layer(3, 3)
+# # Create Softmax activation (to be used with Dense layer):
+# activation2 = Softmax_Activation()
+# # Create loss function
+# loss_function = Loss_CategoricalCrossentropy()
+# # Perform a forward pass of our training data through this layer
+# dense1.forward(X)
+# # Perform a forward pass through activation function
+# # it takes the output of first dense layer here
+# activation1.forward(dense1.output)
 
-# Perform a forward pass through second Dense layer
-# it takes outputs of activation function of first layer as inputs
-dense2.forward(activation1.output)
-# Perform a forward pass through activation function
-# it takes the output of second dense layer here
-activation2.forward(dense2.output)
-# Let's see output of the first few samples:
-print(activation2.output[:5])
-# Perform a forward pass through loss function
-# it takes the output of second dense layer here and returns loss
-loss = loss_function.calculate(activation2.output, y)
-# Print loss value
-print('loss:', loss)
+# # Perform a forward pass through second Dense layer
+# # it takes outputs of activation function of first layer as inputs
+# dense2.forward(activation1.output)
+# # Perform a forward pass through activation function
+# # it takes the output of second dense layer here
+# activation2.forward(dense2.output)
+# # Let's see output of the first few samples:
+# print(activation2.output[:5])
+# # Perform a forward pass through loss function
+# # it takes the output of second dense layer here and returns loss
+# loss = loss_function.calculate(activation2.output, y)
+# # Print loss value
+# print('loss:', loss)

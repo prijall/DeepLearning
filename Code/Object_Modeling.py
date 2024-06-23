@@ -22,6 +22,9 @@ class Model:
         #For counting all the objects:
         layer_count=len(self.layers)
 
+        # Initializing list containing trainable layers:
+        self.trainable_layers=[]
+
         #Iterating the object:
         for i in range(layer_count):
             # For first layer, previous layer is input layer:
@@ -38,6 +41,9 @@ class Model:
             else:
                 self.layers[i].prev=self.layers[i-1]
                 self.layers[i].next=self.Loss  #next layer is loss
+
+        if hasattr(self.layers[i], 'weights'):
+            self.trainable_layers.append(self.layers[i])
 
     #@Adding train method:
     def train(self, X, y, *, epochs=1, print_every=1):
