@@ -369,6 +369,11 @@ Today, I Implemented code for object modeling which helps to do things like save
 
 ![alt text](Photo/Object_Modeling_Part1.png)
 
+# Day 37
+Continued for Object modeling where I implemented code for Backpropagation and calcualting loss and accuracy. First, I checked trainable parameter i.e weights in our case in class model. Similarly, I added remember trainable layer function in common loss class due to which we can iterate over the trainable layers to compute regularization loss for the entire model, rather than one layer at a time. Furthermore, I created appropriate prediction function in all activation function class.
+
+![alt text](Photo/Object_Modeling_Part2.png)
+
 
 
 
