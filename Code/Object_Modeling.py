@@ -10,9 +10,10 @@ class Model:
         self.layers.append(Layer)
 
     #@Adding Loss function and Optimizer for model:
-    def set(self, *, Loss, optimizer):
+    def set(self, *, Loss, optimizer, accuracy):
         self.Loss=Loss
         self.optimizer=optimizer
+        self.accuracy=accuracy
 
     #@Finalizing the model:
     def finalize(self):
@@ -41,15 +42,27 @@ class Model:
             else:
                 self.layers[i].prev=self.layers[i-1]
                 self.layers[i].next=self.Loss  #next layer is loss
+                self.output_layer_activation=self.layers[i]
 
         if hasattr(self.layers[i], 'weights'):
             self.trainable_layers.append(self.layers[i])
 
     #@Adding train method:
     def train(self, X, y, *, epochs=1, print_every=1):
+
+        self.accuracy.init(y)
+
         #Main Training Loop:
         for epoch in range(1, epochs+1):
             output=self.forward(X)
+
+            #Calculate loss:
+            data_loss, regularization_loss=self.loss.calculate(output, y)
+            loss=data_loss+regularization_loss
+
+            # Get predictions and calculate accuracy:
+            predictions=self.output_layer_activation.predictions(output)
+            accuracy=self.accuracy.calculate([predictions, y])
 
     #@Forward Pass:
     def forward(self, X):

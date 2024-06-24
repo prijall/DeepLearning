@@ -1,23 +1,29 @@
 import numpy as np
 
-#@Probabilities of 3 samples:
-softmax_output= np.array([[0.7, 0.2, 0.1],
-                          [0.5, 0.1, 0.4],
-                          [0.02, 0.9, 0.08]])
+class Accuracy:
+    #calculates an accuracy given predictions and ground truth values:
+    def calculate(self, predictions, y):
+        #getting comparison results:
+        comparisons=self.compare(predictions, y)
 
-#@ Target labels for 3 samples:
-class_targets=np.array([0, 1, 1])
+        #calculate accuracy:
+        accuracy=np.mean(comparisons)
+        return accuracy
+    
 
-#@ Calculating values along second axis(axis of index 1)
-predictions=np.argmax(softmax_output, axis=1)
+#@ Accuracy calcualtion for regresison model:
 
-#@ If targets are one-hot encoded - Convert them:
-if len(class_targets.shape)==2:
-    class_targets=np.argmax(class_targets, axis=1)
+class Accuracy_Regression(Accuracy):
 
-#@ True evaluates to 1; False to 0
-accuracy = np.mean(predictions==class_targets)
+    def __init__(self):
+        #Creating precision Property:
+        self.precision=None
+        
+    #calcualting precision value based on passed in ground truth:
+    def init(self, y, reinit=False):
+        if self.precision is None or reinit:
+            self.precision =np.std(y)/250
 
-print("Accuracy:", accuracy)
-
-
+    # Compare predictions to ground truth value:
+    def comapre(self, predictions, y):
+        return np,abs(predictions-y)<self.precision 
