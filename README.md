@@ -375,7 +375,9 @@ Continued for Object modeling where I implemented code for Backpropagation and c
 ![alt text](Photo/Object_Modeling_Part2.png)
 
 
+# Day 38
+Today, I created accuracy class for forward pass in neural network. First, we’ll write a common Accuracy class containing (for now) just a single method, calculate, returning an accuracy calculated from comparison results. We’ve already added a call to the self.compare method that does not exist yet, but we’ll create it soon in other classes that will inherit from this Accuracy class. For now, it’s enough to know that it will return a list of True and False values, indicating if a prediction matches the ground-truth value. Next, we calculate the mean value (which treats True as 1 and False as 0) and return it as an accuracy.
 
-
+![alt text](Photo/Accur.png)
 ​
 
