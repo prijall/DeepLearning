@@ -18,26 +18,26 @@
  - **Feature Selection:** It is automatically done ny algo itself whereas feature engineering is manually done by humans in ml.
  - **Interpretability:** DL works in black box software engineering concpet so everything is hidden whereas in ml we know how we got that specific result.
 
- ![alt text](Photo/DeepLearningVsMachineLearning.webp)
+ ![alt text](ANN/Photo/DeepLearningVsMachineLearning.webp)
 
  # Day 2
  
  In Deep Learning, the word deep means multiple hidden layers. Learning about the history of deep learning is very amazing. Deep Diving into the topic, today i learned about the certain types of neural network, they are; **Artificial Neural Network(ANN), Convoluational Neural Network(CNN), Recurrent Neural Network(RNN), etc.** All these have diiferent fucntionalities according to different use-cases. Multiple hidden neural network is later termed as **Deep Learning.**
  
-![alt text](Photo/TypesOfNeuralNetwork.webp)
+![alt text](ANN/Photo/TypesOfNeuralNetwork.webp)
 
 # Day 3
 
 **Perceptron** is the basic unit of whole neural network. It is weakly inspired by Nerurons from human nervous system. Today, I understood the basics of perceptron and its geometric intuition. Perceptron works similar to that of machine learning models where data inputs are given and the preceptron will do prediction based on it's training with dataset. Perceptron works with more of linear sort of data and failes to maintain good accuracy on non linear data. 
 
 - Basic Pictoral Representation of Perceptron:
-![alt text](Photo/Perceptron_Basic_Diagram.webp)
+![alt text](ANN/Photo/Perceptron_Basic_Diagram.webp)
 
 - Data for perceptron:
-![alt text](Photo/DataForPerceptron.png)
+![alt text](ANN/Photo/DataForPerceptron.png)
 
 - classified Data using perceptron:
-![alt text](Photo/DataClassifiedUsingPerceptron.png)
+![alt text](ANN/Photo/DataClassifiedUsingPerceptron.png)
 
 # Day 4
 
@@ -55,9 +55,9 @@
 
 - Code Snippet:
 
-![alt text](Photo/DataForPercpetron.png)
-![alt text](Photo/Perceptron_Training.png)
-![alt text](Photo/PerceptronTrainedData.png)
+![alt text](ANN/Photo/DataForPercpetron.png)
+![alt text](ANN/Photo/Perceptron_Training.png)
+![alt text](ANN/Photo/PerceptronTrainedData.png)
 
 # Day 5
 Yesterday, I learnt the trick to find the optimized line equation which will do deep learning classification. That trick might work must of the time but it doesn't guarantee the **convergence** and **Perfect seperation in line for classification**. Therefore, there is a need of **loss function**, which helps to find optimized weights and bias which will help in getting best separation line.
@@ -66,14 +66,14 @@ Yesterday, I learnt the trick to find the optimized line equation which will do 
 - Loss Function = max(0, -Yi*f(Xi))  where Yi is the target value of each rows and F(Xi)=WiXi+b.
 
 - Code Snippet:
-![alt text](Photo/loss_function_perceptron.png)
+![alt text](ANN/Photo/loss_function_perceptron.png)
 
 # Day 6
 Today, I learnt about other loss function in perceptron. Perceptron is very flexible in nature. It can be used as linear regression, softmax regression, logistic regression and as perceptron itself depending upon the activation function used along with the loss function.Below is the table, I created to overview using various activation function and loss function:
 
 - Table:
 
-![alt text](<Photo/Loss Functions.png>)
+![alt text](<ANN/Photo/Loss Functions.png>)
 
 # Day 7
 Dive diving into perceptron, it is in the notice that perceptron works on the linear model only. If given non-linear dataset to perceptron, how many epochs will it takes but it won't be able  to classify dataset due to which perceptron as a concept in deep learning couldn't grow further more.
@@ -86,7 +86,7 @@ Dive diving into perceptron, it is in the notice that perceptron works on the li
 Perceptron wasn't solely enough to use for prediction in deep learning due to which the concept of Multi-Layered Perceptron(MLP). Today, I understood the notation of MLP and revised the fundamental concept of perceptron. Understanding the notation helps to understand training of mlp later in learning.
 
 - SnapShot:
-![alt text](Photo/MLP_Notation.png)
+![alt text](ANN/Photo/MLP_Notation.png)
 
 # Day 9
 How MLP solves non linear decision boundary problems in complex data? Well, MLP does this by linear combination of different perceptrons and smoothening them.
@@ -98,41 +98,41 @@ What are the ways to improve performance in MLP?
 
 - Below is the snapshot of Tensorflow playground which depicts adding multiple hidden layers improves model performance of the model:
 
-![alt text](Photo/MLP_Intuition.png)
+![alt text](ANN/Photo/MLP_Intuition.png)
 
 # Day 10
 Today, I understood the concept of Forward Propagation in Neural network. It is very important to learn forward propagation in first place as it makes learning Back-Propagation easy.Forward Propagation is nothing but a method to feed data show that neural network can train itself and make prediction. We just have to feed data and all the other operations are handled by Linear algebra itself that's what the beauty of linear algebra. We shouldn't apply back propagation algorithm unless forward propagation is done.
 
 - Below is the code snippet:
-![alt text](Photo/forward_Prop.png)
+![alt text](ANN/Photo/forward_Prop.png)
 
 # Day 11
 Today, I roughly trained ANN using keras and tensorflow where I learnt how prediction is made by neural networks.
 
 - Below is the code snippet:
  
-![alt text](Photo/ANNTraining_Part1.png)
+![alt text](ANN/Photo/ANNTraining_Part1.png)
 
-![alt text](Photo/EpocsDuringANNTraining.png)
+![alt text](ANN/Photo/EpocsDuringANNTraining.png)
 
 # Day 12
 Today, I build the layers of neurons from scratch using python and saw how it does prediction which was all revision from forward propagation and saw how linear algebra work in deep learning.
 
-![alt text](Photo/neurons_layers.png)
+![alt text](ANN/Photo/neurons_layers.png)
 
 # Day 13
 Today, I implemented code for dense layer from scratch and uderstood how forward propagation is done. First, I created a class named **Dense Layer** where I created simply two fucntions where one takes **no of inputs and no of neurons** and assign weights and biases with these inputs. Similarly, I created class for forward propagation which gives output using dot product(or say Matrix Multiplication) from calculated inputs, weights and biases and finally print out results.
 
 - Below is the code snippet:
 
-![alt text](Photo/dense_layer.png)
+![alt text](ANN/Photo/dense_layer.png)
 
 # Day 14
 Implemented **RELU ACtivation Function** where ReLu stands for **Rectified Linear Unit**. It is as simple as other activation functions such as sigmoid, ect. The basic concept of RELU is it’s quite literally y=x, clipped at 0 from the negative side. If x is less than or equal to 0, then y is 0 — otherwise, y is equal to x. Also Saw their learning process from book **Neural Network From Scratch**.
 
 -Below is the code implementation:
 
-![alt text](Photo/ReLU.png)
+![alt text](ANN/Photo/ReLU.png)
 
 # Day 15
 Today, I implemented **SOftmax Function**. The Softmax activation function addresses these limitations of ReLU Function by transforming the output into a probability distribution. 
@@ -150,7 +150,7 @@ When using softmax in the output layer of a neural network for classification:
 
 - Below is the code snippet:
 
-![alt text](Photo/Softmax_Function.png)
+![alt text](ANN/Photo/Softmax_Function.png)
 
 # Day 16
 Today, I built the loss function for neural network from scratch. The loss function, also referred to as the cost function, is the algorithm that quantifies how wrong a model is.Loss is the measure of this metric. Since loss is the model’s error, we ideally want it to be 0. The model has a softmax activation function for the output layer, which means it’s
@@ -158,40 +158,40 @@ outputting a probability distribution. **Categorical cross-entropy** is explicit
 
 - Below is the code snippet:
 
-![alt text](<Photo/loss function.png>)
+![alt text](<ANN/Photo/loss function.png>)
 
 # Day 17
 While loss is a useful metric for optimizing a model, the metric commonly used in practice along with loss is the **accuracy**, which describes how often the largest confidence is the correct class in terms of a fraction. Conveniently, we can reuse existing variable definitions to calculate the accuracy metric. We will use the argmax values from the softmax outputs and then compare these to the targets. This is as simple as doing (note that we slightly modified the softmax_outputs for the purpose of this example):
 
-![alt text](Photo/accuracy.png)
+![alt text](ANN/Photo/accuracy.png)
 
 # Day 18
 Today, Implmented Optimization for neural network. Now that the neural network is built, able to have data passed through it, and capable of calculating loss, the next step is to determine how to adjust the weights and biases to decrease the loss. Finding an intelligent way to adjust the neurons’ input’s weights and biases to minimize loss is the main difficulty of neural networks. The idea is instead of setting parameters with randomly-chosen values each iteration, apply a fraction of these values to parameters. With this, weights will be updated from what currently yields us the lowest loss instead of aimlessly randomly. If the adjustment decreases loss, we will make it the new point to adjust from. If loss instead increases due to the adjustment, then we will revert to the previous point. Using similar code from earlier, we will first change from randomly selecting weights and
 biases to randomly adjusting them:
 
 - Optimization:
-![alt text](Photo/optimization.png)
+![alt text](ANN/Photo/optimization.png)
 
 - Output:
-![alt text](Photo/iterations.png)
+![alt text](ANN/Photo/iterations.png)
 
 # Day 19
 Today, I studied about Gradeint Descent. Gradient descent is an optimization algorithm which is commonly-used to train machine learning models and neural networks. It trains machine learning models by minimizing errors between predicted and actual results. Implemented gradient descent from scratch, First I have created function which has equation and then I built function for calculation of gredient descent using derivatives. After that using numpy, created random datapoints aligning with equation. After that I select one random data point which has to be descent and use loop to do so with learning rate and basic maths to make that data point global minima.
 
 - Below is the code snippet:
-![alt text](Photo/gradient_descent.png)
+![alt text](ANN/Photo/gradient_descent.png)
 
 # Day 20
 Derivative is very important in neural network, which is widely used in backpropagation in neural network. Backpropagation is an optimization technique which is done combining both forward propagation and gradient descent. First, we train our neural network and predict value using forward propagation and then calculate loss afterwhich gradient descent comes into play and updates our trainable parameter. Today, I just calculated partial derivative of neural network.
 
 - Below is the code snippet:
-![alt text](Photo/backpropagation_part1.png)
+![alt text](ANN/Photo/backpropagation_part1.png)
 
 # Day 21
 Completed backpropagation on single set of neuron and reduced the loss function. Now the main aim to pratice this under the deep neural network.
 
 - Below is the snapshot:
-![alt text](Photo/backpropagation_single_neuron_Part2.png)
+![alt text](ANN/Photo/backpropagation_single_neuron_Part2.png)
 
 
 # Day 22
@@ -206,14 +206,14 @@ Today, I implemented backpropagation for **Dense Layer, ReLU Activation and Soft
 #### Softmax Activation Backward Pass:
 -  Computes gradients using the Jacobian matrix of the softmax function, iterating over each sample.
 
-![alt text](Photo/backpropagation_for_layers.png)
+![alt text](ANN/Photo/backpropagation_for_layers.png)
 
 
 # Day 23
 Created backward pass for **Common Loss and Categorical loss entropy**.
 - **Backward Method:** Computed the gradient of the loss with respect to the input predictions, converting true labels to one-hot format if necessary, and normalizing the gradients.
 
-![alt text](Photo/backward_for_loss.png)
+![alt text](ANN/Photo/backward_for_loss.png)
 
 # Day 24
 Today, I implemented code for both **Softmax and Loss Categorical Entropy** for both forward pass and backward pass. This class calculates the combined gradient of the loss and activation functions. Firstly, I did class initialization which will be called automatically when their objects are created.
@@ -225,21 +225,21 @@ Today, I implemented code for both **Softmax and Loss Categorical Entropy** for 
 - Took dvalues(the gradients of the loss with respect to the output of the softmax layer) and output values as argument. aftermath , if labels are one-hot encoded, turned them into discrete values because gradient calculation is based on class indices rather than one-hot vectors. Then copied dvalues to dinputs for safe modification. Finally, calculated gradient and normalized it.
 
 - Below is the code snippet:
-![alt text](Photo/softmax_categoryentropy_combined.png)
+![alt text](ANN/Photo/softmax_categoryentropy_combined.png)
 
 # Day 25
 Today, I tested all the module that i have built over a period of time for training Neural network. I did Forward pass and Backpass and calculated loss and adjusted right weights and biases.At this point, thanks to gradients and backpropagation using the chain rule, we’re able to adjust the weights and biases with the goal of lowering loss, but we’d be doing it in a very rudimentaryway. This process of adjusting weights and biases using gradients to decrease loss is the job of the optimizer, which will study next. Here comes end for backpropagation.
 
 - Below is the code snippet:
 
-  ![alt text](Photo/Backpropagation_testing.png)
+  ![alt text](ANN/Photo/Backpropagation_testing.png)
 
   # Day 26
 Today, I performed **Stochastic Gradient Descent(SGD)** for neural network.In the case of Stochastic Gradient Descent, we choose a learning rate, such as 1.0. We then subtract the learning_rate · parameter_gradients from the actual parameter values. If our learning rate is 1, then we’re subtracting the exact amount of gradient from our parameters. We’re going to start with 1 to see the results, but we’ll be diving more into the learning rate shortly. Let’s create the SGD optimizer class code. The initialization method will take hyper-parameters, starting with the learning rate, for now, storing them in the class’ properties. The update_params method, given a layer object, performs the most basic optimization, the same way that we performed it in the previous chapter — it multiplies the gradients stored in the layers by the negated learning rate and adds the result to the layer’s parameters. It seems that, in the previous chapter, we performed SGD optimization without knowing it.
 
 - Below is the code snippet:
 
-![alt text](Photo/SGD_Optimizer.png)
+![alt text](ANN/Photo/SGD_Optimizer.png)
 
 # Day 27
 Today I implemented 2 concepts in SGD Optimizer i.e. **Learning Rate Decay and Learning rate with Momentum**.
@@ -252,7 +252,7 @@ Momentum creates a rolling average of gradients over some number of updates and 
 
 - Below is the code snippet:
 
-![alt text](Photo/SGD_With_Momentum.png)
+![alt text](ANN/Photo/SGD_With_Momentum.png)
 
 # Day 28
 Adam, short for Adaptive Momentum, is currently the most widely-used optimizer and is built atop RMSProp, with the momentum concept from SGD added back in. This means that, instead
@@ -260,7 +260,7 @@ of applying current gradients, we’re going to apply momentums like in the SGD 
 The Adam optimizer additionally adds a bias correction mechanism. Do not confuse this with the layer’s bias. The bias correction mechanism is applied to the cache and momentum, compensating for the initial zeroed values before they warm up with initial steps. To achieve this correction, both momentum and caches are divided by 1-beta<sup>step</sup>
 . As step raises, beta<sup>step</sup> approaches 0 (a fraction to the power of a rising value decreases), solving this whole expression to a fraction during the first steps and approaching 1 as training progresses. For example, beta 1, a fraction of momentum to apply, defaults to 0.9.
 
-![alt text](Photo/adam_Optimizer_ss.png)
+![alt text](ANN/Photo/adam_Optimizer_ss.png)
 
 # Day 29
 Did Practical implementation of code for Forward pass regularization. Types of Regularization present in Machine learning are:
@@ -284,7 +284,7 @@ Did Practical implementation of code for Forward pass regularization. Types of R
 #### Combining L1 and L2 (Elastic Net)
 - Balanced Approach: Often, both L1 and L2 regularization are used together in a method called Elastic Net. This combines the benefits of both, creating models that are both sparse and well-regularized.
 
-![alt text](Photo/Regularization_on_forward_Pass.png)
+![alt text](ANN/Photo/Regularization_on_forward_Pass.png)
 
 # Day 30 
 Completed regularization for backward pass as well.
@@ -295,7 +295,7 @@ Completed regularization for backward pass as well.
 - For L2, Lambda is a constant, so we can move it outside of the derivative term. We can remove the sum operator since we calculate the partial derivative with respect to the given
 parameter only, and the sum of one element equals this element. So, we only need to calculate the derivative of w<sup>2</sup>, which we know is 2w. From the coding perspective, we will multiply all of the weights by 2λ. We’ll implement this with NumPy directly as it’s just a simple multiplicationoperation.
 
-![alt text](Photo/Regularization_for_backpass.png)
+![alt text](ANN/Photo/Regularization_for_backpass.png)
 
 # Day 31
 Another option for neural network regularization is adding a dropout layer. This type of layer disables some neurons, while the others pass through unchanged. The idea here
@@ -303,19 +303,19 @@ similarly to regularization, is to prevent a neural network from becoming too de
 
 While dropout helps a neural network generalize and is helpful for training, it’s not something we want to utilize when predicting. It’s not as simple as only omitting it because the magnitude of inputs to the next neurons can be dramatically different. If you have a dropout of 50%, for example, this would suggest that, on average, your inputs to the next layer neurons will be 50% smaller when summed, assuming they are fully-connected. What that means is that we used dropout during training, and, in this example, a random 50% of neurons output a value of 0 at each of the steps. Neurons in the next layer multiply inputs by weights, sum them, and receive values of 0 for half of their inputs. If we don’t use dropout during prediction, all neurons will output their values, and this state won’t match the state seen during training, since the sums will be statistically about twice as big. To handle this, during prediction, we might multiply all of the outputs by the dropout fraction, but that’d add another step for the forward pass, and there is a better way to achieve this. Instead, we want to scale the data back up after a dropout, during the training phase, to mimic the mean of the sum when all of the neurons output their values.
 
-![alt text](Photo/Dropout_Layer.png)
+![alt text](ANN/Photo/Dropout_Layer.png)
 
 # Day 32
 Today, I Revised the concept of Activation function, how Neural networks helps to solve the problem of non-linearity. Similarly, I revised the significance of Calculus(esp. Partial derivatives, chain rule, etc) in training neural nets. And finally, Watched MIT lecture on deep learning.
 
 ⚒ PS: Below is the Snapshot of how activation functions play a key role in handling non-linear data from the my current read "Deep Learning from Scratch"
 
-![alt text](Photo/Revision.png)
+![alt text](ANN/Photo/Revision.png)
 
 # Day 33
 Today I implemented code for Binary Logistic Regression. Until now, we’ve used an output layer that is a probability distribution, where all of the values represent a confidence level of a given class being the correct class, and where these confidences sum to 1. We’re now going to cover an alternate output layer option, where each neuron separately represents two classes — 0 for one of the classes, and a 1 for the other. A model with this type of output layer is called binary logistic regression. This single neuron could represent two classes like cat vs. dog, but it could also represent cat vs. not cat or any combination of 2 classes, and you could have many of these. For example, a model may have two binary output neurons. One of these neurons could be distinguishing between person/not person, and the other neuron could be deciding between indoors/outdoors. Binary logistic regression is a regressor type of algorithm, which will differ as we’ll use a sigmoid activation function for the output layer rather than softmax, and binary cross-entropy rather than categorical cross-entropy for calculating loss.
 
-![alt text](Photo/Binary_logistic_loss.png)
+![alt text](ANN/Photo/Binary_logistic_loss.png)
 
 # Day 34
 Today, I implemented python code for regression task in neural network. I did three things today:
@@ -328,7 +328,7 @@ model definition code
 
 - Created **Mean Absolute Error** that take the absolute difference between the predicted and true values in a single output and average those absolute values.This function, used as a loss, penalizes the error linearly.
 
-![alt text](Photo/Regression.png)
+![alt text](ANN/Photo/Regression.png)
 
 # Day 35
 Learnt about confusion matrix. **Confusion Matrix** is a matrix the summarize the performance of ML model on a set of test data.There are Four categories in confusion matrix, they are:
@@ -360,24 +360,22 @@ Learnt about confusion matrix. **Confusion Matrix** is a matrix the summarize th
          F1-Score= (2*Precision*Recall)/(Precision+Recall)
 
 
-​![alt text](Photo/Confusion_Matirx_Code.png)
+​![alt text](ANN/Photo/Confusion_Matirx_Code.png)
 
-![alt text](Photo/Confusion_Matirx.png)
+![alt text](ANN/Photo/Confusion_Matirx.png)
  
 # Day 36
 Today, I Implemented code for object modeling which helps to do things like save and load this object to use for future prediction tasks. Created **Model** class which has any array that contains the layers and set function for Loss and optimizer. Similarly, the main part of the code here is function **Finalize** which creates an input layer and sets next and prev references for each layer contained within the self.layers list of a model object. We wanted to create the Layer_Input class to set the prev property of the first hidden layer in a loop since we are going to call all of the layers in a uniform way. The next layer for the final layer will be the loss, which we already have created.
 
-![alt text](Photo/Object_Modeling_Part1.png)
+![alt text](ANN/Photo/Object_Modeling_Part1.png)
 
 # Day 37
 Continued for Object modeling where I implemented code for Backpropagation and calcualting loss and accuracy. First, I checked trainable parameter i.e weights in our case in class model. Similarly, I added remember trainable layer function in common loss class due to which we can iterate over the trainable layers to compute regularization loss for the entire model, rather than one layer at a time. Furthermore, I created appropriate prediction function in all activation function class.
 
-![alt text](Photo/Object_Modeling_Part2.png)
+![alt text](ANN/Photo/Object_Modeling_Part2.png)
 
 
 # Day 38
 Today, I created accuracy class for forward pass in neural network. First, we’ll write a common Accuracy class containing (for now) just a single method, calculate, returning an accuracy calculated from comparison results. We’ve already added a call to the self.compare method that does not exist yet, but we’ll create it soon in other classes that will inherit from this Accuracy class. For now, it’s enough to know that it will return a list of True and False values, indicating if a prediction matches the ground-truth value. Next, we calculate the mean value (which treats True as 1 and False as 0) and return it as an accuracy.
-
-![alt text](Photo/Accur.png)
 ​
-
+![alt text](ANN/Photo/Accur.png)
