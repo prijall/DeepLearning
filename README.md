@@ -379,3 +379,27 @@ Continued for Object modeling where I implemented code for Backpropagation and c
 Today, I created accuracy class for forward pass in neural network. First, we’ll write a common Accuracy class containing (for now) just a single method, calculate, returning an accuracy calculated from comparison results. We’ve already added a call to the self.compare method that does not exist yet, but we’ll create it soon in other classes that will inherit from this Accuracy class. For now, it’s enough to know that it will return a list of True and False values, indicating if a prediction matches the ground-truth value. Next, we calculate the mean value (which treats True as 1 and False as 0) and return it as an accuracy.
 ​
 ![alt text](ANN/Photo/Accur.png)
+
+
+# Day 39:
+Started reading The First Paper of Neural Network, "A LOGICAL CALCULUS OF THE IDEAS IMMANENT IN NERVOUS ACTIVITY". Read 3 page only but got some meaning insights. Some of which are:
+ 
+📌All or None Law: 
+Researcher have started with basic assumptions that a neuron either fires completely or does not fire at all with respect to the inputs.
+
+📌Logical Representation of Neural Activity: 
+This can be done using propositional logic as said before by "All or None Law" and the interactions between neurons are represented using logical connectives like AND, OR, NOT, etc.
+
+📌Complexity with circuits(Nets with circles):
+Not to be confused with backpropagation(if you know they are different things, I was confused at first sight). Recursive functions should be used to capture the temporal dependencies and feedback loops involved in neural signaling.
+
+📌Introduction to Facilitation, Extinction and Learning:
+- Facilitation: temporary increase in responsiveness to stimuli, 
+- Extinction: temporary decrease in responsiveness, 
+- Learning: permanent changes in responsiveness.
+
+📌Formal Equivalence and Predictive Power
+Despite the simplifications inherent in using propositional logic to model neural activity, McCulloch and Pitts argue for the utility of formal equivalence. This means that their logical framework allows predictions about neural behavior that are consistent with experimental observations, even though the framework does not directly explain the underlying biological mechanisms.
+
+- First page of Paper:
+![alt text](ANN/Photo/ANN_Research_Paper_Pg1.png)
