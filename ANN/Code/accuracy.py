@@ -27,3 +27,17 @@ class Accuracy_Regression(Accuracy):
     # Compare predictions to ground truth value:
     def comapre(self, predictions, y):
         return np,abs(predictions-y)<self.precision 
+    
+
+#@ Accuracy calculation for classification model:
+
+class Accuracy_Categorical(Accuracy):
+    # No initialization is needed:
+    def init(self, y):
+        pass
+
+    #comparing predictions to the ground truth:
+    def compare(self, predictions, y):
+        if len(y.shape)==2:
+            y=np.argmax(y, axis=1)
+        return predictions==y

@@ -6,9 +6,15 @@ class Dropout_Layer:
         self.rate=1-rate
 
     #@ Forward Pass:
-    def forward(self, inputs):
+    def forward(self, inputs, training):
         # Saving the input values:
         self.inputs=inputs
+
+        # if not in training mode, return values:
+        if not training:
+            self.output=inputs.copy()
+            return
+
 
         #Generating and save scaled mask:
         self.binary_mask=np.random.binomial(1, self.rate, size=inputs.shape)/ self.rate

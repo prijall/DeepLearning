@@ -30,8 +30,8 @@ class Activation_Softmax_Loss_CategoricalCrossentropy():
         #If labels are one-hot encoded,
         #turn them into discrete values:
 
-        if len(y_true.shape)==2:
-            y_true=np.argmax(y_true, axis=1)
+        # if len(y_true.shape)==2:
+        #     y_true=np.argmax(y_true, axis=1)
 
         #copy for safe modification:
         self.dinputs=dvalues.copy()
