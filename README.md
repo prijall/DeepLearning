@@ -403,3 +403,9 @@ Despite the simplifications inherent in using propositional logic to model neura
 
 - First page of Paper:
 ![alt text](ANN/Photo/ANN_Research_Paper_Pg1.png)
+
+# Day 40:
+Completed Implementing Object Modeling. Worked on Backpropagation and accuracy calculation. Added code for validation data during training. Similarly, Along with validation, Implemented Concept of Dropout to inform the layers if we are using during the training and let them “decide” on calculation to include. and finally, Separated Softmax  activation and Categorical Cross-Entropy loss objects, and handle just for the backward pass.
+
+![alt text](ANN/Photo/Complete_Object_Modeling.png)
+
