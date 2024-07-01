@@ -424,3 +424,13 @@ Today, I implemented the data preprocessing(i,e scaling) and built basic functio
 - Used OpenCV Library which is widely used for Convolution Neural Network. and revised some concept related to Artificial Neural Network.
 
 ![alt text](ANN/Photo/project_part2.png)
+
+# Day 43:
+Continued working on project where today I created code implementation for Dropout layer in my neural network. Remember Dropout layer from previous implementation? Yes, it's the same. This concept plays vital role in regularization of neural nets. The main task here is to use dropout for training purpose only but not during predictions and the main issue that arises here is how to maintain same predictibility with training and predictions? This is done by scaling where **Binomial Distribution** is used which ensure that the expected sum of the outputs remains the same as the sum of the inputs.It prevents overfitting. Applying Dropout forces the network to learn how to make accurate predictions with only a random part of neurons remaining. Things to Remember about Dropout Layer:
+
+- Neurons Dropout means **Disabling neurons i.e it will always throw 0 o/p irrespective of inputs** not removing neurons from network.
+- Training time is as same with or without dropout layer.
+
+###### Github Link for Project: https://github.com/prijall/ANN-Fashion-Mnist-Project
+
+![alt text](ANN/Photo/Dropout_Layer_for_Project.png)
