@@ -434,3 +434,24 @@ Continued working on project where today I created code implementation for Dropo
 ###### Github Link for Project: https://github.com/prijall/ANN-Fashion-Mnist-Project
 
 ![alt text](ANN/Photo/Dropout_Layer_for_Project.png)
+
+# Day 44:
+Created Activation functions for neural net of the project. Added Several functions which will be used for various purpose:
+
+- **ReLU Activation:** To fire 0 ouput when the inputs are 0 or below and the same output as input when input is greater than 0.
+
+- **softmax Activation:**
+it is used for multi-class classification. It does probabilistic interpretation, output scaling and gradient calculation.
+
+- **Sigmoid Activation:**
+It is used for binary classification tasks where the output needs to represent a probability of belonging to one class
+
+- **Linear Activation:**
+ It is commonly used in the output layer of regression tasks, where the network directly predicts continuous values without any activation function.
+
+- **Input layer:**
+It  is essentially a pass-through layer that directly passes its input to its output. This can be useful in the context of neural networks where you might want to keep the input data accessible in a structured way.
+
+###### Github Link for Project: https://github.com/prijall/ANN-Fashion-Mnist-Project
+
+![alt text](ANN/Photo/Activations_For_Project.png)
