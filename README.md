@@ -455,3 +455,8 @@ It  is essentially a pass-through layer that directly passes its input to its ou
 ###### Github Link for Project: https://github.com/prijall/ANN-Fashion-Mnist-Project
 
 ![alt text](ANN/Photo/Activations_For_Project.png)
+
+# Day 45 
+Today, added loss function for both primary loss(data loss) and regularization. It includes methods to calculate the regularization loss for the model's layers, store trainable layers, compute the loss for individual batches, and calculate the accumulated loss over multiple batches in an epoch. The calculate method computes the mean data loss for a batch and optionally adds regularization loss. The calculate_accumulated method computes the average loss over all batches processed so far, providing a stable measure of the model's performance. The new_pass method resets the accumulated loss and count for a new epoch. Accumulated loss is important for stable and accurate performance monitoring, guiding optimization, and understanding the impact of regularization over an entire epoch.
+
+![alt text](ANN/Photo/loss_for_project.png)
