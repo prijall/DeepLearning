@@ -465,3 +465,8 @@ Today, added loss function for both primary loss(data loss) and regularization. 
 Added accuracy model for my project. This is one of the important parameter in the development and testing of a project which helps to understand the performance of our model so that we can make it better with time. As it is clear that the neural nets that I am developing is capable to work on both categorical and numerical data so I created accuracy for both categorical and regression task. Having the concept of Confusion matrix helps a lot in knowing about accuracy, precision,etc.
 
 ![alt text](ANN/Photo/accuracy_for_project.png)
+
+# Day 47
+Added Model class for the project and added variosu different loss functions.
+
+![alt text](ANN/Photo/Model_for_project.png)
