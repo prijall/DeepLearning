@@ -470,3 +470,8 @@ Added accuracy model for my project. This is one of the important parameter in t
 Added Model class for the project and added variosu different loss functions.
 
 ![alt text](ANN/Photo/Model_for_project.png)
+
+# Day 48
+Today, I worked on project where, I created  functions for accessing dataset and splitiing them for train-test purpose after which I test my source code but I got loaded with too many errors. The most part of my time went int0 debugging the error which was daunting yet got chance to learn more!!!
+
+![alt text](ANN/Photo/Model_Update_for_Project.png)
