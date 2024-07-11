@@ -477,3 +477,8 @@ Today, I worked on project where, I created  functions for accessing dataset and
 - Code snippet:
 
 ![alt text](ANN/Photo/Model_Update_for_Project.png)
+
+# Day 49
+spent time debuggging the code that I have implemented from scratch. Most of them are solve but my model is not trainin well due to which my loss is not updating and learning rate decaying is not working fine. I need to fix things asap.
+
+![alt text](ANN/Photo/Training_model_project.png)
