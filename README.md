@@ -482,3 +482,8 @@ Today, I worked on project where, I created  functions for accessing dataset and
 spent time debuggging the code that I have implemented from scratch. Most of them are solve but my model is not trainin well due to which my loss is not updating and learning rate decaying is not working fine. I need to fix things asap.
 
 ![alt text](ANN/Photo/Training_model_project.png)
+
+# Day 50
+Added Model Evaluation which is one of the important aspect in deep learning projects. We generally, divide datasets into training and testing set whereas we have no data for validation. In this model, I have created validation dataset from test batch, which should be fine as of now to evaluate the performance of our model.
+
+![alt text](ANN/Photo/Evaluation_project.png)
