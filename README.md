@@ -487,3 +487,8 @@ spent time debuggging the code that I have implemented from scratch. Most of the
 Added Model Evaluation which is one of the important aspect in deep learning projects. We generally, divide datasets into training and testing set whereas we have no data for validation. In this model, I have created validation dataset from test batch, which should be fine as of now to evaluate the performance of our model.
 
 ![alt text](ANN/Photo/Evaluation_project.png)
+
+# Day 51:
+Added code for Parameter Retreiving so that we can take closer look into the model parameter to see if we have dead or exploding neurons. Similary, added code for setting parameter which will iterate over the trainable layer and returns a new iterable with pairwise combinations of all the iterable passed in params. finally, amended code in object modeling so that we dont need optimizer as trained parameters are passed into model and we dont have to train.
+
+![alt text](ANN/Photo/Setting_getting_Params_project.png)
