@@ -499,4 +499,6 @@ Today I was thinking of the data size for Neural nets to train well and it is qu
 ### How PCA does Dimension Reduction?
 PCA aims to find the directions of maximum variance in high-dimensional data and projects it onto a new subspace with equal or fewer dimensions than the original one. It is truly a boon to 'Curse of Dimensionality'.
 
+**You can find Code Implementation here:** https://github.com/prijall/MachineLearning/blob/main/Code/PCAFromScratch.py
+
 ![alt text](ANN/Photo/PCA_Revision.png)
