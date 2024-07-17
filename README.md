@@ -492,3 +492,11 @@ Added Model Evaluation which is one of the important aspect in deep learning pro
 Added code for Parameter Retreiving so that we can take closer look into the model parameter to see if we have dead or exploding neurons. Similary, added code for setting parameter which will iterate over the trainable layer and returns a new iterable with pairwise combinations of all the iterable passed in params. finally, amended code in object modeling so that we dont need optimizer as trained parameters are passed into model and we dont have to train.
 
 ![alt text](ANN/Photo/Setting_getting_Params_project.png)
+
+# Day 52
+Today I was thinking of the data size for Neural nets to train well and it is quite massive. But then I quickly remembered the concept that I learnt during my ML learning days, which was PCA(Principal Component Analysis). It is a dimension reduction techniques in machine learning with preserving the originality of the data.
+
+### How PCA does Dimension Reduction?
+PCA aims to find the directions of maximum variance in high-dimensional data and projects it onto a new subspace with equal or fewer dimensions than the original one. It is truly a boon to 'Curse of Dimensionality'.
+
+![alt text](ANN/Photo/PCA_Revision.png)
