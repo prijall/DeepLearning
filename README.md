@@ -502,3 +502,9 @@ PCA aims to find the directions of maximum variance in high-dimensional data and
 **You can find Code Implementation here:** https://github.com/prijall/MachineLearning/blob/main/Code/PCAFromScratch.py
 
 ![alt text](ANN/Photo/PCA_Revision.png)
+
+# Day 53
+
+Completed Model Building of my project using ANN. For now I have only built a model and checked the accuracy but i will be deploying it later upon learning MLOPS in detail.
+
+![alt text](ANN/Photo/project_completed(MNSIT_Fashion).png)
