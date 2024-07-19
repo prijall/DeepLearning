@@ -508,3 +508,10 @@ PCA aims to find the directions of maximum variance in high-dimensional data and
 Completed Model Building of my project using ANN. For now I have only built a model and checked the accuracy but i will be deploying it later upon learning MLOPS in detail.
 
 ![alt text](ANN/Photo/project_completed(MNSIT_Fashion).png)
+
+# Day 54
+From today, I will be revising all the concept of Neural Network but from the Legend **Andrej Karpathy**. I am building a Micrograd model taught by Andrej which is a tiny scalar-valued auto-gradient engine and a neural net library on top of it with PyTorch-like API. This is a very basic model to help learn the forward pass and backpropagation of nueral network.
+
+- Today, I implemented the python code to create a class that takes values and helps in performance of mathematical operations and visualize the forwards pass using multiplication and addition.
+
+![alt text](ANN/Photo/MicroGrad_part1.png)
