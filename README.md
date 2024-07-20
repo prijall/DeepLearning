@@ -515,3 +515,8 @@ From today, I will be revising all the concept of Neural Network but from the Le
 - Today, I implemented the python code to create a class that takes values and helps in performance of mathematical operations and visualize the forwards pass using multiplication and addition.
 
 ![alt text](ANN/Photo/MicroGrad_part1.png)
+
+# Day 55
+Learnt the implementation of Backpropagation and importance of gradient in the optimization using python. The Value of gradient is calcuted manually using the formula for derivative. And then the value was adjusted for better optimization.
+
+![alt text](ANN/Photo/Backpropagation_Micrograd.png)
