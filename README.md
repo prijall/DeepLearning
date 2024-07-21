@@ -520,3 +520,11 @@ From today, I will be revising all the concept of Neural Network but from the Le
 Learnt the implementation of Backpropagation and importance of gradient in the optimization using python. The Value of gradient is calcuted manually using the formula for derivative. And then the value was adjusted for better optimization.
 
 ![alt text](ANN/Photo/Backpropagation_Micrograd.png)
+
+# Day 56
+For the first time, I implemented Pytorch for the first time. It is a Machine learning library used to built model especially for neural networks. It works using tensors.What actually are tensors? They are the building blocks of machine learning. Their job is to represent the data in numerical way. They are basically n-dimensional array.
+     Today, I did basic implementation of forward pass and backward using pytorch. Here, in pytorch, we have explicitly declare the requirement of calculating gradient which is very necessary for backward pass.
+
+- Basic pytorch implementation:
+     
+![alt text](ANN/Photo/NN_using_pytorch.png)
