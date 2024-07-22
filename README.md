@@ -528,3 +528,20 @@ For the first time, I implemented Pytorch for the first time. It is a Machine le
 - Basic pytorch implementation:
      
 ![alt text](ANN/Photo/NN_using_pytorch.png)
+
+# Day 57
+Continued reading paper **A LOGICAL CALCULUS OF THE IDEAS IMMANENT IN
+NERVOUS ACTIVITY**. Today, I learnt about two theorems used by author to support their statement.
+
+#### Theorem 1: Every net of order 0 can be solved in terrms of temporal propositional expression
+- This theorem states that any simple neural network can be completely described using logical statements about what happens and when it happens.
+- net of order of 0 means that signals in neuron travel in only one direction. It is basically neurons without loops.
+- What are temporal propositional expression? They are the logical statement that describe events over time. Eg, If this happens, then that will be happen next.
+
+![alt text](ANN/Photo/Theorem_1.png)
+
+#### Theorem 2: Every Temporal Propositional Expression (TPE) can be realized by a net of order zero.
+
+- Theorem 2 tells us that any logical statement about events over time can be represented using a simple neural network without loops. This means we can design networks to perform specific logical functions and be confident that even complex temporal logic can be realized with these basic building blocks.
+
+![alt text](ANN/Photo/Theorem_2.png)
