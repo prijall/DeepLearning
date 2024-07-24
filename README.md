@@ -552,3 +552,25 @@ Continued learning paper where I studied theorem 3 which states, **"Let there be
 - This means a complex logical sentence can be represented as a TPE if it becomes false when its simplest components are false. This ensures the logical structure of the sentence can be realized by a neural network, which operates under the same principles of propositional logic.
 
 ![alt text](ANN/Photo/Theorem_3.png)
+
+# Day 59 
+
+**Theorem 4: Relative and Absolute Inhibition**
+**Statement: Relative and absolute inhibition are equivalent in the extended sense.**
+
+##### Explanation:
+
+- Relative Inhibition: When an inhibitory synapse fires, it does not completely prevent the firing of a neuron but increases its threshold, meaning a greater number of excitatory synapses must fire concurrently to trigger it. The increase in the threshold is assumed to be unity for each inhibitory synapse.
+Absolute Inhibition: When an inhibitory synapse fires, it completely prevents the neuron from firing at that time.
+
+- Equivalence Proof:
+
+Relative to Absolute Inhibition:
+Consider a neuron 𝑐<subscript>i</subscript> with a certain number of inhibitory synapses. If each inhibitory synapse increases the threshold by 1, this can be modeled by having an equivalent net where each inhibitory synapse is replaced by a corresponding increase in the threshold of the neuron.
+For any given neuron, create a net that realizes the relative inhibition by ensuring the neuron only fires when its increased threshold due to inhibitory synapses is met by a sufficient number of excitatory inputs.
+
+Absolute to Relative Inhibition:
+Replace each absolute inhibitory synapse with multiple inhibitory synapses in the relative inhibition model. This ensures that the neuron only fires when the number of excitatory inputs exceeds the combined inhibitory effects.
+In both cases, the behavior of the neuron under relative inhibition can be replicated by a network using absolute inhibition and vice versa, establishing their equivalence in the extended sense.
+
+![alt text](ANN/Photo/Theorem_4.png)
