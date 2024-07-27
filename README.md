@@ -574,3 +574,19 @@ Replace each absolute inhibitory synapse with multiple inhibitory synapses in th
 In both cases, the behavior of the neuron under relative inhibition can be replicated by a network using absolute inhibition and vice versa, establishing their equivalence in the extended sense.
 
 ![alt text](ANN/Photo/Theorem_4.png)
+
+# Day 60
+Continued learning for MicroGrad, where I learnt about basic pytorch operations.
+ #### Matrix multiplication (is all you need)
+One of the most common operations in machine learning and deep learning algorithms (like neural networks) is matrix multiplication.The main two rules for matrix multiplication to remember are:
+
+- The inner dimensions must match:
+(3, 2) @ (3, 2) won't work
+(2, 3) @ (3, 2) will work
+(3, 2) @ (2, 3) will work
+
+- The resulting matrix has the shape of the outer dimensions:
+(2, 3) @ (3, 2) -> (2, 2)
+(3, 2) @ (2, 3) -> (3, 3)
+
+![alt text](ANN/Photo/basic_pytorch.png)
