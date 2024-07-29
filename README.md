@@ -590,3 +590,9 @@ One of the most common operations in machine learning and deep learning algorith
 (3, 2) @ (2, 3) -> (3, 3)
 
 ![alt text](ANN/Photo/basic_pytorch.png)
+
+# Day 61
+
+Today I use Pytorch to built Neural network. Similarly, got to know about **Compute Unified Device Architecture(CUDA)**. It allows developers to access the raw computing power of CUDA GPUs to process data faster than with traditional CPUs. CUDA Nvidia can achieve higher parallelism and efficiency than general-purpose CPU code using parallel processes and fine-grained streams.Just tried creating tensors on GPU.
+
+![alt text](ANN/Photo/Basic_pytorch_part2.png)
