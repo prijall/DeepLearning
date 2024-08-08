@@ -601,3 +601,14 @@ Today I use Pytorch to built Neural network. Similarly, got to know about **Comp
 Explored pytorch for Neural network. Today, I implemented code for object creation of model built last time and did preliminary prediction.
 
 ![alt text](ANN/Photo/Exploring_pytorch.png)
+
+# Day 63
+- Completed reading paper on **'Learning Representations by Backpropagating Errors'**, where in conclusion  the write talk about the most obvious drawback of the learning procedure is that the error-surface may contain local minima so that gradient descent is not guaranteed to find a global minimum. However, their experience with many tasks shows that the network very rarely gets stuck in poor local minima that are significantly worse than
+the global minimum.
+
+![alt text](ANN/Photo/final_page_backpropagation.png)
+
+
+- Secondly, I practised the basic of pytorch and understood the difference between pytorch and numpy for mathematical operations by basic code implementations.
+
+![alt text](ANN/Photo/pytorch_vs_numpy.png)
