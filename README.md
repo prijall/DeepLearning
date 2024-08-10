@@ -623,3 +623,17 @@ the global minimum.
 - Built Neural network using pytorch and calculate loss using pytorch built-in functions. I did this in google collab since i don't have enough gpu.
 
 ![alt text](ANN/Photo/pytorch_part2.png)
+
+# Day 65
+Added Optimizer and optimized loss value using pytorch. Following steps I took for optimization:
+
+- Flushing previous epoch's gradients
+- Computed loss 
+- then Backpropagation
+- updated weights moved into list 
+- Visualization of optimization
+
+
+![alt text](ANN/Photo/Optimizer_pytorch.png)
+
+![alt text](ANN/Photo/optimization_pytorch.png)
