@@ -637,3 +637,14 @@ Added Optimizer and optimized loss value using pytorch. Following steps I took f
 ![alt text](ANN/Photo/Optimizer_pytorch.png)
 
 ![alt text](ANN/Photo/optimization_pytorch.png)
+
+# Day 66
+
+Finally started Convolutional Neural Network(CNN) which is widely used Neural Network for Image Datasets. ANNs aren't used for Image datasets because they aren't invariant to small translations i.e they rely heavily on the position of features within the image which is why CNN is used and it solves the problems of traditional approaches. There are lots components of CNN, Among them I studied about **Filters**.
+
+- **Filters:** It is a matrix of weights that are initialized randomly at the start and convolved with matrix of the original image and this process is called **Convolution**. The values(weights) in filter get optimized during backpropagation.
+
+- The result of the Convolution will be always;
+      for orginal image (m, m) and filter of (n,n), the convolution will be (m-n+1) x (m-n+1).
+
+![alt text](CNN/Photos/Filters_In_CNN.png)
