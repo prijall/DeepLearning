@@ -648,3 +648,29 @@ Finally started Convolutional Neural Network(CNN) which is widely used Neural Ne
       for orginal image (m, m) and filter of (n,n), the convolution will be (m-n+1) x (m-n+1).
 
 ![alt text](CNN/Photos/Filters_In_CNN.png)
+
+# Day 67
+
+Learnt few more concepts today, where i studied about following things:
+
+#### Strides
+- In simple words, Stride is the steps to convolved filter in Input image matrix. By default each filter strides across the image -(1 row and 1 column). This can be tuned according to our need. The main reasons required to use strides are: **High Level Feature Capturing** and **Computational power(not really important now tho:)**
+- The feature mapping after with stride is (((m-n)/s)+1) where s is the no of strides. 
+
+#### Padding
+- when convolving the matrix the left most elements and right most element are not involved as many times i.e edges are mostly ignored due to which padding is done. **It is the process of adding the layers to the matrix outside in all four sides to make the efficient use of edge element. Generally, Zeros are used in padding therefore called Zero Padding in literature.
+
+#### Pooling
+- It is very important concept in CNN. **It is the process of down sampling feature mapping.** It is generally done after convolution. Generally, three params are passed to setup the pooling: **Size, Stride and type.** There are various types of pooling, they are; MaxPooling, AvgPooling, SumPooling, etc.
+
+##### Advantages:
+- Reduced feature mapping size.
+- Translation Invariance.
+- Enhanced Feature(In case of Max Pooling)
+- No need for training.
+
+##### Disadvantages:
+- During Image Segmentation
+- Loss of lots of information
+
+![alt text](CNN/Photos/Full_CNN_Structure.png)
