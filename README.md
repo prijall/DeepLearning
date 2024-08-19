@@ -674,3 +674,13 @@ Learnt few more concepts today, where i studied about following things:
 - Loss of lots of information
 
 ![alt text](CNN/Photos/Full_CNN_Structure.png)
+
+
+# Day 68
+Implemented the CNN for the first time using pytorch. Implemented all the concepts that I have learnt from past 2 days. It is just a practise for testing and strengthening my concepts.
+
+- Snapshot of today's work:
+
+![alt text](CNN/Photos/CNN_Implementing_Summary_Part1.png)
+
+![alt text](CNN/Photos/Implementing_CNN_Training.png)
