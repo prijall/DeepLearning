@@ -684,3 +684,12 @@ Implemented the CNN for the first time using pytorch. Implemented all the concep
 ![alt text](CNN/Photos/CNN_Implementing_Summary_Part1.png)
 
 ![alt text](CNN/Photos/Implementing_CNN_Training.png)
+
+# Day 69
+Trained FMNIST Dataset on CNN and Checked for training and Validation Loss and Accuracy using pytorch. It was bit diffcult to understand the behind working of the model with getting error more but did it anyway successfully untill training.
+
+- Model Snapshot:
+![alt text](CNN/Photos/CNN_FashionMNIST_Part1.png)
+
+- Training Snapshot:
+![alt text](CNN/Photos/Training_FMNIST_CNN.png)
