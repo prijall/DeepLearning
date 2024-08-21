@@ -693,3 +693,12 @@ Trained FMNIST Dataset on CNN and Checked for training and Validation Loss and A
 
 - Training Snapshot:
 ![alt text](CNN/Photos/Training_FMNIST_CNN.png)
+
+# Day 70
+After Learning all the necessary concpets, today, I decided to train my Convolution Neural Network on real data which is of Cats and dogs. This data is directly imported from kaggle to the code base using Kaggle Token. Similary, I Found it very difficult to do preprocessing for RBG data. I just fetched the data and preprocessed the image for training. Will be training it tomorrow:)
+
+- Data Preprocessing:
+![alt text](CNN/Photos/CNN_Dogs_Cats_Data_Fetch.png)
+
+- image result:
+![alt text](CNN/Photos/Fetching_Dog_Img_CNN.png)
