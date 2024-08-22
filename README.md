@@ -702,3 +702,14 @@ After Learning all the necessary concpets, today, I decided to train my Convolut
 
 - image result:
 ![alt text](CNN/Photos/Fetching_Dog_Img_CNN.png)
+
+# Day 71
+Trained the model for cat and Dog classification. Similarly, calculated loss and accuracy for both training set and validation set. The intereting thing in today's learning, i trained data in batch of size 32 and calcaluted the loss and accuracy over the batch samples. Got decent accuracy and got to know that training data in batches is mostly beneficial over trainig at once in many ways.
+
+- Model training code:
+
+![alt text](CNN/Photos/Image_Dog_cat_trained.png)
+
+- accuracy over epoch:
+
+![alt text](CNN/Photos/Cat_dog_model-trained_accuracy.png)
