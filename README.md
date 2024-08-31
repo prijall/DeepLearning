@@ -713,3 +713,17 @@ Trained the model for cat and Dog classification. Similarly, calculated loss and
 - accuracy over epoch:
 
 ![alt text](CNN/Photos/Cat_dog_model-trained_accuracy.png)
+
+# Day 72
+Studied about **Transfer learning** and **VGG16 Architecture**
+
+##### Transfer Learning
+Transfer learning is a technique where knowledge gained from one task is leveraged to solve another similar task. Imagine a model that is trained on millions of images that span thousands of object classes (not just cats and dogs). The various filters (kernels) of the model would activate for a wide variety of shapes, colors, and textures within the images. Those filters can then be reused to learn features on a new set of images. Post learning the features, they can be connected to a hidden layer prior to the final classification layer for customizing on the new data.
+
+##### VGG16 Architecture
+VGG stands for **Visual Geometry Group**, which is based out of the University of Oxford. 16 stands for the number of layers in the model. The VGG16 model is trained to classify objects in the ImageNet competition and stood as the runner-up architecture in 2014. The reason we are studying this architecture instead of the winning architecture (GoogleNet) is because of its simplicity and its broader use by the vision community for several other tasks.
+
+
+![alt text](CNN/Photos/VGG_Architecture.png)
+
+![alt text](CNN/Photos/VGG_Implementation.png)
