@@ -727,3 +727,10 @@ VGG stands for **Visual Geometry Group**, which is based out of the University o
 ![alt text](CNN/Photos/VGG_Architecture.png)
 
 ![alt text](CNN/Photos/VGG_Implementation.png)
+
+# Day 73
+Data Preprocessed for Implementing VGG architecture on Cats and Dogs datasets. The main difference between the cats_dogs class in this section and in previous one is the normalize function that we are applying using the Normalize function from the transforms module. 
+                     When leveraging pretrained models, it is mandatory to resize, permute, and then normalize images (as appropriate for that pretrained model), where the images
+are first scaled to a value between 0 and 1 across the 3 channels and then normalized to a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225] across the RGB channels.
+
+![alt text](CNN/Photos/VGG_On_Dogs_cats.png)
