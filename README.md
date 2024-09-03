@@ -734,3 +734,11 @@ Data Preprocessed for Implementing VGG architecture on Cats and Dogs datasets. T
 are first scaled to a value between 0 and 1 across the 3 channels and then normalized to a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225] across the RGB channels.
 
 ![alt text](CNN/Photos/VGG_On_Dogs_cats.png)
+
+
+# Day 74 
+Completed Implementing VGG on Cats and Dogs Dataset. Achieved an accuracy for training set with respect to valid set about 97% which is very good than the previous one implemented without any pretrained model. Similarly, the time taken by google collab to train the batches of size 32 was approx 10-15 min in without pre-trained model whereas for pretrained model it was about 2 min for 5 epochs.
+
+![alt text](CNN/Photos/VGG_ON_CatsDogs_2.png)
+
+![alt text](CNN/Photos/VGG_Accuracy.png)
