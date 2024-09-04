@@ -742,3 +742,16 @@ Completed Implementing VGG on Cats and Dogs Dataset. Achieved an accuracy for tr
 ![alt text](CNN/Photos/VGG_ON_CatsDogs_2.png)
 
 ![alt text](CNN/Photos/VGG_Accuracy.png)
+
+# Day 75
+Learned the Basic intuition behind "ResNet" Architecture. These are introduced to solve the problems of the VGGNET Architecture, which is while increasing layer numbers from 16 to 19, we claim the accuracy from 97% to 98% which seem small but promising. But kept  on increasing causes decrease in accuracy.
+
+###### The two major problems in VGGNET solved by ResNET are:
+
+- While the network goes deep, it eventually forget what the original image was
+
+- The problem of Vanishing Gradient, the gradient at the layers near to input becomes almost zeros.
+
+These are solved by Resnet, will learn how it works tom:)
+
+![alt text](CNN/Photos/ResNet_SS.png)
