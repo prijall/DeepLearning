@@ -755,3 +755,9 @@ Learned the Basic intuition behind "ResNet" Architecture. These are introduced t
 These are solved by Resnet, will learn how it works tom:)
 
 ![alt text](CNN/Photos/ResNet_SS.png)
+
+# Day 76
+Learnt more on Resnet Architecture and its working. It is called ResNet(Residual Network) because instead of calculating the desired result and adding identity value to it i.e H(z) =F(z) + z, it calculates first gradient and then adds the identity value which is effective in computation as the value of differnce between target and prediction is easier to calculate than calculating entire requried function and adding identity value i.e  F(z) =H(z)-z and then adding F(z) + z. This is called identity mapping.
+
+
+![alt text](CNN/Photos/ResNet_Part2.png)
