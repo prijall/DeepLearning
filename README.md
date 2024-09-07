@@ -761,3 +761,15 @@ Learnt more on Resnet Architecture and its working. It is called ResNet(Residual
 
 
 ![alt text](CNN/Photos/ResNet_Part2.png)
+
+
+# Day 77
+Implemented the ResNet Architecture and spent time reading and understanding paper.
+
+- ResNet Paper SS:
+
+![alt text](CNN/Photos/ResNet_Paper_2.png)
+
+- Implementation:
+
+![alt text](CNN/Photos/ResNet_Implementation.png)
