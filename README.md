@@ -773,3 +773,14 @@ Implemented the ResNet Architecture and spent time reading and understanding pap
 - Implementation:
 
 ![alt text](CNN/Photos/ResNet_Implementation.png)
+
+# Day 78
+Built model for classification of Cats and Dogs Image data using ResNet18 Architecture. Today, developed model where at first freeze the architecture's model for the finetuning with disabling weights. Then used AdaptiveAvgPool with output_size=(1, 1) for the binary classification as the model has been train for multiclassification and finally created Fully connected layers and calculated loss with optiimizer(Adam).
+
+- Code for model Building:
+
+![alt text](CNN/Photos/ModelBuilding_for_classification_ResNet.png)
+
+- Architecture lookalike:
+
+![alt text](CNN/Photos/ResNEt18_for_classification_part2.png)
