@@ -779,8 +779,8 @@ Built model for classification of Cats and Dogs Image data using ResNet18 Archit
 
 - Code for model Building:
 
-![alt text](CNN/Photos/ModelBuilding_for_classification_ResNet.png)
+![alt text](CNN/Photos/ResNet18_for_claassification.png)
 
 - Architecture lookalike:
 
-![alt text](CNN/Photos/ResNEt18_for_classification_part2.png)
+![alt text](CNN/Photos/ResNet18_archi_lookalike.png)
