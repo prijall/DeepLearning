@@ -784,3 +784,8 @@ Built model for classification of Cats and Dogs Image data using ResNet18 Archit
 - Architecture lookalike:
 
 ![alt text](CNN/Photos/ResNet18_archi_lookalike.png)
+
+# Day 79
+Updated the model with training model, accuracy and Dataset Loader which I have been doing for quite few times now. Implementing this helps to find the difference between building model from scratch and using pre- trained model.
+
+![alt text](CNN/Photos/ResNet_part3.png)
