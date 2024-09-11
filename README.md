@@ -789,3 +789,16 @@ Built model for classification of Cats and Dogs Image data using ResNet18 Archit
 Updated the model with training model, accuracy and Dataset Loader which I have been doing for quite few times now. Implementing this helps to find the difference between building model from scratch and using pre- trained model.
 
 ![alt text](CNN/Photos/ResNet_part3.png)
+
+# Day 80 
+
+Started Facial keypoints Detection on pre-trained models. They are used especially for **Multi-Regression** and **Multi-task Learning**.
+
+##### Points to remember for Facial Detection
+
+- Adjustment of images to standard image size
+- Resize the image to a shape of 224 x 224 x 3
+- Normalization
+- Use of Sigmoid layer at the end to fetch data
+
+![alt text](CNN/Photos/Facial_keypoints_detection_part1.png)
