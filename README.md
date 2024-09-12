@@ -802,3 +802,10 @@ Started Facial keypoints Detection on pre-trained models. They are used especial
 - Use of Sigmoid layer at the end to fetch data
 
 ![alt text](CNN/Photos/Facial_keypoints_detection_part1.png)
+
+# Day 81
+Training Neural Nets can be bit daunting, completed training model for detection of facial keypoints using VGG16 Architecture. I should have trained on more epochs for accurate detection but due to low GPU it was taking a lot time so I intentionally reduced no of epochs.
+
+![alt text](CNN/Photos/Facial_Keypoint_code_part2.png)
+
+![alt text](CNN/Photos/Facial_Keypoint_output_part2.png)
