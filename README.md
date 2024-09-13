@@ -809,3 +809,11 @@ Training Neural Nets can be bit daunting, completed training model for detection
 ![alt text](CNN/Photos/Facial_Keypoint_code_part2.png)
 
 ![alt text](CNN/Photos/Facial_Keypoint_output_part2.png)
+
+# Day 82
+
+Leveraged a pretrained model that can detect the 2D and 3D keypoints present in the face. Did keypoints detection in 2D and Converted it into 3d.
+
+![alt text](CNN/Photos/Facial_Kp_2D.png)
+
+![alt text](CNN/Photos/Facial_kp_3D.png)
