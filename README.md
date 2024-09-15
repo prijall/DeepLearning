@@ -817,3 +817,11 @@ Leveraged a pretrained model that can detect the 2D and 3D keypoints present in 
 ![alt text](CNN/Photos/Facial_Kp_2D.png)
 
 ![alt text](CNN/Photos/Facial_kp_3D.png)
+
+# Day 83
+
+**Multi-task learning** is a branch of research where a single/few inputs are used to predict several different but ultimately connected outputs. For example, in a self-driving car, the model needs to identify obstacles, plan routes, and give the right amount of throttle/brake and steering, to name but a few.It needs to do all of these in a split second by considering the same set of inputs (which would come from several sensors). Furthermore, multi-task learning helps in learning domain-specific features that can be cross-leveraged across different tasks, potentially within the same domain.
+
+- Built functions which takes dataset normalize it and returns age and gender as we are working on age estimation and gender classification. Similary, created **Collate Function** which scales the age so that value lies between 0 and 1, convert gender into float as it awas converted into boolean expression before in **__getitem()__** function and finally convert image, age and gender intp torch object and return.
+
+![alt text](CNN/Photos/Multi_tasking_1.png)
