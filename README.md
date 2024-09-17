@@ -825,3 +825,10 @@ Leveraged a pretrained model that can detect the 2D and 3D keypoints present in 
 - Built functions which takes dataset normalize it and returns age and gender as we are working on age estimation and gender classification. Similary, created **Collate Function** which scales the age so that value lies between 0 and 1, convert gender into float as it awas converted into boolean expression before in **__getitem()__** function and finally convert image, age and gender intp torch object and return.
 
 ![alt text](CNN/Photos/Multi_tasking_1.png)
+
+# Day 84
+Completed Multi-task learning on Gender-Age Dataset. AS usually, built function for model, training batch and validation. Training Model was the toughest part today, I took 1 hour to train the model but give pretty decent accuracy. Loved each part of learning today, still doubt on some portions but hopefully will get to work on those. 
+
+![alt text](CNN/Photos/Mult_tasking_part2.png)
+
+![alt text](CNN/Photos/Multi_tasking_output.png)
