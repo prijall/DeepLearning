@@ -832,3 +832,16 @@ Completed Multi-task learning on Gender-Age Dataset. AS usually, built function 
 ![alt text](CNN/Photos/Mult_tasking_part2.png)
 
 ![alt text](CNN/Photos/Multi_tasking_output.png)
+
+# Day 85
+Ever Wonder **why CNN model predicts what it predicts?**. For most part in Neural Nets, we believe the model is quite black box i.e we dont know what's happening internally but not anymore, the paper **"Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"** explains how it does. It's main principle is **'Interpretability Matters.'**
+
+##### Main points to remmber:
+ - If a certain pixel is important, then the CNN will have a large activation at those pixels.
+ - If a certain convolutional channel is important with respect to the required class, the gradients at that channel will be very large.
+
+ ![alt text](CNN/Photos/CAM_OverView.png)
+
+ - Did Data Processing for CAM Implementation:
+
+ ![alt text](CNN/Photos/CAM_Data_Preprocessing.png)
