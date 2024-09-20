@@ -845,3 +845,17 @@ Ever Wonder **why CNN model predicts what it predicts?**. For most part in Neura
  - Did Data Processing for CAM Implementation:
 
  ![alt text](CNN/Photos/CAM_Data_Preprocessing.png)
+
+ # Day 86:
+
+ Revisefd the concepts of image classifications on Age & Gender, where my most of the concpets got cleared. Similary, While learning about CAM, i got to understand the practical aspects to take care during model implementation:
+
+ - **Imbalance Dataset:**
+ for the classification of rare data, there would the no more training data which is why the result might not be better. Confusion matrix helps depicts the possibilties.
+
+ - **Difference between training and validation data:**
+ we should have the clear picture of why is model overfitting and underfitting and how to resolve them both. There may be maybe reasons including that of difference in resolutions, less numbers of training data, etc
+
+ - Similarly, some other points include size of the objects, OpenCV Utilities, image sizes to train on GPUs, no of Convolution and pooling layers.
+
+  ![alt text](CNN/Photos/Revision_1.png)
