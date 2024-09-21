@@ -859,3 +859,9 @@ Ever Wonder **why CNN model predicts what it predicts?**. For most part in Neura
  - Similarly, some other points include size of the objects, OpenCV Utilities, image sizes to train on GPUs, no of Convolution and pooling layers.
 
   ![alt text](CNN/Photos/Revision_1.png)
+
+  # Day 87 
+  Started the basic of object detection. When there are multiple images in a frame and we have to classify one then it will be very difficult for the image classification to detect the object due to its position. This is where object detection shines.Some various cases levaraging object detection includes the following examples; Security, Autonomous cars, Image Searching, automotives, etc.
+    Today, I learnt about the Bounding Box Ground truth working using **ybat** which helps to find the cordinates of the images of desired classes.
+
+  ![alt text](CNN/Photos/Grounding_box_working.png)
