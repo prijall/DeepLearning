@@ -865,3 +865,16 @@ Ever Wonder **why CNN model predicts what it predicts?**. For most part in Neura
     Today, I learnt about the Bounding Box Ground truth working using **ybat** which helps to find the cordinates of the images of desired classes.
 
   ![alt text](CNN/Photos/Grounding_box_working.png)
+
+# Day 88
+Learnt about **Region Proposal & IOU**.
+
+- **Region Proposal:**
+is a technique that helps identify islands of regions where the pixels are similar to one another. Generating a region proposal comes in handy for object detection where we must identify the locations of objects present in an image. Additionally, given that a region proposal generates a proposal for a region, it aids in object localization where the task is to identify a bounding box that fits exactly around an object.
+
+![alt text](<CNN/Photos/REgion Proposal.png>)
+
+- **IOU**
+The word intersection within the term intersection over union refers to measuring how much the predicted and actual bounding boxes overlap, while union refers to measuring the overall space possible for overlap. IoU is the ratio of the overlapping region between the two bounding boxes over the combined region of both bounding boxes.
+
+![alt text](CNN/Photos/IOU.png)
