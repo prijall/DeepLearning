@@ -878,3 +878,11 @@ is a technique that helps identify islands of regions where the pixels are simil
 The word intersection within the term intersection over union refers to measuring how much the predicted and actual bounding boxes overlap, while union refers to measuring the overall space possible for overlap. IoU is the ratio of the overlapping region between the two bounding boxes over the combined region of both bounding boxes.
 
 ![alt text](CNN/Photos/IOU.png)
+
+# Day 89
+Super excited to learn and implement **Advance Object Detection techniques and algorithm**. Today, I studied the basics of **Region based CNN, popularly known as R-CNN**. The more advanced version is known as **Fast R-CNN**. These techniques works on two disjoint network i.e one to identify the regions that likely contains an object and the other to make the bounding box where the object is identified. The major drawback is there are many forward propagation. But the modern detection algorithm focuses on training single neural network and have the capacity to detect all objects in one forward pass.
+          Read Paper, **"Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"** for more details.
+
+![alt text](CNN/Photos/Fast_RCNN_Paper1.png)
+
+![alt text](CNN/Photos/Fast_R-CNN_workflow.png)
