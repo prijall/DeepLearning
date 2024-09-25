@@ -886,3 +886,8 @@ Super excited to learn and implement **Advance Object Detection techniques and a
 ![alt text](CNN/Photos/Fast_RCNN_Paper1.png)
 
 ![alt text](CNN/Photos/Fast_R-CNN_workflow.png)
+
+# Day 90
+Implemented Faster R-CNN on custom dataset. Did data fetching from kaggle using API and created a class that takes dataset calculates length, gets item while doing all kinds of necessary preprocessing.
+
+![alt text](<CNN/Photos/Training fast_RCNN.png>)
