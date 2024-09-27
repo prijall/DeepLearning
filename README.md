@@ -891,3 +891,22 @@ Super excited to learn and implement **Advance Object Detection techniques and a
 Implemented Faster R-CNN on custom dataset. Did data fetching from kaggle using API and created a class that takes dataset calculates length, gets item while doing all kinds of necessary preprocessing.
 
 ![alt text](<CNN/Photos/Training fast_RCNN.png>)
+
+# Day 91
+Started Reading Paper for **You Only Look Once(YOLO) Architecture** for object detection. Things I learnt for the from two different segments are:
+
+##### Abstract
+- Paper talks about the working algorithm for object detection. It frames object detection as regression problem to spatially separated bounding boxes and associated class probabilities rather than previous object detection algorithm. Similar, it compares with other art-of-state-detection algorithm and the main drawback is points is that it makes more localization error but less false positive error on background.
+
+![alt text](CNN/Photos/YoLo(1)_Day1.jpg)
+
+##### Introduction
+- Yolo's working outlines is a single CNN  predicts multiples bounding boxes and class probabilities of those boxes and directly optimizes performance and detection through through model confidence. 
+- The input image is resize to 448 x 448.
+- It reasons globally which is why is better than other algo as see the entire image during training  and encodes context information and their apperances.
+
+![alt text](CNN/Photos/YoLo(2)_Day1.jpg)
+
+###### Also built batch training and validation for Faster RCNN model implementation.
+
+![alt text](CNN/Photos/Faster_RCNN_Training_Validation.png)
