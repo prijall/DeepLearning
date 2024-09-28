@@ -910,3 +910,17 @@ Started Reading Paper for **You Only Look Once(YOLO) Architecture** for object d
 ###### Also built batch training and validation for Faster RCNN model implementation.
 
 ![alt text](CNN/Photos/Faster_RCNN_Training_Validation.png)
+
+# Day 92
+ 
+ Learnt the **Unified Detection** in Yolo algorithm.
+
+#### Key Points that I learnt:
+- single Neural Network is used for model traininfg where the algorithm divides the images in grid and calculates the bounding boxes, their confidence score and class probabilities.
+- Confidence is defined as **Prediction of object times IOU with respect to truth and predection**. If there is no objects in grid then the confidence score must be zeros.
+- For calculation of class probabilities, conditional probabilities is used i.e Pr(Class(i)/Object).
+- The predictions are encoded as an S x S x (B * 5 + C) tensor where S x S is the no of grid in width and height resp, B is Bounding Box and C is class probabilities.
+
+![alt text](CNN/Photos/YoLo(1)_Day2.jpeg)
+
+![alt text](CNN/Photos/YoLo(2)_Day2.jpeg)
