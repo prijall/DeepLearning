@@ -924,3 +924,24 @@ Started Reading Paper for **You Only Look Once(YOLO) Architecture** for object d
 ![alt text](CNN/Photos/YoLo(1)_Day2.jpeg)
 
 ![alt text](CNN/Photos/YoLo(2)_Day2.jpeg)
+
+# Day 93
+
+Continued Reading Network architecture and Model Training for Yolo architecture. Need to implement all these concepts asap.
+
+##### Network Architecture
+- THere 24 CNN layers and 2 fully connected layers in our network. Yolo architecture is inspired by GooLeNet architecture(Yet to be studied;). The main important implementation here is the use of 1x1 features space reduction layers. MaxPooling is done after completion of each set of convolution in network.
+
+![alt text](CNN/Photos/YoLo(1)_Day3.jpg)
+
+##### Training
+- Pretain on ImageNet dataset. 20-CNN layers used followed by AvgPooling and connected layers.
+- Use of Darknet framework for all training and inference.(Yet to explore)
+- Adding 4 layers and fully connected layer with randomly initialized weights.
+- Normalize bounding box width and height by the image width and height.
+- Use of Coord and noobj for model stability.
+- Predicts multiple bounding boxes per grid cell and predicts the Box having highest IOU.
+- Loss function penalizes classification error only if obj is present and bounding box error only of predictor is **responsible** for ground truth box.
+- Random Scaling and translation of upto 20% of orginal image. 
+
+![alt text](CNN/Photos/YoLo(2)_Day3.jpg)
