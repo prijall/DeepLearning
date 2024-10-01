@@ -945,3 +945,25 @@ Continued Reading Network architecture and Model Training for Yolo architecture.
 - Random Scaling and translation of upto 20% of orginal image. 
 
 ![alt text](CNN/Photos/YoLo(2)_Day3.jpg)
+
+# Day 94
+While going through the paper, I came to Know about the interesting concept called **Non Max Suppression** which is used to select the accurate bounding box from multiple bounding boxes from the grid. The NMS takes two factor in considerations, they are:
+
+- The objectiveness score of the bounding box
+- IOU of the bounding boxes
+
+- Before NMS:
+
+![alt text](CNN/Photos/Before_NMS.png)
+
+- AFter NMS:
+
+![alt text](CNN/Photos/After_NMS.png)
+
+Similarly, Studied about the drawbacks of YoLo, which are:
+- model struggles with the small objects in an image
+- Struggles to generalize to objects in new aspect ratio
+- Loss function treats errors the same in small bounding boxes vs large bounding boxes
+- Main source of error is incorrect Localization
+
+
