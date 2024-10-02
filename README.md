@@ -966,4 +966,15 @@ Similarly, Studied about the drawbacks of YoLo, which are:
 - Loss function treats errors the same in small bounding boxes vs large bounding boxes
 - Main source of error is incorrect Localization
 
+# Day 95
+Tested Darknet for Yolo Detection. **DarkNet** is an open source neural network in C. It is written in C and Cuda.It is used mainly for object detection and have different architectures. eg feature extractor.
 
+- PS: Worked on my personal project, got no more time to study DL.
+
+- Installing Darknet:
+
+![alt text](CNN/Photos/Installing_Darknet.png)
+
+- Testing:
+
+![alt text](CNN/Photos/Testing_Darknet.png)
