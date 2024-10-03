@@ -978,3 +978,12 @@ Tested Darknet for Yolo Detection. **DarkNet** is an open source neural network 
 - Testing:
 
 ![alt text](CNN/Photos/Testing_Darknet.png)
+
+# Day 96 
+Faced trouble while training YoloV4 algorithm on **Truck-buses** images. Did basic stuff like downloading, extraction and reconfiguring Makefile for conversion of information into text files directly. It took more then 1 hr and 30 mins to train the images and suddenly google collab disconnected runtime which pissed me off and stoped right then there so to continue tomorrow.
+
+![alt text](CNN/Photos/Training_Yolo(failed).png)
+
+- Revised the concept of learning rate from ANN portion, **Learning Rate** is a optimizer parameter which helps to optimizer the values of the gradient to minimize the loss function. After the gradients are calculated, we take the negative fraction of gradient and repeat this in loop. Similarly, while we may find the right direction towards the global manima, our optimizer may fail to reach the exact point this is where Momentum shines. In other word, it is called inertia.
+
+![alt text](CNN/Photos/Learning_rate_rev_1.png)
