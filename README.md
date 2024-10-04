@@ -987,3 +987,8 @@ Faced trouble while training YoloV4 algorithm on **Truck-buses** images. Did bas
 - Revised the concept of learning rate from ANN portion, **Learning Rate** is a optimizer parameter which helps to optimizer the values of the gradient to minimize the loss function. After the gradients are calculated, we take the negative fraction of gradient and repeat this in loop. Similarly, while we may find the right direction towards the global manima, our optimizer may fail to reach the exact point this is where Momentum shines. In other word, it is called inertia.
 
 ![alt text](CNN/Photos/Learning_rate_rev_1.png)
+
+# Day 97
+Tested accessing Android Phone Camera using OpenCV which will be useful for implementing Object detection task. Tried building attendance system with face_recognition but failed due to page installation issues nevermind will try later:(. Other than worked on Personal Project.
+
+![alt text](CNN/Photos/Testing_android_camera.png)
