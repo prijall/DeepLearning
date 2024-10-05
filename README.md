@@ -992,3 +992,6 @@ Faced trouble while training YoloV4 algorithm on **Truck-buses** images. Did bas
 Tested accessing Android Phone Camera using OpenCV which will be useful for implementing Object detection task. Tried building attendance system with face_recognition but failed due to page installation issues nevermind will try later:(. Other than worked on Personal Project.
 
 ![alt text](CNN/Photos/Testing_android_camera.png)
+
+# Day 98
+Started MLOps for deployment of ML/DL projects. Today, I learnt about MLOps introduction. Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
