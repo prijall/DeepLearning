@@ -995,3 +995,6 @@ Tested accessing Android Phone Camera using OpenCV which will be useful for impl
 
 # Day 98
 Started MLOps for deployment of ML/DL projects. Today, I learnt about MLOps introduction. Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
+
+# Day 99
+Learnt about **Deployment in MLOps**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
