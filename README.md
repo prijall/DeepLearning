@@ -998,3 +998,6 @@ Started MLOps for deployment of ML/DL projects. Today, I learnt about MLOps intr
 
 # Day 99
 Learnt about **Deployment in MLOps**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
+
+# Day 100
+Studied Monitoring on MLOps which was theory, felt bored but did it anyway.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md. Worked on my personal projects and read some articles on Concept drifting and data drifting. 
