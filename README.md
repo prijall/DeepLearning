@@ -1001,3 +1001,10 @@ Learnt about **Deployment in MLOps**.  Documentation of MLOps can be found at: h
 
 # Day 100
 Studied Monitoring on MLOps which was theory, felt bored but did it anyway.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md. Worked on my personal projects and read some articles on Concept drifting and data drifting. 
+
+# Day 101
+Revised the concept of CNN Implementation from Scratch and implemented using pytorch. Read few articles on pytorch for Deep learning. **Geoffrey Hinton** won Nobel prize in Physics 
+for his discovery that enabled ML using artificial neural networks. A teacher who I look upto when it comes to machine learning and deep learning. Read few articles about his work which
+are really inspiring.
+
+![alt text](CNN/Photos/CNN_Revision.png)
