@@ -1008,3 +1008,9 @@ for his discovery that enabled ML using artificial neural networks. A teacher wh
 are really inspiring.
 
 ![alt text](CNN/Photos/CNN_Revision.png)
+
+# Day 102
+Learnt about another object detection technique called **Single-Shot Detector(SSD)**. It has few changes than Yolo architecture. This technique uses **VGG Archtectture** for feature extraction. First of all **Visual Geometry Group(VGG)** is used to for feature extraction and mapping then we use 6 convolution layer for objection layer and finally detect the object.
+  Overview of how it works. Instead of using anchor boxes, it uses default boxes for the input images that have specific set of scale and aspect ratios. We will levarage all of the last few layers to make class and bounding box predictions rather than gradually convolving and pooling which we did in yolo. Finally, we chose one default box with higher IOU. Mostly, IOU over 50% are only considered. Similarly, image should have ground truth bounding boxes prior to convolution. More about Mathematical intuition tomorrow.
+
+![alt text](CNN/Photos/SSD_WorkFlow.png)
