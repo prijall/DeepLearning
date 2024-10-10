@@ -1014,3 +1014,17 @@ Learnt about another object detection technique called **Single-Shot Detector(SS
   Overview of how it works. Instead of using anchor boxes, it uses default boxes for the input images that have specific set of scale and aspect ratios. We will levarage all of the last few layers to make class and bounding box predictions rather than gradually convolving and pooling which we did in yolo. Finally, we chose one default box with higher IOU. Mostly, IOU over 50% are only considered. Similarly, image should have ground truth bounding boxes prior to convolution. More about Mathematical intuition tomorrow.
 
 ![alt text](CNN/Photos/SSD_WorkFlow.png)
+
+# Day 103
+Learnt about the different scales and aspect ratios of default boxes. The SnapShot shows the working of default boxes in SSD. ALso, got thorough information about component in SSD Code also called SSD300 which has predominantly three sub-modules called 
+
+- VGGBase, which returns 2 features vectors of dimensions (N, 512, 38, 38) and (N, 1024, 19, 19).
+- AuxiliaryConvolutions, which returns more feature maps of dimensions  (N, 512, 10, 10), (N, 256, 5, 5), (N, 256, 3, 3), and (N, 256, 1, 1)
+- Finally, the first output from VGGBase and these four feature maps are sent to PredictionConvolutions, which returns 8,732 anchor boxes, as we discussed previously.
+
+- Mutlibox loss is loss function used in SSD which is sum of Localization loss(for bounding box regression) and confidence loss(for object detection).
+
+
+![alt text](CNN/Photos/SSD_Intuition.png)
+
+![alt text](CNN/Photos/SSD_300.png)
