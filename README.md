@@ -1028,3 +1028,11 @@ Learnt about the different scales and aspect ratios of default boxes. The SnapSh
 ![alt text](CNN/Photos/SSD_Intuition.png)
 
 ![alt text](CNN/Photos/SSD_300.png)
+
+# Day 104
+
+Did Data proprocessing for SSD Implementation which looks more or less similar to that of YOLO implemntation or all i did before but if you look clearly there are changes in function. For the first part normalization is done and then code for denormalization just for visualization purpose. As implemented before, this time also permutation should be done as pytorch expects (Channel, Height, Width). Resizing Image to 300 x 300 pixels. Similarly, COnversion of Image to RGB format is very is necessary. Bilinear Interpolation is used for resizing.
+ Labels are extracted and associated with the bounding boxes. This is a critical step in preparing the dataset for training or inference.
+
+
+![alt text](CNN/Photos/SSD_Day1.png)
