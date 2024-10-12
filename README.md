@@ -1036,3 +1036,10 @@ Did Data proprocessing for SSD Implementation which looks more or less similar t
 
 
 ![alt text](CNN/Photos/SSD_Day1.png)
+
+# Day 105
+trained Custom Dataset using SSD300. Used different training code for both training set and validation set.
+
+![alt text](CNN/Photos/SSD_Training.png)
+
+![alt text](CNN/Photos/SSD_Training_graph.png)
