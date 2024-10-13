@@ -1043,3 +1043,14 @@ trained Custom Dataset using SSD300. Used different training code for both train
 ![alt text](CNN/Photos/SSD_Training.png)
 
 ![alt text](CNN/Photos/SSD_Training_graph.png)
+
+# Day 106
+Completed Training SSD300 Architecture. Did with looking upto pdf but still have some sort of confusion but hopefully will clear it tomorrow. SSD mightnot be very handful for large scale production as the computational power is very high and the concept of default boxes for large production seems very unpleasing for me atleast:) as said due to requirement of less reponse time and low computation. 
+
+- SSD training:
+
+![alt text](CNN/Photos/SSD_Trained.png)
+
+- SSD Result:
+
+![alt text](CNN/Photos/SSD_Result.png)
