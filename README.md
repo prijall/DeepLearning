@@ -1054,3 +1054,15 @@ Completed Training SSD300 Architecture. Did with looking upto pdf but still have
 - SSD Result:
 
 ![alt text](CNN/Photos/SSD_Result.png)
+
+# Day 107
+Learnt about memoryless property in exponential distribution. For context, Exponential distribution of random variable is used to predict the ocuurance of the 
+next event. For example, How long does it take to prepare a food. The exponential distribution shows memoryless property as it is independent of the past event.
+The best example can be understood with Geometry of the property. 
+                      When the new light bulb is compared to used bulb upto x hours then we tend to believe that the used bulb is likely to burn out fast than the new
+                      one but it doesn't happen according to exponential properties. The probabilities of running both bulbs additional t hrs is same always as old bulb is 
+                      independent of its past event i.e it doesn't matter how hrs it had burnt before.
+
+![alt text](CNN/Photos/Memoryless_exponential_1.jpeg)
+
+![alt text](CNN/Photos/Memoryless_exponential_2.jpeg)
