@@ -1066,3 +1066,6 @@ The best example can be understood with Geometry of the property.
 ![alt text](CNN/Photos/Memoryless_exponential_1.jpeg)
 
 ![alt text](CNN/Photos/Memoryless_exponential_2.jpeg)
+
+# Day 108 
+Learnt about **model Training for MLOps**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
