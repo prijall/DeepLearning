@@ -1069,3 +1069,6 @@ The best example can be understood with Geometry of the property.
 
 # Day 108 
 Learnt about **model Training for MLOps**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
+
+# Day 109
+Learnt about **MLflow and its implementation**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
