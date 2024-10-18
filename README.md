@@ -1072,3 +1072,6 @@ Learnt about **model Training for MLOps**.  Documentation of MLOps can be found 
 
 # Day 109
 Learnt about **MLflow and its implementation**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
+
+# Day 110
+Learnt about **Model tracking and Management**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
