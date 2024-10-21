@@ -1075,3 +1075,16 @@ Learnt about **MLflow and its implementation**.  Documentation of MLOps can be f
 
 # Day 110
 Learnt about **Model tracking and Management**.  Documentation of MLOps can be found at: https://github.com/prijall/MLOps/blob/main/README.md.
+
+# Day 111
+Did Paper implementation of YOLO. today, built model for training yolov1 architecture using paper reference where i create 6  main Convulation layers where there are total 24 CNN sub-modules. Read Paper thoroughly once in order to retain information as i have read paper properly upto model training.
+
+Paper-Link: https://arxiv.org/pdf/1506.02640
+
+- YOLO architecture:
+
+![alt text](CNN/Photos/YoLo(1)_Day3.jpg)
+
+- Implementation:
+
+![alt text](CNN/Photos/YOLO_Paper_Implementation.png)
