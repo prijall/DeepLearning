@@ -1088,3 +1088,10 @@ Paper-Link: https://arxiv.org/pdf/1506.02640
 - Implementation:
 
 ![alt text](CNN/Photos/YOLO_Paper_Implementation.png)
+
+# Day 112
+Prepared Data for Yolo implementation. Setup Configuration in separate file called **Config** which helps to make basic changes faster and helps to maintain configuration easy. Similarly, Did data augmentation where I did scaling and translation while rotation remais same. Wrote code for adjusting hue and saturation as part of augmentation. Then, did normalization and create grid format for object detection.
+
+Similarly, Studied little on proofs in mathematics.
+
+![alt text](CNN/Photos/Data_augmentation_YOLOv1.png)
