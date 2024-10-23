@@ -1095,3 +1095,8 @@ Prepared Data for Yolo implementation. Setup Configuration in separate file call
 Similarly, Studied little on proofs in mathematics.
 
 ![alt text](CNN/Photos/Data_augmentation_YOLOv1.png)
+
+# Day 113
+Augmented Bounding box for object detection. Yesterday, i have created grid cell for image on which today i design code system for bounding boxes in each cells. For training, bounding boxes need to be augmented so that we can catch the objects in the specific grid. It includes finding the center of the bounding boxes, min_x, min_y, max_x, max_y, etc. Another task to assign the classes to the bounding boxes using one hot encoding where instead of using one numeric value, i used binary vector.
+
+![alt text](CNN/Photos/Bounding_box_augment_YOLO.png)
