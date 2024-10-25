@@ -1105,3 +1105,8 @@ Augmented Bounding box for object detection. Yesterday, i have created grid cell
 Started creating loss function for training optimization for YOLOv1 architecture. Spent sometime making helper function on utils where it helps to get IOU and box attributes. Today, did implementation for loss optimization, the loss function combines various components, such as coordinate loss for localization, confidence loss for object detection, and penalties for incorrect/no object predictions. Similarly, created responsible: The model needs to assign responsibility for detecting the object to the bounding box with the highest IoU.
 
 ![alt text](CNN/Photos/loss_yolov1.png)
+
+# Day 115
+Developing loss fucntion is very daunting as there are lots of details to be taken care of. There are various components of loss function in training in YOLOv1, which are Bounnding Box coordinate loss, Bounding Box dimension loss, confidence score for no-object, confidence fo object present and classifiaction loss. Similarly, created a custom MSE loss function which assists above loss categories. Happy that this portion is complete:)
+
+![alt text](CNN/Photos/Training_Completed_YOLO_Implementation.png)
