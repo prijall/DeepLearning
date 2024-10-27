@@ -1110,3 +1110,10 @@ Started creating loss function for training optimization for YOLOv1 architecture
 Developing loss fucntion is very daunting as there are lots of details to be taken care of. There are various components of loss function in training in YOLOv1, which are Bounnding Box coordinate loss, Bounding Box dimension loss, confidence score for no-object, confidence fo object present and classifiaction loss. Similarly, created a custom MSE loss function which assists above loss categories. Happy that this portion is complete:)
 
 ![alt text](CNN/Photos/Training_Completed_YOLO_Implementation.png)
+
+# Day 116
+Implemented ResNet architecture on Yolov1. Nothing changed in the process like before, loading the pretrained weights and freezing the gradients. The main i did was to remove last 2 layers and add detection layers. While in journey of implementing this paper, i look up into various resources but one git repo, i found had implemented using DetectionNet which is last detection layers. Added helper function.
+
+![alt text](CNN/Photos/Yolov1_resnet.png)
+
+![alt text](CNN/Photos/Yolov1_detectionNet.png)
