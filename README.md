@@ -1122,3 +1122,8 @@ Implemented ResNet architecture on Yolov1. Nothing changed in the process like b
 Tried training YOLO from scratch, it sucks. There were lots of probles in training the architecture. I took help from different resources including GPT(ofcourse). Most of my today's time spent doing this. And it brings me down to question, why am i even doing this at first place. Nonetheless, did data loading, batch training and  batch evaluation. Saving weights and metrics needs to be added.
 
 ![alt text](CNN/Photos/Training_YOLO.png)
+
+# Day 118
+Starting doing Projects using FastAi and its dependencies. The book focuses more on the pratical aspect of deep learning. Today, I read book's intro part and did liitle bit of hand's on with fastai library and built 6 liner image recognizer. Was little busy today, couldn't do more:(
+
+![alt text](CNN/Photos/Fastai-day1.png)
