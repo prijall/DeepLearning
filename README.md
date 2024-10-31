@@ -1127,3 +1127,8 @@ Tried training YOLO from scratch, it sucks. There were lots of probles in traini
 Starting doing Projects using FastAi and its dependencies. The book focuses more on the pratical aspect of deep learning. Today, I read book's intro part and did liitle bit of hand's on with fastai library and built 6 liner image recognizer. Was little busy today, couldn't do more:(
 
 ![alt text](CNN/Photos/Fastai-day1.png)
+
+# Day 119
+Looked into basics of Image Segmentation and NLP basics with FASTAI. They were few liner codes but a lot to know the behind the intuition. Revised the impact of testing set and validation set in training neural nets.  For Image Segmentation, used dataset from CAMVID. Similarly, did segment analysis using fewer liner codes from fastai. I havent dwell in the topics more today, will do it later.
+
+![alt text](CNN/Photos/FastAI_Day2.png)
