@@ -1132,3 +1132,9 @@ Starting doing Projects using FastAi and its dependencies. The book focuses more
 Looked into basics of Image Segmentation and NLP basics with FASTAI. They were few liner codes but a lot to know the behind the intuition. Revised the impact of testing set and validation set in training neural nets.  For Image Segmentation, used dataset from CAMVID. Similarly, did segment analysis using fewer liner codes from fastai. I havent dwell in the topics more today, will do it later.
 
 ![alt text](CNN/Photos/FastAI_Day2.png)
+
+# Day 120
+Started Project called Bear Detector. Read the basics on the project setup and fetched the data from duckduckgo(taken code from gpt, azure showed problems and solving them took a long time), otherwise azure would have been the easier to use. Nevertheless, then downloaded the images and checked for corrupted once, found none tho. Need to work harder:)
+
+![alt text](CNN/Photos/Bear_Detector_Day1.png)
+
