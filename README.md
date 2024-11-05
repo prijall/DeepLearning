@@ -1138,3 +1138,8 @@ Started Project called Bear Detector. Read the basics on the project setup and f
 
 ![alt text](CNN/Photos/Bear_Detector_Day1.png)
 
+# Day 121
+Completed Bear Detector project with end-to-end deployment but havent deployed it in server just in local machine only, will do it tomorrow. Today, trained to image dataset in **Vision_learner** from fastai which wasn't much intuitive but having prior concept helped. Similarly, for the first time i develop the widget for image upload and classify from fastai book.
+
+![alt text](CNN/Photos/Bear_Detector_Completed.png)
+
