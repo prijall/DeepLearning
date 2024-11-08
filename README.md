@@ -1143,3 +1143,11 @@ Completed Bear Detector project with end-to-end deployment but havent deployed i
 
 ![alt text](CNN/Photos/Bear_Detector_Completed.png)
 
+# Day 122
+Image Segmentation is very essential in deep learning. It is the combination of both image classification('what') and object detection('where'). It involves partitioning the image into smaller pixels. The output of image segmentation is a mask where each element indicates which class that pixels belongs to. 
+ The most used image Segementation techiques is **U-Net** Architecture. There are encoders and decoder blocks connected by skip layers. Today, I learnt about Encoding layers, which is also called **Contracting Network**. There are altogether 4 blocks where each blocks contains two convolutional layers with a kernel size of 3*3 and valid padding, followed by a Relu activation function and Maxpooling.
+ The Drawbacks of UNet Architecture are:
+ - Redundant patches causing more computation,
+ - slow training procedures.
+
+ ![alt text](CNN/Photos/Image_segmentation_day1.png)
