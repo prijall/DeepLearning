@@ -1151,3 +1151,8 @@ Image Segmentation is very essential in deep learning. It is the combination of 
  - slow training procedures.
 
  ![alt text](CNN/Photos/Image_segmentation_day1.png)
+
+ # Day 123
+ Less Productive day with just completing the U-Net Architecture in pytorch. Added Data loading and Data Preprocessing for training.
+
+ ![alt text](CNN/Photos/Image_segmentation_day2.png)
