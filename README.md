@@ -1156,3 +1156,11 @@ Image Segmentation is very essential in deep learning. It is the combination of 
  Less Productive day with just completing the U-Net Architecture in pytorch. Added Data loading and Data Preprocessing for training.
 
  ![alt text](CNN/Photos/Image_segmentation_day2.png)
+
+ # Day 124
+ Completed Implementation of U-Net Architecture for Image Segmentation. Today's part was more focused on training the images on architecture and prediction of masking for segmentation which i would say was decent. Used torch snippets' Report lib for training and visualization from the book 'Modern CV with Pytorch'.
+ Below is the code snippet and output.
+
+ ![alt text](CNN/Photos/Semantic_Segmentation_training.png)
+
+ ![alt text](CNN/Photos/Semantic_Segmantation_output.png)
