@@ -1164,3 +1164,11 @@ Image Segmentation is very essential in deep learning. It is the combination of 
  ![alt text](CNN/Photos/Semantic_Segmentation_training.png)
 
  ![alt text](CNN/Photos/Semantic_Segmantation_output.png)
+
+ # Day 125
+
+ Started with the intro of RNN which stands for Recurrent Neural Network. it is the foundation for NLP, Natural Language Processing. RNN deals with the sequential data like text, audio, etc. Since, ANN and CNN fails to work with the sequential data, RNN was developed so to train NN which can understand the context of data. For example, 'My name is John' cannot be written as 'Name my John is' as it losses it's meaning due to which sequrnce of data is important here. There are mainly four types of RNN; **Many to One**, eg. Sentiment Analysis, **One to Many**, eg. caption generation, **Many to Many**, eg. Name entity recognition, **One to one** for eg. word translation. 
+
+  ![alt text](RNN/Photo/RNN_intro.png)
+  
+  ![alt text](RNN/Photo/NLP_OverView.png)
