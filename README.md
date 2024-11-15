@@ -1172,3 +1172,11 @@ Image Segmentation is very essential in deep learning. It is the combination of 
   ![alt text](RNN/Photo/RNN_intro.png)
   
   ![alt text](RNN/Photo/NLP_OverView.png)
+
+  # Day 126
+  More on RNN Today. Just studied the background for NLP and its applications. Understood the base concept of language. As talked yesterday, there are various types of RNN architectures. They have the capacity to remember what they have processed. 
+Similarly, learnt alot about languages and how it affects NLP application. Much theory part today. Built basic NLP 90's version chatbot but not showing it here as it is just if-else.
+
+![alt text](RNN/Photo/RNN_detailed.png)
+
+![alt text](RNN/Photo/Language_RNN.png)
