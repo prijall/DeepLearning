@@ -1180,3 +1180,12 @@ Similarly, learnt alot about languages and how it affects NLP application. Much 
 ![alt text](RNN/Photo/RNN_detailed.png)
 
 ![alt text](RNN/Photo/Language_RNN.png)
+
+# Day 127
+RNN has problem, that is of Vanishing gradients like we have seen in VGG architecture and other transfer learning architecture in CNN where ResNet comes into play. Similarly, In RNN, LSTM(abbr. Long Short Term Memory) comes in play. RNN has temporal memory due to which vanishing gradients is occuring. So what actually LSTM do? Today i learnt on what prospect of LSTM. LSTM does mainly two differnt than RNN and that are:
+- Contains two state: One for short term and another for long term
+- Secondly, Long term state keeps updating while short term does data processing and gives output.
+
+- practised DSA but could not get solution.
+
+![alt text](RNN/Photo/LSTM_PART1.png)
