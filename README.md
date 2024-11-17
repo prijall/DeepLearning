@@ -1189,3 +1189,35 @@ RNN has problem, that is of Vanishing gradients like we have seen in VGG archite
 - practised DSA but could not get solution.
 
 ![alt text](RNN/Photo/LSTM_PART1.png)
+
+# Day 128
+Learnt the architecture and working of LSTM.
+
+### Points to remember:
+- Cell state(Long Term Memory), Hidden state(Short Term Memory), Units of node in NN and all other state in each stages should have same vector dimensions but input can be of any dimensions.
+- The reason stages are called Gates is because it has right to pass all informations, half infos or none.
+
+ ### The Inner architecture can be divided into 3 major parts:
+
+##### Forget Gate:
+This section is responsible for removing content from cell state also know as Long term memory. It has 2 steps, they are:
+- Hidden state's value and input value for that particular cell is concatenated and applied sigmoid function on it which gives F<sub>t</sub> which has right to forget all info, retain all info or half the informations.
+- Point-Wise operation is done on Ft and previous value of cell state.
+
+![alt text](RNN/Photo/Forget_gate_LSTM.png)
+
+##### Input Gate:
+This section has 3 steps:
+- Hidden state and input values are concatenated and applied tanh function which gives C<sub>t</sub> which is potential candidate of information that will be inserted into cell state
+- Hidden state and input value are concatenated once again and applied sigmoid function which gives I<sub>t</sub> which is filter for c<sub>t</sub>.
+-Point wise Multiplication for selecting meaningful values and pointwise addition for adding information in cell state.
+
+![alt text](RNN/Photo/Input_Gate_LSTM.png)
+
+##### Output Gate:
+This is the last stage having 3 steps again:
+- Hidden state and input value are concatenated once again and applied sigmoid function which gives O<sub>t</sub> which is filter for c<sub>t</sub>.
+- Cell state is applied tanh function,
+- Pointwise multiplication of step 2 and O<sub>t</sub>.
+
+![alt text](RNN/Photo/Output_LSTM.png)
