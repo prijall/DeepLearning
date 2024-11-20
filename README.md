@@ -1226,3 +1226,8 @@ This is the last stage having 3 steps again:
 Worked on a Project called 'Attendance System using Computer Vision' where I have built some function for image extraction, image identification and model training. Will be using KNN for model training as i have small data to train. Got to know about haarcasade frontal face detection pretrained model which i will be using it with computer vision. Will be continuing it in coming days.
 
 ![alt text](CNN/Photos/Attendance_system_day1.png)
+
+# Day 130
+Added function for attendance after face detection. Spent lot of time figuring out how things works in backend. Took help from various sources. Will try to implement my own tom:)
+
+![alt text](CNN/Photos/Attendance_system_day2.png)
