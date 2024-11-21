@@ -1231,3 +1231,10 @@ Worked on a Project called 'Attendance System using Computer Vision' where I hav
 Added function for attendance after face detection. Spent lot of time figuring out how things works in backend. Took help from various sources. Will try to implement my own tom:)
 
 ![alt text](CNN/Photos/Attendance_system_day2.png)
+
+# Day 131
+Started training digit classifier from fastai book. Today, did setup of the notebook along with getting images and visualize the handwritten digits in pixels and array/tensors.
+
+Worked on Personal Project.
+
+![alt text](CNN/Photos/training_digit_classifier_day1.png)
