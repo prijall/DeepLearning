@@ -1238,3 +1238,14 @@ Started training digit classifier from fastai book. Today, did setup of the note
 Worked on Personal Project.
 
 ![alt text](CNN/Photos/training_digit_classifier_day1.png)
+
+# Day 132
+- Connected MongoDB to the project in attendance system. For past few days, i have been trying to keep the records for attendance in folder but now i have mitigated the records to be stored in database. Now later it will be used to view in frontend directly from DB per day.
+
+![alt text](CNN/Photos/Attendance_system_db.png)
+
+- Studied the pytorch application book and understood few lines of code.
+
+![alt text](CNN/Photos/digit_classifier_2.png)
+
+
