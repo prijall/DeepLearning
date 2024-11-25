@@ -1249,3 +1249,16 @@ Worked on Personal Project.
 ![alt text](CNN/Photos/digit_classifier_2.png)
 
 
+# Day 133
+Practised Text preprocessing for NLP. There are quite few methods for text proprocessing in nlp which are:
+- **Lowercasing:** while it doesnot matter much about casing but generally tendency is to lowercase the text.
+
+- **Removal of Stopwords, punctuations, digits:** Stopwords includes articles(a, an, the), conjunctions(and, or,etc), etc which carry very little less meaning and are frequent, Punctuations like comma, full stop, semicolon, brackets, etc, digits and special characters are removed.
+
+- **Stemming:** The process of removing suffixes and reducing a word to base form such that all the variants can be represented by same form. Eg. Cars to car. but it may be useful all the times especialy, for malicious, the stem word will be malici.
+
+- **Lemmatization"** similar to that of stemming but instead of removing suffixes, it tries to map words into base form. for eg. playing to play, better to good, is to be, ran to run, etc.
+
+**There is no fixed rule for text preprocessing.** 
+
+![alt text](RNN/Photo/Text_preprocesing.png)
