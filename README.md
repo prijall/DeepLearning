@@ -1262,3 +1262,29 @@ Practised Text preprocessing for NLP. There are quite few methods for text propr
 **There is no fixed rule for text preprocessing.** 
 
 ![alt text](RNN/Photo/Text_preprocesing.png)
+
+# Day 134
+Studied **text representation in detail.
+
+- **One hot Encoding:**
+It is the method of representing text/tokens into numerical values. for example, text='i love you'. now we spilt the sentence into tokens and each tokens
+have unique vectors. The onehot encoding for the text can be [[1, 0, 0], [0, 1, 0], [0, 0,1]], where i=[1, 0, 0], love=[0, 1, 0], you=[0, 0, 1]. 
+There are 3 elements in the vector because we have to create the vector size equal to that of size of token.
+
+![alt text](RNN/Photo/onehotencoding.png)
+
+- **N-Grams bag of Word:**
+It works by breaking text into chunks of n contiguous words (or tokens). This can help us capture some context, Each chunk is called an n-gram. 
+The corpus vocabulary, V, is then nothing but acollection of all unique n-grams across the text corpus. Then, each document in the corpus is 
+represented by a vector of length |V|. This vector simply contains the frequency counts of n-grams present in the document and zero for the n-grams 
+that are not present.
+
+![alt text](RNN/Photo/ngram_vectorizer.png)
+
+- **tf-idf(term frequency-inverse document frequency):**
+if a word w appears many times in a document di but does not occur much in the rest of the documents dj in the corpus, then the word w must be of 
+great importance to the document di . The importance of w should increase in proportion to its frequency in di , but at the same time, its importance 
+should decrease in proportion to the word’s frequency in other documents dj in the corpus. Mathematically, this is captured using two quantities: TF and IDF. 
+The two are then combined to arrive at the TF-IDF score.
+
+![alt text](RNN/Photo/tf-idf.png)
