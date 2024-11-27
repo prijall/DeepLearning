@@ -1288,3 +1288,9 @@ should decrease in proportion to the word’s frequency in other documents dj in
 The two are then combined to arrive at the TF-IDF score.
 
 ![alt text](RNN/Photo/tf-idf.png)
+
+# Day 135
+Built model for text classification(multiclasification). Followed the training process pipelines including Training data, preprocessing, feature extraction from texts and 
+train and evaluate classifier to learn features-category mapping.
+
+![alt text](RNN/Photo/Text_classification_naive_bayes.png)
