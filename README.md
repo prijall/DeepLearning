@@ -1294,3 +1294,15 @@ Built model for text classification(multiclasification). Followed the training p
 train and evaluate classifier to learn features-category mapping.
 
 ![alt text](RNN/Photo/Text_classification_naive_bayes.png)
+
+# Day 136 
+Completed learning text classifier model building using pretrained Embeddings using GLoVE(Global Vector) and LSTM from the book 'Practical
+Natural Language Processing'. Found it hard to do, need to work hard more:)
+
+- Pretrained Emneddings:
+
+![alt text](RNN/Photo/GloVe_embeddings.png)
+
+- LSTM Model training:
+
+![alt text](RNN/Photo/LSTM_text_classifier.png)
