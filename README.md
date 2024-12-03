@@ -1306,3 +1306,10 @@ Natural Language Processing'. Found it hard to do, need to work hard more:)
 - LSTM Model training:
 
 ![alt text](RNN/Photo/LSTM_text_classifier.png)
+
+# Day 137
+Completed Sentiment Analysis Project from D2L website using Bidirectional LSTM where in there are two LSTM model for both forward pass and backward pass, where It combines the power of LSTM with bidirectional processing, allowing the model to capture both past and future context of the input sequence. 
+
+![alt text](RNN/Photo/BiRNN.png)
+
+![alt text](RNN/Photo/Sentiment_analysis_test.png)
