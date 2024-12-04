@@ -1313,3 +1313,11 @@ Completed Sentiment Analysis Project from D2L website using Bidirectional LSTM w
 ![alt text](RNN/Photo/BiRNN.png)
 
 ![alt text](RNN/Photo/Sentiment_analysis_test.png)
+
+# Day 138
+- Keyword and Phrase Extraction(KPE) is one of the important area in NLP. Unlike text classification, it requires alot of understandings
+of the data context. For example, it should be well aware of the following words, Albert, Albert Einstein, he, the scientist,etc are the same while describing about Einstein.
+
+- Mostly Unsupervised methods are used for extraction where it treats the words and phrases as the nodes in a weighted graphs where the weight indicates the importance of keyphrase. Keyphrases are then identified based on how connected they are with rest of the graph.
+
+![alt text](RNN/Photo/Keyword&Phrase_Extraction.png)
