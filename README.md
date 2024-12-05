@@ -1321,3 +1321,9 @@ of the data context. For example, it should be well aware of the following words
 - Mostly Unsupervised methods are used for extraction where it treats the words and phrases as the nodes in a weighted graphs where the weight indicates the importance of keyphrase. Keyphrases are then identified based on how connected they are with rest of the graph.
 
 ![alt text](RNN/Photo/Keyword&Phrase_Extraction.png)
+
+# Day 139
+Studied the thorough intro about the Sequence to Sequence learning. It is one of the important concept/area of NLP where there are sequence of data not only in input portion as we studied in LSTM but also Seqeunce of Output in prediction. The interesting point here to notice is that there are no fixed length of input data to same output data i.e here the input data and output predictions can be of different lengths. 
+                        There are Encoder and decoder in this architecture where they contain LSTM architecture. The output of Encoder called Context vector is the input for decoder. Encoder takes the input data and tries to process while decoder with Softmax layer tries to decode them. Since, for large no of tokens, one hot encoding might not be computationally  cheap here we use embeddings at encoder.
+
+![alt text](RNN/Photo/Seq1Seq_Intro.png)
