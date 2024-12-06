@@ -1327,3 +1327,12 @@ Studied the thorough intro about the Sequence to Sequence learning. It is one of
                         There are Encoder and decoder in this architecture where they contain LSTM architecture. The output of Encoder called Context vector is the input for decoder. Encoder takes the input data and tries to process while decoder with Softmax layer tries to decode them. Since, for large no of tokens, one hot encoding might not be computationally  cheap here we use embeddings at encoder.
 
 ![alt text](RNN/Photo/Seq1Seq_Intro.png)
+
+# Day 140
+Tried Learning Attention Mechanism in Sequence to Sequence learning. While didn't completed understood the workings but what i understood are:
+- Attention Mechanism helps to show the role to each timestamp of encoder in prediction of decoder.
+- For attention based Encoder-Decoder, we need to provide [Yi-1, Si-1, Ci], where Ci is attention i/p  calculated using ANN.
+- It stabilizes BLEU(Bilingual Evaluation UnderStudy) Score which helps to measures the quality of machine translated text.
+- Use of ANN while calculating weighted sum helps to plot Weights which helps to understand the impact of hidden states on each predictions.
+
+![alt text](RNN/Photo/Attention(Seq2Seq).png)
