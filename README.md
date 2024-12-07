@@ -1336,3 +1336,11 @@ Tried Learning Attention Mechanism in Sequence to Sequence learning. While didn'
 - Use of ANN while calculating weighted sum helps to plot Weights which helps to understand the impact of hidden states on each predictions.
 
 ![alt text](RNN/Photo/Attention(Seq2Seq).png)
+
+# Day 141
+Started Learning NER(Name Entity Recognition) system, today i did data loading and extraction for training NER Model. Built functions for getting features of all the tokens in sentence.
+Features:
+- **Token Context:** a window of 2 tokens on either side of current token, and current token.
+- **POS Context:** a window of 2 tokens on either side of current tag, and current tag.
+
+![alt text](RNN/Photo/Data_Extraction_NER.png)
