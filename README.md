@@ -1344,3 +1344,8 @@ Features:
 - **POS Context:** a window of 2 tokens on either side of current tag, and current tag.
 
 ![alt text](RNN/Photo/Data_Extraction_NER.png)
+
+# Day 142
+Completed training for NER. Used Helper functions for the book itself.
+
+![alt text](RNN/Photo/NER_Training.png)
