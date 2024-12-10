@@ -1349,3 +1349,8 @@ Features:
 Completed training for NER. Used Helper functions for the book itself.
 
 ![alt text](RNN/Photo/NER_Training.png)
+
+# Day 143 
+While training, I used CRF(Conditional Random Field) model which was probablilistic model for training NER. I felt i should study the mathematical intuition behind  the model in simple manner and today i tried to do this. CRF is the special case of Markov Random Field(MRF). MRG is also a probabilistic graphical model with an undirected graph between random variables.
+
+![alt text](RNN/Photo/Condtion_Random_Field(CRF).jpg)
