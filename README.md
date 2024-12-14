@@ -1354,3 +1354,8 @@ Completed training for NER. Used Helper functions for the book itself.
 While training, I used CRF(Conditional Random Field) model which was probablilistic model for training NER. I felt i should study the mathematical intuition behind  the model in simple manner and today i tried to do this. CRF is the special case of Markov Random Field(MRF). MRG is also a probabilistic graphical model with an undirected graph between random variables.
 
 ![alt text](RNN/Photo/Condtion_Random_Field(CRF).jpg)
+
+# Day 144
+Started with the introduction of **Transformers**, the powerful neural networks yet available today. All the other high level architectures like GPT, BERT, etc are built on the top of transformers. The source for learning transformer i chose is from CampusX deep learning playlist. Today, got the basic insights on the origin of the transformer. Little information about the paper **Attention is all you need!** which implemented the concept of Self-attention(Excited to read the paper).
+
+![alt text](RNN/Photo/Transformers_intro.png)
