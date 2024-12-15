@@ -1359,3 +1359,13 @@ While training, I used CRF(Conditional Random Field) model which was probablilis
 Started with the introduction of **Transformers**, the powerful neural networks yet available today. All the other high level architectures like GPT, BERT, etc are built on the top of transformers. The source for learning transformer i chose is from CampusX deep learning playlist. Today, got the basic insights on the origin of the transformer. Little information about the paper **Attention is all you need!** which implemented the concept of Self-attention(Excited to read the paper).
 
 ![alt text](RNN/Photo/Transformers_intro.png)
+
+# Day 145
+Studied the thorough intro and background from the paper, **Attention is all you Need** which is the first paper introducing transformers. The introduction and background talks about the various problems for RNN architecture. Some of them being:
+- Slow Computation for long sequences
+- Exploding or vanishing gradients
+- Difficulty in accessing the information from long time ago.
+
+Now this is where the concept of self-attention comes into the play.  It is an attention mechanism relating different position of a single sequence in order to compute the representation of sequence without aligned RNNs or CNN. What it means is that in traditional RNNs for processing sequence data, the word embeddings are created during training which will be used for the rest of the time i.e they are static but when the sequences are passed into self attention then it will create contextual embeddings, which understands what particular word is used in which context.
+
+![alt text](RNN/Photo/Attention_is_all_yo_need_day1.png)
