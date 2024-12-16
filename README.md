@@ -1369,3 +1369,9 @@ Studied the thorough intro and background from the paper, **Attention is all you
 Now this is where the concept of self-attention comes into the play.  It is an attention mechanism relating different position of a single sequence in order to compute the representation of sequence without aligned RNNs or CNN. What it means is that in traditional RNNs for processing sequence data, the word embeddings are created during training which will be used for the rest of the time i.e they are static but when the sequences are passed into self attention then it will create contextual embeddings, which understands what particular word is used in which context.
 
 ![alt text](RNN/Photo/Attention_is_all_yo_need_day1.png)
+
+# Day 146
+Learnt in detailed on How Self-Attention works in transformer and how dynamic embeddings are created in transformers. Self-attention supports parallel operations
+which is why GPUs are very usefuls for training transformers.
+
+![alt text](RNN/Photo/self_attention.jpeg)
