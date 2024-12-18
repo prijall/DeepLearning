@@ -1375,3 +1375,9 @@ Learnt in detailed on How Self-Attention works in transformer and how dynamic em
 which is why GPUs are very usefuls for training transformers.
 
 ![alt text](RNN/Photo/self_attention.jpeg)
+
+# Day 147
+Studied about **Scaled Dot Product attention** in transformer. The intuition behind using scaling in the attention formula is that when we have high dimension 
+of keys then the variations will be very high causing vanishing gradient due to which paper choose to scale the dot product with 1/sqrt(d<sub>k</sub>).
+
+![alt text](RNN/Photo/scaled_dot_product_attention.png)
