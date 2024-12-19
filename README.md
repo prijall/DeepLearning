@@ -1381,3 +1381,8 @@ Studied about **Scaled Dot Product attention** in transformer. The intuition beh
 of keys then the variations will be very high causing vanishing gradient due to which paper choose to scale the dot product with 1/sqrt(d<sub>k</sub>).
 
 ![alt text](RNN/Photo/scaled_dot_product_attention.png)
+
+# Day 148 
+Studied Mutlihead Attention in transformer architecture. These were introduced as the sentences may have different meanings due to which single self attention might not be able to catch up hence multi head attention were introduced.
+
+![alt text](RNN/Photo/MutliHead_Attention.png)
