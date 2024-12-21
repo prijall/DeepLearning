@@ -1386,3 +1386,9 @@ of keys then the variations will be very high causing vanishing gradient due to 
 Studied Mutlihead Attention in transformer architecture. These were introduced as the sentences may have different meanings due to which single self attention might not be able to catch up hence multi head attention were introduced.
 
 ![alt text](RNN/Photo/MutliHead_Attention.png)
+
+# Day 149 
+Studied Postional Encoding in transformer which is added to the embedddings of the respective words before sending to self attention and is responsible for knowing 
+the order of sequence in texts.
+
+![alt text](RNN/Photo/Positional_Embedding.jpg)
