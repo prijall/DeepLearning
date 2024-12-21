@@ -1388,7 +1388,6 @@ Studied Mutlihead Attention in transformer architecture. These were introduced a
 ![alt text](RNN/Photo/MutliHead_Attention.png)
 
 # Day 149 
-Studied Postional Encoding in transformer which is added to the embedddings of the respective words before sending to self attention and is responsible for knowing 
-the order of sequence in texts.
+Studied Postional Encoding in transformer which is added to the embedddings of the respective words before sending to self attention and is responsible for knowing the order of sequence in texts.
 
-![alt text](RNN/Photo/Positional_Embedding.jpg)
+![alt text](RNN/Photo/Positional_Encoding.jpg)
