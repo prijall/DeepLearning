@@ -1391,3 +1391,14 @@ Studied Mutlihead Attention in transformer architecture. These were introduced a
 Studied Postional Encoding in transformer which is added to the embedddings of the respective words before sending to self attention and is responsible for knowing the order of sequence in texts.
 
 ![alt text](RNN/Photo/Positional_Encoding.jpg)
+
+# Day 150
+Studied the final component of transformer architecture called **Layer Normalization**. Now that the sharping of the axe has been done, from tomorrow i will start
+transformer architecture working. Why Layer Norm is used when Batch Norm is prevalent in practice? The answer is that while normalizing activations we need to
+do paddings because the length of input should be same for neural nets. While calculating the norm for each activation for batch norm, the padding value cause 
+extra computation and importantly it does not represent acutal data points for activation as it normalizes vertical values. Layer Norm on other hand normalizes 
+based on features i.e horizontally due to which paddings have no affect on other values.
+
+![alt text](RNN/Photo/Layer_Norm_Transformer.png)
+
+![alt text](RNN/Photo/Layer_Norm_Eqn.png)
