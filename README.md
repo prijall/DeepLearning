@@ -1402,3 +1402,16 @@ based on features i.e horizontally due to which paddings have no affect on other
 ![alt text](RNN/Photo/Layer_Norm_Transformer.png)
 
 ![alt text](RNN/Photo/Layer_Norm_Eqn.png)
+
+# Day 151
+Done with the Encoder part of transformer and understood the basics questions that arise while studying encoder.
+- Why we use resuidal connection?
+It is not answered in paper but the reason might be for training stability and prevent from gradient exploding/vanishing.
+
+- Why use Feed-Forward NN?
+To perform non-linearity with the help of ReLU.
+
+- Why N=6(number of encoders) in paper?
+experimented value but having more than 1 encoder helps to understand the data and process better.
+
+![alt text](RNN/Photo/Transformer_Encoder.png)
