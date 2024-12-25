@@ -1415,3 +1415,15 @@ To perform non-linearity with the help of ReLU.
 experimented value but having more than 1 encoder helps to understand the data and process better.
 
 ![alt text](RNN/Photo/Transformer_Encoder.png)
+
+# Day 152
+For decoder in transformer, **Masked Mutli-Headed Attention** is very crucial. Let's understand why masked multi-headed attention is useful. 
+**In decoder, transformer is auto-regressive during inference time and non auto-regressive inference during training.** What this means is that when predicting, 
+the current prediction depends on previous predicted data points and future prediction is unknown to attention. But during when training, we provide the value 
+from data inspite of what is predicted due to which transformer has prior information of prev and future data. This encourages parallel computation.
+
+There is problem in this as prediction cannot be done for future points whithout having present point predicted but our model is non auto-regressive during 
+training. To avoid this, Masked Multi-Headed Attention is used. In this we add one more step i.e. adding more matrix and adding to matrix before sending it to 
+softmax as shown in fig below:
+
+![alt text](RNN/Photo/Masked_Multi-Headed_Attention.png)
