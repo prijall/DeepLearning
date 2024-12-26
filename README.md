@@ -1427,3 +1427,11 @@ training. To avoid this, Masked Multi-Headed Attention is used. In this we add o
 softmax as shown in fig below:
 
 ![alt text](RNN/Photo/Masked_Multi-Headed_Attention.png)
+
+# Day 153
+Completed Decoder for training(at least) and studied about Cross-Attention in Decoder. What **Cross-Attention** is and does in transformer?
+- Simply, Cross-Attention is Multi-Headed Attention where the 3 inputs, **Queries** comes from previous layer of decoder but the **Keys and Values** comes from
+the  output of the encoder.
+- It allows every position in the decoder to attend over all positions in input sequence.
+
+![alt text](RNN/Photo/Cross_attention_transformer.jpg)
