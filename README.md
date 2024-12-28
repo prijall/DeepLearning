@@ -1435,3 +1435,8 @@ the  output of the encoder.
 - It allows every position in the decoder to attend over all positions in input sequence.
 
 ![alt text](RNN/Photo/Cross_attention_transformer.jpg)
+
+# Day 154 
+Tried Implementing Multi-head Attention>
+
+![alt text](<RNN/Photo/Multi_Head Attention(code).png>)
