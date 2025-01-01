@@ -1437,6 +1437,11 @@ the  output of the encoder.
 ![alt text](RNN/Photo/Cross_attention_transformer.jpg)
 
 # Day 154 
-Tried Implementing Multi-head Attention>
+Tried Implementing Multi-head Attention.
 
 ![alt text](<RNN/Photo/Multi_Head Attention(code).png>)
+
+# Day 155
+For Last 3 days i have been understanding and trying to implement the code for encoder in transformer.
+
+![alt text](RNN/Photo/Encoder_code.png)
