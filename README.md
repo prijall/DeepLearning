@@ -1445,3 +1445,10 @@ Tried Implementing Multi-head Attention.
 For Last 3 days i have been understanding and trying to implement the code for encoder in transformer.
 
 ![alt text](RNN/Photo/Encoder_code.png)
+
+# Day 156
+- For last week straight i tried implementing attention is all you need paper by using various resources but was quite daunting so stopped for a while. Now, I will be trying to built mmachine translation using transformer taking references from various github codes, medium articles and paper itself. For today, I did basic text preprocessing for data. This architecture will be focusing on English word to French Translation. Using Tensorflow lib for first time:)
+
+- Revised Eigen value and vector concept from 3blue1brown video.
+
+![alt text](RNN/Photo/Machine_translation_part1.png)
