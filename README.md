@@ -1452,3 +1452,10 @@ For Last 3 days i have been understanding and trying to implement the code for e
 - Revised Eigen value and vector concept from 3blue1brown video.
 
 ![alt text](RNN/Photo/Machine_translation_part1.png)
+
+# Day 157
+Completed Preprocessing and added Positional Encoding in machine translation project. Re-Read the paper for intuition again, enjoying so far:)
+
+![alt text](RNN/Photo/Preprocessing_completed_machine_translation.png)
+
+![alt text](RNN/Photo/Positional_encoding_machine_translation.png)
