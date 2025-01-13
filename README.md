@@ -1459,3 +1459,10 @@ Completed Preprocessing and added Positional Encoding in machine translation pro
 ![alt text](RNN/Photo/Preprocessing_completed_machine_translation.png)
 
 ![alt text](RNN/Photo/Positional_encoding_machine_translation.png)
+
+# Day 158 
+Added Input Embeddings, Self-Attention and MultiHead Attention for Machine Translation.
+
+![alt text](RNN/Photo/Encoding_machine_translation.png)
+
+![alt text](RNN/Photo/Multihead_attention_machine_translation.png)
