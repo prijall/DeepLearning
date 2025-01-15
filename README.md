@@ -1466,3 +1466,8 @@ Added Input Embeddings, Self-Attention and MultiHead Attention for Machine Trans
 ![alt text](RNN/Photo/Encoding_machine_translation.png)
 
 ![alt text](RNN/Photo/Multihead_attention_machine_translation.png)
+
+# Day 159
+Completed Upto encoder portion of transformer(Revised from the paper ofc). Learnt about Vector/linear subspaces in Linear algebra.
+
+![alt text](RNN/Photo/Encoder_Machine_translation.png)
