@@ -1471,3 +1471,8 @@ Added Input Embeddings, Self-Attention and MultiHead Attention for Machine Trans
 Completed Upto encoder portion of transformer(Revised from the paper ofc). Learnt about Vector/linear subspaces in Linear algebra.
 
 ![alt text](RNN/Photo/Encoder_Machine_translation.png)
+
+# Day 160
+Decoder Portion added for machine translation project. Simple program with decoder component and how decoder is called for real application.
+
+![alt text](RNN/Photo/Decoder_machine_translation.png)
