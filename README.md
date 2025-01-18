@@ -1476,3 +1476,9 @@ Completed Upto encoder portion of transformer(Revised from the paper ofc). Learn
 Decoder Portion added for machine translation project. Simple program with decoder component and how decoder is called for real application.
 
 ![alt text](RNN/Photo/Decoder_machine_translation.png)
+
+# Day 161 
+- Explored Cuda Programmming with the help of LeetGPU for calculating square of elements in array. 
+- Did Revision of some CNN Concepts.
+
+Code Link: https://github.com/prijall/C/blob/main/Cuda_Example.cpp
