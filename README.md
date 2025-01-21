@@ -1482,3 +1482,9 @@ Decoder Portion added for machine translation project. Simple program with decod
 - Did Revision of some CNN Concepts.
 
 Code Link: https://github.com/prijall/C/blob/main/Cuda_Example.cpp
+
+# Day 162
+- Spent 2 days bulding transformer architecture and debugging it as there was issue related to dimension. It is rightly said "Sometimes you're the bug' that's what happened to me.
+- Studied introduction of BERT(Bidirectional Encoder Representations from Transformer)
+
+![alt text](RNN/Photo/transformer_machine_translation.png)
