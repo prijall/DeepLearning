@@ -1488,3 +1488,10 @@ Code Link: https://github.com/prijall/C/blob/main/Cuda_Example.cpp
 - Studied introduction of BERT(Bidirectional Encoder Representations from Transformer)
 
 ![alt text](RNN/Photo/transformer_machine_translation.png)
+
+# Day 163
+Added code for **BLEU Score** metrics and Learning Rate Schedular.
+
+![alt text](RNN/Photo/LEARNING_RATE_SCHEDULAR_MACHINE_TRANSLATION.png)
+
+![alt text](RNN/Photo/BLEU_SCORE_MACHINE_TRANSLATION.png)
