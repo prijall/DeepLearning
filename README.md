@@ -1495,3 +1495,11 @@ Added code for **BLEU Score** metrics and Learning Rate Schedular.
 ![alt text](RNN/Photo/LEARNING_RATE_SCHEDULAR_MACHINE_TRANSLATION.png)
 
 ![alt text](RNN/Photo/BLEU_SCORE_MACHINE_TRANSLATION.png)
+
+# Day 166
+Started with BERT Architecture today. Learnt the basic step on how bert works.
+
+Link to repo: https://github.com/prijall/Paper-Implementations/tree/main/BERT
+
+![alt text](RNN/Photo/BERT_ARCHI.png)
+
