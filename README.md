@@ -1503,3 +1503,8 @@ Link to repo: https://github.com/prijall/Paper-Implementations/tree/main/BERT
 
 ![alt text](RNN/Photo/BERT_ARCHI.png)
 
+# Day 167
+- Did some inspection of bert vocabulary. Bert has fixed vocabulary of 30,000 tokens. 
+- Did my college project.
+
+![alt text](RNN/Photo/BERT_Vocab.png)
