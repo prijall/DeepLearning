@@ -1508,3 +1508,8 @@ Link to repo: https://github.com/prijall/Paper-Implementations/tree/main/BERT
 - Did my college project.
 
 ![alt text](RNN/Photo/BERT_Vocab.png)
+
+# Day 168
+Completed BERT Input/Output Representations and BERT Pre-training.
+
+![alt text](RNN/Photo/BERT_Input_representation.png)
