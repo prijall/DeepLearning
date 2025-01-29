@@ -1513,3 +1513,8 @@ Link to repo: https://github.com/prijall/Paper-Implementations/tree/main/BERT
 Completed BERT Input/Output Representations and BERT Pre-training.
 
 ![alt text](RNN/Photo/BERT_Input_representation.png)
+
+# Day 169
+Got no time to study today instead revised the concept of Transformer including Embeddings, positional Encodings, attention, multi-head attention and Softmax.
+
+![alt text](RNN/Photo/Transformer_revision.png)
