@@ -1518,3 +1518,19 @@ Completed BERT Input/Output Representations and BERT Pre-training.
 Got no time to study today instead revised the concept of Transformer including Embeddings, positional Encodings, attention, multi-head attention and Softmax.
 
 ![alt text](RNN/Photo/Transformer_revision.png)
+
+# Day 170 
+Learnt the working of WordPiece algorithm for BERT and did some code implementation looking up hugging face nlp course. Today, I understood how wordpiece algorithm
+works. To be precise, WordPiece tokenization breaks the words into sub-words and unlike Byte-pair encoding, it looks for rare word combination so that it leads
+for the tokenization of rare and out of vocabulary(OOV) words.
+
+##### The basic statistical formula used by WordPiece tokenizer is:
+'
+score=(frequency of pair)/(frequency of first element * frequency of second element)
+'
+
+- WP-Tokenizer training:
+![alt text](RNN/Photo/WordPiece_Tokenizer_trainng.png)
+
+-WP-Tokenizer testing:
+![alt text](RNN/Photo/WordPiece_Tokenizer_trainng.png)
