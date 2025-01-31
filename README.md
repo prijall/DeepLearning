@@ -1534,3 +1534,9 @@ score=(frequency of pair)/(frequency of first element * frequency of second elem
 
 -WP-Tokenizer testing:
 ![alt text](RNN/Photo/WordPiece_Tokenizer_trainng.png)
+
+# Day 171
+Decided Pre-train BERT Instead Fine-tuning. I will be exploring various to get best possible resource implementing pre-training bert. Today, got started With
+data-preprocessing, still some work remaining. Mainly, did masking code, adding special tokens in inputs today.
+
+![alt text](RNN/Photo/Preprocessing_bert_pretraining.png)
