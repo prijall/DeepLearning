@@ -1540,3 +1540,12 @@ Decided Pre-train BERT Instead Fine-tuning. I will be exploring various to get b
 data-preprocessing, still some work remaining. Mainly, did masking code, adding special tokens in inputs today.
 
 ![alt text](RNN/Photo/Preprocessing_bert_pretraining.png)
+
+# Day 172
+Added code for Masked Language Model(MLM) and Next Sentence Prediction(NSP) which are main task for bert pretraining. These sections are added under preprocessing.
+
+- MLM:
+![alt text](RNN/Photo/Pretraining_BERT_MLM.png)
+
+- NSP:
+![alt text](RNN/Photo/Pretraining_BERT_NSP.png)
