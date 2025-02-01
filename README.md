@@ -1545,7 +1545,9 @@ data-preprocessing, still some work remaining. Mainly, did masking code, adding 
 Added code for Masked Language Model(MLM) and Next Sentence Prediction(NSP) which are main task for bert pretraining. These sections are added under preprocessing.
 
 - MLM:
+
 ![alt text](RNN/Photo/Pretraining_BERT_MLM.png)
 
 - NSP:
+
 ![alt text](RNN/Photo/Pretraining_BERT_NSP.png)
