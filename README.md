@@ -1551,3 +1551,8 @@ Added code for Masked Language Model(MLM) and Next Sentence Prediction(NSP) whic
 - NSP:
 
 ![alt text](RNN/Photo/Pretraining_BERT_NSP.png)
+
+# Day 173
+Didn't do much today. Added some more code of WordPiece tokenizer for bert pre-training.
+
+![alt text](RNN/Photo/WP_Tokenizer_BERT_Pretraining.png)
