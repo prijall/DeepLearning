@@ -1556,3 +1556,15 @@ Added code for Masked Language Model(MLM) and Next Sentence Prediction(NSP) whic
 Didn't do much today. Added some more code of WordPiece tokenizer for bert pre-training.
 
 ![alt text](RNN/Photo/WP_Tokenizer_BERT_Pretraining.png)
+
+# Day 174
+Modeling started for BERT Pre-training where today, i added code for positional encoding and bert Emneddings as bert embedddings has **token embeddings, positional encoding and segment embedddings**.
+
+![alt text](RNN/Photo/BERT_Embedding.png)
+
+During revision of positional encoding, i revised the amazing concept of positonal encoding. In the paper, writer state that, <b>we hypothesized it would allow the model
+to easily learn to attend by relative position, since for any fixes offset k, PE<sub>pos+k</sub> can be represented as a linear function of PE<sub>pos</sub> which means that
+with the help of sinusoidal encodings which create geometric structure where relative positions correspond to linear transformation making easier for model to learn to shift the 
+attention by applying transformation based on k even for unseen squence length like attend to tokens 3 position away or prev.</b>
+
+![alt text](RNN/Photo/positional_encoding_visualization.png)
