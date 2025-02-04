@@ -1568,3 +1568,9 @@ with the help of sinusoidal encodings which create geometric structure where rel
 attention by applying transformation based on k even for unseen squence length like attend to tokens 3 position away or prev.</b>
 
 ![alt text](RNN/Photo/positional_encoding_visualization.png)
+
+# Day 175
+Added all the required transformer component for BERT. Today, I completed MultiHeaded Attention, Feed-Forward NN, and Encoder. From tomorrow, all the implementation 
+related from BERT paper.
+
+![alt text](RNN/Photo/Transformer_component_BERT.png)
