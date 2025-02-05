@@ -1574,3 +1574,10 @@ Added all the required transformer component for BERT. Today, I completed MultiH
 related from BERT paper.
 
 ![alt text](RNN/Photo/Transformer_component_BERT.png)
+
+# Day 176
+Finally completed Building BERT Model, now ready training. Added Next-Sentence-Prediction(NSP), Masked-Language-Model(MLM) and using both pre-training model.
+
+![alt text](RNN/Photo/BERT_Architecture_Part1.png)
+
+![alt text](RNN/Photo/BERT_Architecture_Part2.png)
