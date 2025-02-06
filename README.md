@@ -1581,3 +1581,8 @@ Finally completed Building BERT Model, now ready training. Added Next-Sentence-P
 ![alt text](RNN/Photo/BERT_Architecture_Part1.png)
 
 ![alt text](RNN/Photo/BERT_Architecture_Part2.png)
+
+# Day 177
+Didnt do much today. Implemented Optimizer for BERT Pre-training. This important thing that this wrapper class is there are two major process that it goes through and that is it linearly increases and decays proportionally to 1/sqrt(d_model) which is also called warmup strategy inspired from transformer.
+
+![alt text](RNN/Photo/Optimizer_BERT.png)
