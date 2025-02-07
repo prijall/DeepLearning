@@ -1586,3 +1586,8 @@ Finally completed Building BERT Model, now ready training. Added Next-Sentence-P
 Didnt do much today. Implemented Optimizer for BERT Pre-training. This important thing that this wrapper class is there are two major process that it goes through and that is it linearly increases and decays proportionally to 1/sqrt(d_model) which is also called warmup strategy inspired from transformer.
 
 ![alt text](RNN/Photo/Optimizer_BERT.png)
+
+# Day 178
+Did training for bert and now iterator portion remaining along with some portion tokenizer training prolly should be done by tom.
+
+![alt text](RNN/Photo/BEERT_training_part1.png)
