@@ -1496,6 +1496,19 @@ Added code for **BLEU Score** metrics and Learning Rate Schedular.
 
 ![alt text](RNN/Photo/BLEU_SCORE_MACHINE_TRANSLATION.png)
 
+# Day 164
+Again spent 4-5 hrs fixing and training the model, this time model got trained with only 10 epochs though but still the model didn't translated anything not 
+even a single token. As I tried figuring out, there was some issue with learning rate schedular, fixed it. Other reasons might be less training epoch will try with more epoch tom:{
+
+  ![alt text](RNN/Photo/Compilation_error.png)
+
+# Day 165
+- Trained transformer for machine translation, will be stopping it here for now.
+- Read "BERT" working thoroughly, will continue tom.
+- Worked on personal project.
+
+![alt text](RNN/Photo/Training_error(Transformer).png)
+
 # Day 166
 Started with BERT Architecture today. Learnt the basic step on how bert works.
 
@@ -1591,3 +1604,11 @@ Didnt do much today. Implemented Optimizer for BERT Pre-training. This important
 Did training for bert and now iterator portion remaining along with some portion tokenizer training prolly should be done by tom.
 
 ![alt text](RNN/Photo/BEERT_training_part1.png)
+
+# Day 179
+Completed BERT Pre-training. More Confusing, more i try to do, anyway i wil be starting GPT now.
+
+- Today's work:
+![alt text](RNN/Photo/BERT_Pre-training_part2.png)
+
+![alt text](RNN/Photo/Tokenizer_training_part2(BERT).png)
