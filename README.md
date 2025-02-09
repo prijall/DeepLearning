@@ -1612,3 +1612,9 @@ Completed BERT Pre-training. More Confusing, more i try to do, anyway i wil be s
 ![alt text](RNN/Photo/BERT_Pre-training_part2.png)
 
 ![alt text](RNN/Photo/Tokenizer_training_part2(BERT).png)
+
+# Day 180 
+Watch Video's and interviews of Leading AI scientist and researcher. Last video was about **Intro into Large Language Model** by Andrej Karpathy. He gave general insights on how llms like chatgpt works and the initial problems like jailbreak, prompt injections, etc which no longer exist today but was
+quite insightful. Similarly, he talked about RLHF which i studied surfacely not in details but would love to continue.
+
+![alt text](LLMs/Photo/Intro_into_llm.png)
