@@ -1618,3 +1618,10 @@ Watch Video's and interviews of Leading AI scientist and researcher. Last video 
 quite insightful. Similarly, he talked about RLHF which i studied surfacely not in details but would love to continue.
 
 ![alt text](LLMs/Photo/Intro_into_llm.png)
+
+# Day 181
+started with GPT from scratch video by andrej karpathy. Did little bit of tokenization and encoding. Read abstract and intro of GPT 1 paper.
+
+![alt text](LLMs/Photo/GPT_encoding.png)
+
+![alt text](LLMs/Photo/GPT_Intro.png)
