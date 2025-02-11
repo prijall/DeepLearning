@@ -1625,3 +1625,17 @@ started with GPT from scratch video by andrej karpathy. Did little bit of tokeni
 ![alt text](LLMs/Photo/GPT_encoding.png)
 
 ![alt text](LLMs/Photo/GPT_Intro.png)
+
+# Day 182
+Due to exams couldn't do much today. 
+
+- Implemented Batch sizing looking to andrej karpathy video, more to go:)
+
+![alt text](LLMs/Photo/batch_size_GPT.png)
+
+- Read related work section from GPT-1 paper, where authors talk about **Unsupervised pre-trainig, Semi-supervised learning and auxiliary training objectives**
+The section highlights how GPT-1 builds on prior work by using unsupervised pre‑training with transformer networks. This approach not only captures detailed word‑level information 
+but also effectively models higher‑level linguistic structures and long‑range dependencies, making it versatile for various NLP tasks. 
+Auxiliary objectives are also discussed, but the emphasis is on how robust pre‑training can serve as a strong foundation for transfer learning across multiple applications.
+
+![alt text](LLMs/Photo/GPT_Paper_1_part2.png)
