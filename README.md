@@ -1639,3 +1639,10 @@ but also effectively models higher‑level linguistic structures and long‑rang
 Auxiliary objectives are also discussed, but the emphasis is on how robust pre‑training can serve as a strong foundation for transfer learning across multiple applications.
 
 ![alt text](LLMs/Photo/GPT_Paper_1_part2.png)
+
+# Day 183
+
+Implemented Bi-gram Language model from **GPT from Scratch video.** where it predicts the random value/tokens for preceeding value rather than whole for whole preceeding tokens as
+this model is trained randomly.
+
+![alt text](LLMs/Photo/Bigram_LM_GPT.png)
