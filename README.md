@@ -1646,3 +1646,10 @@ Implemented Bi-gram Language model from **GPT from Scratch video.** where it pre
 this model is trained randomly.
 
 ![alt text](LLMs/Photo/Bigram_LM_GPT.png)
+
+# Day 184
+
+Implemented Self-attention for GPT but new thing today i learnt from video **GPT from scratch** were the different styles of implementing attention which was
+great. Due to exams couldn't do more:(
+
+![alt text](LLMs/Photo/Mathematical_Trick_for_Attention_GPT.png)
