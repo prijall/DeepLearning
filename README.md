@@ -1653,3 +1653,9 @@ Implemented Self-attention for GPT but new thing today i learnt from video **GPT
 great. Due to exams couldn't do more:(
 
 ![alt text](LLMs/Photo/Mathematical_Trick_for_Attention_GPT.png)
+
+# Day 185
+
+Revised everything that i did this week and practise some maths today:)
+
+![alt text](LLMs/Photo/Transformer_GPT.png)
