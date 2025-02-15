@@ -1659,3 +1659,9 @@ great. Due to exams couldn't do more:(
 Revised everything that i did this week and practise some maths today:)
 
 ![alt text](LLMs/Photo/Transformer_GPT.png)
+
+# Day 186
+added Bigram Model Langauge training for GPT training. Fix bugs in transformer portion.
+
+![alt text](LLMs/Photo/GPT_Training.png)
+
