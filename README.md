@@ -1668,6 +1668,6 @@ added Bigram Model Langauge training for GPT training. Fix bugs in transformer p
 # Day 187 
 - Started Revisiting the basics of CNN again, did some basic coding and hands-on.
 
-[text](CNN/Code/FMNIST_Revision.ipynb)
+![alt text](CNN/Photos/FMNIST_REVISION.png)
 
 - Started lecture from Stanford CS231n.
