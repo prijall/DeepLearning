@@ -1671,3 +1671,9 @@ added Bigram Model Langauge training for GPT training. Fix bugs in transformer p
 ![alt text](CNN/Photos/FMNIST_REVISION.png)
 
 - Started lecture from Stanford CS231n.
+
+# Day 188
+- Started Revision for training CNN From scratch of classifying Dog_cats image. Main aim is to write optimized  and efficient training code.
+- Finish Lecture 2 of CS231n.
+
+![alt text](CNN/Photos/CNN_Training_Rev_DataLoader.png)
