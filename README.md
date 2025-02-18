@@ -1677,3 +1677,9 @@ added Bigram Model Langauge training for GPT training. Fix bugs in transformer p
 - Finish Lecture 2 of CS231n.
 
 ![alt text](CNN/Photos/CNN_Training_Rev_DataLoader.png)
+
+# Day 189
+- Added more code for revision basic stuffs. 
+- watched lecture 3 of CS231n and looked upon some mathematical concepts
+
+![alt text](CNN/Photos/CNN_Cat_Dog_Model_eval.png)
