@@ -1683,3 +1683,10 @@ added Bigram Model Langauge training for GPT training. Fix bugs in transformer p
 - watched lecture 3 of CS231n and looked upon some mathematical concepts
 
 ![alt text](CNN/Photos/CNN_Cat_Dog_Model_eval.png)
+
+# Day 190
+
+- trained for cnn classifier. 
+- watched cs321n lecture.
+
+![alt text](CNN/Photos/cat_dog_train_revision.png)
