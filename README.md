@@ -1690,3 +1690,9 @@ added Bigram Model Langauge training for GPT training. Fix bugs in transformer p
 - watched cs321n lecture.
 
 ![alt text](CNN/Photos/cat_dog_train_revision.png)
+
+# Day 191
+Revised transfer learning portion from CNN. Thorough revision of VGG and ResNet Architecture. Implemented pre-processing and collate function in data loader.
+This plays crucial role while working with custom dataset when we dont use default batch dims.
+
+![alt text](CNN/Photos/CNN_Collate_Fun.png)
