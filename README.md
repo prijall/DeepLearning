@@ -1696,3 +1696,12 @@ Revised transfer learning portion from CNN. Thorough revision of VGG and ResNet 
 This plays crucial role while working with custom dataset when we dont use default batch dims.
 
 ![alt text](CNN/Photos/CNN_Collate_Fun.png)
+
+# Day 192
+Revised Unet Architecture. To sumup, the main points to remember are:
+- It should have same size and structure of object in input and segmented output
+- It should use fully convolutional layer(not flattened layers)
+
+![alt text](CNN/Photos/Unet_archi_fig.jpg)
+
+![alt text](CNN/Photos/Unet_implement_review.png)
