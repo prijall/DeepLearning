@@ -1705,3 +1705,18 @@ Revised Unet Architecture. To sumup, the main points to remember are:
 ![alt text](CNN/Photos/Unet_archi_fig.jpg)
 
 ![alt text](CNN/Photos/Unet_implement_review.png)
+
+# Day 193
+Started AutoEncoder in the section of Image Manipulation. AutoEncoder are used to create same image as output. But if we were to get the same image in output
+then why even Neural Network? Could multiply by 1 simply but here is the catch in vanila AutoEncoder, it takes input images, stores it in lower dimensuions, 
+and tries to reproduce same image as output. 
+We use encoder segment at the beginning to encode information, bottleneck(code/latent) space to hold lower dims representation and decoder segment reproduces 
+images.
+- AutoEncoders are used to identify the images of similar types(that is to form cluster) and to generate new images. 
+- They are self-supervised.
+
+![alt text](CNN/Photos/AutoEncoder_Architecture.png)
+
+![alt text](CNN/Photos/AutoEncoder_Model.png)
+
+![alt text](CNN/Photos/AutoEncoder_Prediction.png)
