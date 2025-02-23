@@ -1720,3 +1720,11 @@ images.
 ![alt text](CNN/Photos/AutoEncoder_Model.png)
 
 ![alt text](CNN/Photos/AutoEncoder_Prediction.png)
+
+# Day 194
+Practised Convolutional AutoEncoder which is better for images than yesterday's vanila autoencoder  as in convolution AutoEncoder, it learns local spatial feature
+like edges, textures, etc.
+
+![alt text](CNN/Photos/ConvAutoEncoder_architecture.png)
+
+![alt text](CNN/Photos/ConvAutoEncoder_training.png)
