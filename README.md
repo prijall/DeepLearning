@@ -1728,3 +1728,9 @@ like edges, textures, etc.
 ![alt text](CNN/Photos/ConvAutoEncoder_architecture.png)
 
 ![alt text](CNN/Photos/ConvAutoEncoder_training.png)
+
+# Day 195
+We can reduce the 64-dimensional vector of a convolutional autoencoder to a two-dimensional space by using a technique called t-SNE, 
+which helps in compressing information in such a way that similar data points are grouped together while dissimilar ones are grouped far away from each other. 
+
+![alt text](CNN/Photos/TSNE.png)
