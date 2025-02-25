@@ -1734,3 +1734,9 @@ We can reduce the 64-dimensional vector of a convolutional autoencoder to a two-
 which helps in compressing information in such a way that similar data points are grouped together while dissimilar ones are grouped far away from each other. 
 
 ![alt text](CNN/Photos/TSNE.png)
+
+# Day 196
+Studied thoroughly about Variational Auto Encoder(VAE) which is used to create/generate images from the bottleneck. VAEs help us resolve this problem by generating vectors that have a mean of 0 and a standard deviation
+of 1, thereby ensuring that we generate images that have a mean of 0 and a standard deviation of 1.
+
+![alt text](CNN/Photos/VAE_Paper.png)
