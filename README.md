@@ -1740,3 +1740,8 @@ Studied thoroughly about Variational Auto Encoder(VAE) which is used to create/g
 of 1, thereby ensuring that we generate images that have a mean of 0 and a standard deviation of 1.
 
 ![alt text](CNN/Photos/VAE_Paper.png)
+
+# Day 197
+Implemented VAE and understood its working.
+
+![alt text](CNN/Photos/VAE_Working.png)
