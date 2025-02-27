@@ -1745,3 +1745,11 @@ of 1, thereby ensuring that we generate images that have a mean of 0 and a stand
 Implemented VAE and understood its working.
 
 ![alt text](CNN/Photos/VAE_Working.png)
+
+# Day 198
+
+Implemented KL Divergence Loss function for VAE. Studied more about entropy today.
+
+![alt text](CNN/Photos/Complete_VAE_Model.png)
+
+![alt text](CNN/Photos/KLD_LOSS.png)
