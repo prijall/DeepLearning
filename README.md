@@ -1753,3 +1753,10 @@ Implemented KL Divergence Loss function for VAE. Studied more about entropy toda
 ![alt text](CNN/Photos/Complete_VAE_Model.png)
 
 ![alt text](CNN/Photos/KLD_LOSS.png)
+
+# Day 199
+Completed VAE Training and Output visualization.
+
+![alt text](CNN/Photos/VAE_Training.png)
+
+![alt text](CNN/Photos/VAE_Output.png)
