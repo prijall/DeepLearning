@@ -1760,3 +1760,10 @@ Completed VAE Training and Output visualization.
 ![alt text](CNN/Photos/VAE_Training.png)
 
 ![alt text](CNN/Photos/VAE_Output.png)
+
+# Day 200
+Learnt about Image Adverserial Attack on images. Basically it refers to the changes that 
+we make to input images values(pixels) so that we meet certain objectives. This helps our models 
+to be robust so that they are not fooled by minor modification.
+
+![alt text](CNN/Photos/adverserial_attack_1.png)
