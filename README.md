@@ -1767,3 +1767,9 @@ we make to input images values(pixels) so that we meet certain objectives. This 
 to be robust so that they are not fooled by minor modification.
 
 ![alt text](CNN/Photos/adverserial_attack_1.png)
+
+# Day 201
+
+Did nothing much today. Just added bunch of code for adverserial attack for images. Revised AutoEncoder's once again.
+
+![alt text](CNN/Photos/Adverserial_attack_prediction_code.png)
