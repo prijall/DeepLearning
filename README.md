@@ -1773,3 +1773,14 @@ to be robust so that they are not fooled by minor modification.
 Did nothing much today. Just added bunch of code for adverserial attack for images. Revised AutoEncoder's once again.
 
 ![alt text](CNN/Photos/Adverserial_attack_prediction_code.png)
+
+# Day 202
+Tried adding some more code but was surrounded with lot of errors. I will be stopping continuing this for now. Will retry again.
+
+- Code for today:
+
+![alt text](CNN/Photos/Adversarial_3.png)
+
+- expected output:
+
+![alt text](CNN/Photos/Adversarial_output.png)
