@@ -1784,3 +1784,19 @@ Tried adding some more code but was surrounded with lot of errors. I will be sto
 - expected output:
 
 ![alt text](CNN/Photos/Adversarial_output.png)
+
+# Day 203
+
+Started **Neural Style Transfer**. It uses two kinds of images, **Content Image** and **Style Image** where these two images are combined in such a way that combined image preserves 
+the content of the content image while  maintaining the style of the style image.
+
+- Loss value is split into content loss and style loss. **Content Loss** is how different the generated image is from the content image whereas **Style Loss** is how correlated the 
+style image is to generated image.
+
+- The interesting here is that we dont compute loss between the generated image and original image instead what we do is we pass the content image and extract activations of feature 
+layers from any specific layers. Similarly, we again pass the generated image and extract activations of feature from same layers and we compute the squared difference. This is done 
+because we dont want to get exact picture generated.
+
+- Below is the dipiction of NTS:
+
+![alt text](CNN/Photos/NTS_1.png)
