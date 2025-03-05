@@ -1800,3 +1800,13 @@ because we dont want to get exact picture generated.
 - Below is the dipiction of NTS:
 
 ![alt text](CNN/Photos/NTS_1.png)
+
+
+# Day 204
+- Added GramLoss/Gram Matrix  for Neural Style Transfer. The Gram matrix captures the correlations between feature maps at a given layer of a convolutional neural network (CNN)
+- The Gram matrix captures the overall texture and style of an image because:
+It focuses on spatial correlations between feature maps.
+It ignores the exact spatial location of features, preserving only the distribution of patterns and textures.
+This is essential for style transfer since we want to replicate the patterns and textures from the style image in the generated image, without preserving the exact spatial structure.
+
+![alt text](CNN/Photos/GramLoss_NST.png)
