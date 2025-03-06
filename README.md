@@ -1810,3 +1810,8 @@ It ignores the exact spatial location of features, preserving only the distribut
 This is essential for style transfer since we want to replicate the patterns and textures from the style image in the generated image, without preserving the exact spatial structure.
 
 ![alt text](CNN/Photos/GramLoss_NST.png)
+
+# Day 205
+Added Pretrained VGG19 modified for Neural Style Transfer. Similarly, revised the concept of gram loss.
+
+![alt text](CNN/Photos/vgg19_NST.png)
