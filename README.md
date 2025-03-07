@@ -1815,3 +1815,8 @@ This is essential for style transfer since we want to replicate the patterns and
 Added Pretrained VGG19 modified for Neural Style Transfer. Similarly, revised the concept of gram loss.
 
 ![alt text](CNN/Photos/vgg19_NST.png)
+
+# Day 206
+We need to manipulate our image such that the style of the target image resembles style_image as much as possible. Hence, we compute the style_targets values of style_image by computing GramMatrix of features obtained from a few chosen layers of VGG. Since the overall content should be preserved, we choose the content_layer variable with which we compute the raw features from VGG.
+
+![alt text](CNN/Photos/image_manipulation_NST.png)
