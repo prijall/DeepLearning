@@ -1827,3 +1827,11 @@ Completed Neural Style Transfer using VGG19.
 ![alt text](CNN/Photos/NST_Training_code.png)
 
 ![alt text](CNN/Photos/NST_Output.png)
+
+# Day 208
+- Started DeepFake. It is similar to that Unet architecture and AutoEncoder as we generate latent vector from Image A and Image B using encoder. Then we swap 
+the vectors with each other and decoder to get say expression of Human in Image B to the face of Human in Image A.
+
+- Today, Created Helper function for deepfake architecture.
+  
+![alt text](CNN/Photos/DeepFake_1.png)
