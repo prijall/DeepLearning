@@ -1835,3 +1835,8 @@ the vectors with each other and decoder to get say expression of Human in Image 
 - Today, Created Helper function for deepfake architecture.
   
 ![alt text](CNN/Photos/DeepFake_1.png)
+
+# Day 209
+Implemented Model Architecture for Deepfake.
+
+![alt text](CNN/Photos/DeepFake_Model.png)
