@@ -1840,3 +1840,15 @@ the vectors with each other and decoder to get say expression of Human in Image 
 Implemented Model Architecture for Deepfake.
 
 ![alt text](CNN/Photos/DeepFake_Model.png)
+
+# Day 210
+
+Till date, I have studied about manipulating images and super-imposing the expression in one image on another. But Now learning more advance concepts of **Generative Adversarial Network(GANs)** where we give our network a bunch of images and ask it to come up with entirely new images on its own.
+
+There are two part in GAN, they are:
+
+- **Generator:** Which tries to generate the bunch of realistic images from the fed data where it tries to generate more realistic images in each iterations from the discriminator's feedback.
+
+- **Discriminator:** which tries to identify whether the generated images are real and fake.
+
+![alt text](GANs/Photo/GAN_Intro.png)
