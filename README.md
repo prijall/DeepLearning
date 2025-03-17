@@ -1852,3 +1852,8 @@ There are two part in GAN, they are:
 - **Discriminator:** which tries to identify whether the generated images are real and fake.
 
 ![alt text](GANs/Photo/GAN_Intro.png)
+
+# Day 211
+Implemented code for Generator Portion.
+
+![alt text](GANs/Photo/Generator_Model.png)
