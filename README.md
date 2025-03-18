@@ -1857,3 +1857,10 @@ There are two part in GAN, they are:
 Implemented code for Generator Portion.
 
 ![alt text](GANs/Photo/Generator_Model.png)
+
+# Day 212 
+implemented code for discriminator and added code for training it.
+
+![alt text](GANs/Photo/Discriminator.png)
+
+![alt text](GANs/Photo/Training_for_discriminaotor.png)
