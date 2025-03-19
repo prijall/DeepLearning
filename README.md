@@ -1864,3 +1864,8 @@ implemented code for discriminator and added code for training it.
 ![alt text](GANs/Photo/Discriminator.png)
 
 ![alt text](GANs/Photo/Training_for_discriminaotor.png)
+
+# Day 213
+Added code for generated_Step_training and overall training of the model which took around 45 min but couldnt perform well so will try tom:)
+
+![alt text](GANs/Photo/training_failed.png)
