@@ -1869,3 +1869,12 @@ implemented code for discriminator and added code for training it.
 Added code for generated_Step_training and overall training of the model which took around 45 min but couldnt perform well so will try tom:)
 
 ![alt text](GANs/Photo/training_failed.png)
+
+# Day 214
+Completed Generating MNIST Handwritten Digits using GANs. Training process is not enough so digits are not clear. 
+
+![alt text](GANs/Photo/Handwritten_GAN_Training_Code.png)
+
+![alt text](GANs/Photo/Handwritten_GAN_Training_graph.png)
+
+![alt text](GANs/Photo/Handwritten_GAN_Output.png)
