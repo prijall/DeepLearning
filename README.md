@@ -1878,3 +1878,9 @@ Completed Generating MNIST Handwritten Digits using GANs. Training process is no
 ![alt text](GANs/Photo/Handwritten_GAN_Training_graph.png)
 
 ![alt text](GANs/Photo/Handwritten_GAN_Output.png)
+
+# Day 215
+Started Tiny project called **Generating Faces** using **DCGAN(Deep Convoluted General Adversarial Network)** where the idea is to use convolution and pooling 
+along with GAN where CNN works best with images therefore leaveraging it along generative AI.
+
+![alt text](GANs/Photo/DCGAN_1.png)
