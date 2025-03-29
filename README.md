@@ -1884,3 +1884,8 @@ Started Tiny project called **Generating Faces** using **DCGAN(Deep Convoluted G
 along with GAN where CNN works best with images therefore leaveraging it along generative AI.
 
 ![alt text](GANs/Photo/DCGAN_1.png)
+
+# Day 216
+Added Weight initialization for efficient training of model and wrote code for discriminator model.
+
+![alt text](GANs/Photo/DCGAN_2.png)
