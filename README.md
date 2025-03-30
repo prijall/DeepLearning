@@ -1889,3 +1889,10 @@ along with GAN where CNN works best with images therefore leaveraging it along g
 Added Weight initialization for efficient training of model and wrote code for discriminator model.
 
 ![alt text](GANs/Photo/DCGAN_2.png)
+
+# Day 217
+Implemented Code for image generator which is almost similar to the previous i did before. The main thing to here is the use of **ConvTranspose2d()** which helps to increase the spatial size by learning how to upsample efficiently. Similarly, use of Betas is done in Adam optimizer for stable training, where beta_1 controls momentum i.e accelarates learning by smoothing updates and beta_2 controls how fast the adaptive learning rate adjusts.
+
+![alt text](GANs/Photo/DCGAN_generator_model.png)
+
+![alt text](GANs/Photo/DCGAN_discriminator_training_code.png)
