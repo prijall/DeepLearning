@@ -1897,7 +1897,6 @@ Implemented Code for image generator which is almost similar to the previous i d
 
 ![alt text](GANs/Photo/DCGAN_discriminator_training_code.png)
 
-# Day 218
 Added both code for generator and discriminator along with their step training which will help for smooth and stable training.
 
 ![alt text](GANs/Photo/Model_code_DCGAN.png)
