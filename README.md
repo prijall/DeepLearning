@@ -1902,3 +1902,11 @@ Added both code for generator and discriminator along with their step training w
 ![alt text](GANs/Photo/Model_code_DCGAN.png)
 
 ![alt text](GANs/Photo/Training_DCGANS_1.png)
+
+# Day 218
+- Completed tiny project for face generated using DCGAN but the result is not so good. Maybe relatively less data and less training epochs.
+- Tried reading paper
+
+![alt text](GANs/Photo/DCGAN_Output_1.png)
+
+![alt text](<GANs/Photo/DCGAN_Paper_1 (1).png>)
