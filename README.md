@@ -1910,3 +1910,11 @@ Added both code for generator and discriminator along with their step training w
 ![alt text](GANs/Photo/DCGAN_Output_1.png)
 
 ![alt text](<GANs/Photo/DCGAN_Paper_1 (1).png>)
+
+# Day 219
+- Retrained the model, got slightly better results. The only issue now is low training epochs.
+- Read about use of U-Net Architecture as Discriminator.
+
+![alt text](GANs/Photo/DCGAN_Accuracy.png)
+
+![alt text](GANs/Photo/DCGAN_output_2.png)
