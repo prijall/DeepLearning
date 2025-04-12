@@ -1918,3 +1918,9 @@ Added both code for generator and discriminator along with their step training w
 ![alt text](GANs/Photo/DCGAN_Accuracy.png)
 
 ![alt text](GANs/Photo/DCGAN_output_2.png)
+
+# Day 220
+
+Started learning Reinforcement learning specifically **Deep Q-Learning** portion for its use along with CNN. Today, Learnt about the state value and state-action value calculation. Will be exploring more:)
+
+![alt text](Reinforcement_Learning/Photos/State_Value.jpg)
