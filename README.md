@@ -1924,3 +1924,9 @@ Added both code for generator and discriminator along with their step training w
 Started learning Reinforcement learning specifically **Deep Q-Learning** portion for its use along with CNN. Today, Learnt about the state value and state-action value calculation. Will be exploring more:)
 
 ![alt text](Reinforcement_Learning/Photos/State_Value.jpg)
+
+# Day 221
+- Understood Gym Environment for fetching Qtable which stores information about various actions taken in various states.
+- learnt about qtable and built one for FrozenLake-v1
+
+![alt text](Reinforcement_Learning/Photos/Building_Qtable.png)
