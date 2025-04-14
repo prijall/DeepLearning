@@ -1930,3 +1930,12 @@ Started learning Reinforcement learning specifically **Deep Q-Learning** portion
 - learnt about qtable and built one for FrozenLake-v1
 
 ![alt text](Reinforcement_Learning/Photos/Building_Qtable.png)
+
+# Day 222
+Completed the Understanding overview of Exploration-Exploitation using reinforcement learning along with Q-value calculation using Frozen-Lake game.
+
+![alt text](Reinforcement_Learning/Photos/Exploration_Exploitation.png)
+
+![alt text](Reinforcement_Learning/Photos/Initial_Stage_FrozenLake.png)
+
+![alt text](Reinforcement_Learning/Photos/Final_Stage_FrozenLake.png)
