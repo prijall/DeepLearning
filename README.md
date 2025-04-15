@@ -1939,3 +1939,7 @@ Completed the Understanding overview of Exploration-Exploitation using reinforce
 ![alt text](Reinforcement_Learning/Photos/Initial_Stage_FrozenLake.png)
 
 ![alt text](Reinforcement_Learning/Photos/Final_Stage_FrozenLake.png)
+
+# Day 223 
+Will be doing simple project Customer Satisfaction using data centric approach using ZenML for understanding MLOps. All work is presented in:
+https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project 
