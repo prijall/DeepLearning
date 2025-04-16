@@ -1943,3 +1943,10 @@ Completed the Understanding overview of Exploration-Exploitation using reinforce
 # Day 223 
 Will be doing simple project Customer Satisfaction using data centric approach using ZenML for understanding MLOps. All work is presented in:
 https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project 
+
+# Day 224
+- Successfully created Blueprint for MLOps where I created Data Ingestion, Data Cleaning, Model training, evaluation but working code remains.
+- Failed generating blueprint pipeline due to PydanticSchemaGenerationError, tried solving but couldn't will try tom.
+
+All work is presented in:
+https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project 
