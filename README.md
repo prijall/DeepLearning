@@ -1950,3 +1950,11 @@ https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
 All work is presented in:
 https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project 
+
+# Day 225
+- Created file for data cleaning under src where i created abstract class for data strategy. With the help of the function, I created other classes for strategies like DataPreProcessingStrategy, DataDivisionStrategy and Data cleaning.
+
+- Later implemented them in main data cleaning portion in steps.
+
+All work is presented in:
+https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
