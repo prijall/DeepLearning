@@ -1958,3 +1958,10 @@ https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
 All work is presented in:
 https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
+
+# Day 226
+ Just wrote code for model development and training. With the abstract class, We can create as many model for verification which can improve model performance.
+Since, the project is really simple i am going to use very basic model.
+
+All work is presented in:
+https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
