@@ -1965,3 +1965,9 @@ Since, the project is really simple i am going to use very basic model.
 
 All work is presented in:
 https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
+
+# Dy 227
+Completed Building steps on which today the evaluation portion is completed. There has been  issue with the ZenML version need to correct it so that i can rum the pipeline atleast.
+
+All work is presented in:
+https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
