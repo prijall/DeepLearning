@@ -1977,3 +1977,11 @@ https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 Due to Laptop system crash time and again couldnt do any ml related work so chose light-weight work of writing blog for the first time. Will be continuing:)
 
 ![alt text](RNN/Photo/Blog_Text_Representation_NLP.png)
+
+
+# Day 229
+- Completed experimental tracking where added model deployer and experimental tracker. Face issue to register local deployer for cloud server, the utimate solution was to disconnet with the server and create container for this.
+- Solved the config fuction importing issue with pydantic lib(used for data validation and settings management)
+
+All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
+
