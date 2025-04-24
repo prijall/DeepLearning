@@ -1985,3 +1985,8 @@ Due to Laptop system crash time and again couldnt do any ml related work so chos
 
 All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
+# Day 230
+Developed Blueprint for the pipeline deployment where the concept is to make to kinds of pipeline i.e deployment pipeline(used during training) and inference pipeline(used during prediction). will continue to work tomorrow:)
+All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
+
+
