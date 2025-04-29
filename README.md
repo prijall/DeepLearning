@@ -1994,5 +1994,9 @@ Prepared Continuous Deployment Pipeline by setting criteria for minimum accuracy
 
 All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
+# Day 232
+Completed code for model deployment, couldn't deploy it as inference deployment is remaining, once inference pipeline will be completed hopefully everything should fall in place:)
+
+All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
 
