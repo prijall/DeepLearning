@@ -1999,4 +1999,9 @@ Completed code for model deployment, couldn't deploy it as inference deployment 
 
 All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
+# Day 233
+Completed Inference training code and deployment to streamlit. There were lots of bugs in the code tried solving half of them but will be leaving the rest as it was the first project under full fledge MLOPs. Will be doing other projects with more clear vision.
+
+All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
+
 
