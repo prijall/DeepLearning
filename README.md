@@ -2004,4 +2004,9 @@ Completed Inference training code and deployment to streamlit. There were lots o
 
 All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Satisfaction_Project
 
+# Day 234
+- Revised LSTM today as I will be starting VIT(Vision Transformer) in few days so i need to brush up my knowledge for that.
+- Read intro part of Seq-to-Seq Neural nets paper
+- did some DSA
 
+![alt text](RNN/Photo/LSTM_Revision_1.png)
