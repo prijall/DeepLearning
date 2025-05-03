@@ -2010,3 +2010,8 @@ All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Sa
 - did some DSA
 
 ![alt text](RNN/Photo/LSTM_Revision_1.png)
+
+# Day 235
+Revised Attention is all you need paper especially self attention portion. Love re-reading the paper. First will be relearning encoder from transformer and then encoder from ViT.
+
+![alt text](LLMs/Photo/self_attention_revision.jpeg)
