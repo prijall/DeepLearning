@@ -2021,4 +2021,4 @@ Revised Attention is all you need paper especially self attention portion. Love 
 
 - Did array-oriented DSA.
 
-![alt text](Transformer_for_Vision/ViT_Paper_1.jpeg)
+![alt text](Transformer_for_Vision/Photos/ViT_Paper_1.jpeg)
