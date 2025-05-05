@@ -2015,3 +2015,10 @@ All work is presented in: https://github.com/prijall/MLOps/tree/main/Customer_Sa
 Revised Attention is all you need paper especially self attention portion. Love re-reading the paper. First will be relearning encoder from transformer and then encoder from ViT.
 
 ![alt text](LLMs/Photo/self_attention_revision.jpeg)
+
+# Day 236
+- Started Reading Vision Transforme(ViT) paper, i don't know where it will take but seems very promising. Understood the underhood of inductive bias in SOTA CNNs and ViT. Though there are various opinion regarding ViT but i am hopeful it will take vision/image task to next level like transformer did to NLP.
+
+- Did array-oriented DSA.
+
+![alt text](Transformer_for_Vision/ViT_Paper_1.jpeg)
