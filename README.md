@@ -2022,3 +2022,11 @@ Revised Attention is all you need paper especially self attention portion. Love 
 - Did array-oriented DSA.
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Paper_1.jpeg)
+
+
+# Day 237
+- Before understanding the mathematical intuition of ViT, got hands on CLIP(Constrastive Language-Image Pretraining) by OpenAI which help turn ViT into Language-aware Visual model enabling task like Zero shot Classification, image-text generations,etc. By the way, got the little gist of how multi model system works.
+
+- Built the intuition of Top K frequent elements from array oriented DSA.
+
+![alt text](Transformer_for_Vision/Photos/CLIP.jpeg)
