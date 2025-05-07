@@ -2030,3 +2030,8 @@ Revised Attention is all you need paper especially self attention portion. Love 
 - Built the intuition of Top K frequent elements from array oriented DSA.
 
 ![alt text](Transformer_for_Vision/Photos/CLIP.jpeg)
+
+# Day 238
+Read method of paper which explains the architecture of ViT with mathematical expressions. Thorougly understood the most components but the questions of why are they used remains unanswered today, will look into it more:)
+
+![alt text](Transformer_for_Vision/Photos/ViT_Transformer_Overview.png)
