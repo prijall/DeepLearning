@@ -2035,3 +2035,12 @@ Revised Attention is all you need paper especially self attention portion. Love 
 Read method of paper which explains the architecture of ViT with mathematical expressions. Thorougly understood the most components but the questions of why are they used remains unanswered today, will look into it more:)
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Transformer_Overview.png)
+
+# Day 239
+- Read paper of ViT architecture and its mathematical intuition.
+
+![alt text](Transformer_for_Vision/Photos/ViT_Mathematical_Intuition.jpeg)
+
+- Getting started with FoodVision project where goal is classify food using ViT just for understanding purpose.
+
+![alt text](Transformer_for_Vision/Photos/ViT_Project_Patch_development.png)
