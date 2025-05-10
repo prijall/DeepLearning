@@ -2044,3 +2044,10 @@ Read method of paper which explains the architecture of ViT with mathematical ex
 - Getting started with FoodVision project where goal is classify food using ViT just for understanding purpose.
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Project_Patch_development.png)
+
+# Day 240
+Implemented Patch embedding portion from the paper and class token little bit today. Worked on Some DSA Skill where I practised famous array based question.
+
+![alt text](Transformer_for_Vision/Photos/Patch_embedding_img.png)
+
+![alt text](Transformer_for_Vision/Photos/Patch_Embedding_Code.png)
