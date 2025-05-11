@@ -2051,3 +2051,10 @@ Implemented Patch embedding portion from the paper and class token little bit to
 ![alt text](Transformer_for_Vision/Photos/Patch_embedding_img.png)
 
 ![alt text](Transformer_for_Vision/Photos/Patch_Embedding_Code.png)
+
+# Day 241
+Completed Patches Embedding, class Tokens and Positional Embedding. With that now will start transformer encoder.
+
+![alt text](Transformer_for_Vision/Photos/Positional_Embedding.png)
+
+![alt text](Transformer_for_Vision/Photos/SumUp_Embedding.png)
