@@ -2058,3 +2058,10 @@ Completed Patches Embedding, class Tokens and Positional Embedding. With that no
 ![alt text](Transformer_for_Vision/Photos/Positional_Embedding.png)
 
 ![alt text](Transformer_for_Vision/Photos/SumUp_Embedding.png)
+
+# Day 242
+Added Component code for MultiHeaded Self Attention for the genrating contextual embeddings of the patches while MLP helps to make sequential dense network for the output. Instead of widely used activation functions like ReLU, the paper focuses on GeLU for smoothness which gradient stability.
+
+![alt text](Transformer_for_Vision/Photos/MHA_ViT.png)
+
+![alt text](Transformer_for_Vision/Photos/MLP_ViT.png)
