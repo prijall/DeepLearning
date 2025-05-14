@@ -2065,3 +2065,10 @@ Added Component code for MultiHeaded Self Attention for the genrating contextual
 ![alt text](Transformer_for_Vision/Photos/MHA_ViT.png)
 
 ![alt text](Transformer_for_Vision/Photos/MLP_ViT.png)
+
+# Day 243
+Couldn't do much today, just added code for transformer block and summing up the architecture. After this, only training, hyperparameter tuning and inference remains.
+
+![alt text](Transformer_for_Vision/Photos/ViT_Transformer_Block.png)
+
+![alt text](Transformer_for_Vision/Photos/ViT_1.png)
