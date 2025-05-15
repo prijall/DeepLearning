@@ -2072,3 +2072,10 @@ Couldn't do much today, just added code for transformer block and summing up the
 ![alt text](Transformer_for_Vision/Photos/ViT_Transformer_Block.png)
 
 ![alt text](Transformer_for_Vision/Photos/ViT_1.png)
+
+# Day 244
+Completed Architecture building. Was daunting but did it anyway): now remains training.
+
+![alt text](Transformer_for_Vision/Photos/ViT_2.png)
+
+![alt text](Transformer_for_Vision/Photos/ViT_Summary.png)
