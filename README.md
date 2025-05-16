@@ -2079,3 +2079,10 @@ Completed Architecture building. Was daunting but did it anyway): now remains tr
 ![alt text](Transformer_for_Vision/Photos/ViT_2.png)
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Summary.png)
+
+# Day 245
+Trained with mininal setup. Didnt get  good accuracy due to less dataset, will explore using pre-trained model tom.
+
+![alt text](Transformer_for_Vision/Photos/ViT_Training.png)
+
+![alt text](Transformer_for_Vision/Photos/ViT_Result.png)
