@@ -2086,3 +2086,12 @@ Trained with mininal setup. Didnt get  good accuracy due to less dataset, will e
 ![alt text](Transformer_for_Vision/Photos/ViT_Training.png)
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Result.png)
+
+# Day 246
+Completed ViT project implementation using pre-training as well. Due to use of default model weight, the accuracy achieved was descent than from custom model. 
+
+![alt text](Transformer_for_Vision/Photos/ViT_Pretrained_training.png)
+
+![alt text](Transformer_for_Vision/Photos/ViT_Pretrained_result.png)
+
+![alt text](Transformer_for_Vision/Photos/ViT_Prediction.png)
