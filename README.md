@@ -2095,3 +2095,8 @@ Completed ViT project implementation using pre-training as well. Due to use of d
 ![alt text](Transformer_for_Vision/Photos/ViT_Pretrained_result.png)
 
 ![alt text](Transformer_for_Vision/Photos/ViT_Prediction.png)
+
+# Day 247
+From now on will be completely focusing NLP for 3-4 months, revising all the concepts and implementing. Meanwhile will be starting GenAI playlist by CampusX where User's perspect for GenAI is being taught. Today, got the intuition of GenAI and did some array stuff coding.
+
+![alt text](GenAI/Users_Perspective/Photo/Intro_to_GenAI.png)
