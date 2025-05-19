@@ -2100,3 +2100,9 @@ Completed ViT project implementation using pre-training as well. Due to use of d
 From now on will be completely focusing NLP for 3-4 months, revising all the concepts and implementing. Meanwhile will be starting GenAI playlist by CampusX where User's perspect for GenAI is being taught. Today, got the intuition of GenAI and did some array stuff coding.
 
 ![alt text](GenAI/Users_Perspective/Photo/Intro_to_GenAI.png)
+
+# Day 248 
+
+Not much today, just intro into langchain and high level overview of application development and practised some coding related to soduku and two pointers.
+
+![alt text](GenAI/Users_Perspective/Photo/Langchain_Intro.png)
