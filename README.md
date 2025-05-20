@@ -2102,7 +2102,12 @@ From now on will be completely focusing NLP for 3-4 months, revising all the con
 ![alt text](GenAI/Users_Perspective/Photo/Intro_to_GenAI.png)
 
 # Day 248 
-
 Not much today, just intro into langchain and high level overview of application development and practised some coding related to soduku and two pointers.
 
 ![alt text](GenAI/Users_Perspective/Photo/Langchain_Intro.png)
+
+# Day 249
+- Done learning the components of LangChain, from tom real coding starts really excited.
+- Did some coding(revision of some concepts)
+
+![alt text](GenAI/Users_Perspective/Photo/LangChain_Component.png)
