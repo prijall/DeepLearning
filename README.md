@@ -2111,3 +2111,9 @@ Not much today, just intro into langchain and high level overview of application
 - Did some coding(revision of some concepts)
 
 ![alt text](GenAI/Users_Perspective/Photo/LangChain_Component.png)
+
+# Day 250
+- Learnt how LangChain supports various LLMs API with minimal code and how use of LLMs and ChatModels in projects using LangChain.
+- Bonus: implement fork method and studied Byte ordering in C from Network Programming as guided in my course work:)
+
+![alt text](GenAI/Users_Perspective/Photo/ChatModel_OpenAI.png)
