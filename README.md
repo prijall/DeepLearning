@@ -2117,3 +2117,9 @@ Not much today, just intro into langchain and high level overview of application
 - Bonus: implement fork method and studied Byte ordering in C from Network Programming as guided in my course work:)
 
 ![alt text](GenAI/Users_Perspective/Photo/ChatModel_OpenAI.png)
+
+# Day 251
+- Revisited some concept in deep learning today as i was running out of time. Tried writing the stable softmax loss function which bring stable calculation in cross entropy loss and neural network training.
+- Practised some DSA questions.
+
+[text](ANN/Code/stable_softmax_loss_function.py)
