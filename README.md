@@ -2123,3 +2123,10 @@ Not much today, just intro into langchain and high level overview of application
 - Practised some DSA questions.
 
 [text](ANN/Code/stable_softmax_loss_function.py)
+
+# Day 252
+- Watch video lecture on Embedding ChatModels and how cosine similaity plays role in query embedding to document embedding.
+- Studied two pointer algorithm and practised some code
+- revised bert, planning to read distilbert and distilgpt
+
+![alt text](GenAI/Users_Perspective/Photo/Embedding_models.png)
