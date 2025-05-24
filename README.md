@@ -2130,3 +2130,14 @@ Not much today, just intro into langchain and high level overview of application
 - revised bert, planning to read distilbert and distilgpt
 
 ![alt text](GenAI/Users_Perspective/Photo/Embedding_models.png)
+
+# Day 253
+- Created simple research paper summarizer using langchain with llama model api. Understood how prompt plays cruial role in llm output geneation.
+- Learnt about how messages are generated in llm chatbot where use of System messages, Human Messages and AI messages demonstrated.
+- Learnt about the chatbot with chat_history for efficient communication.
+
+![alt text](GenAI/Users_Perspective/Photo/paper_summerizer.png)
+
+![alt text](GenAI/Users_Perspective/Photo/Messages_Langchain.png)
+
+![alt text](GenAI/Users_Perspective/Photo/message_placeholder_with_chat_history.png)
