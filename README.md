@@ -2141,3 +2141,9 @@ Not much today, just intro into langchain and high level overview of application
 ![alt text](GenAI/Users_Perspective/Photo/Messages_Langchain.png)
 
 ![alt text](GenAI/Users_Perspective/Photo/message_placeholder_with_chat_history.png)
+
+# Day 254
+- Revised LSTM and leart about the different variations of LSTM
+- Worked on Personal Project and did hashing oriented data structure coding.
+
+![alt text](RNN/Photo/Variations_LSTM.png)
