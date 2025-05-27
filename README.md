@@ -2122,7 +2122,7 @@ Not much today, just intro into langchain and high level overview of application
 - Revisited some concept in deep learning today as i was running out of time. Tried writing the stable softmax loss function which bring stable calculation in cross entropy loss and neural network training.
 - Practised some DSA questions.
 
-[text](ANN/Code/stable_softmax_loss_function.py)
+![alt_text](ANN/Code/stable_softmax_loss_function.py)
 
 # Day 252
 - Watch video lecture on Embedding ChatModels and how cosine similaity plays role in query embedding to document embedding.
@@ -2147,3 +2147,16 @@ Not much today, just intro into langchain and high level overview of application
 - Worked on Personal Project and did hashing oriented data structure coding.
 
 ![alt text](RNN/Photo/Variations_LSTM.png)
+
+# Day 255
+- Learnt about Structured Output in LLM functioning.
+
+- First technique is by using Type Dictionary, which uses classes to specify the data parsing and validation but it's implementation is very weak i.e we can pass string which the typedict is int. Similarly, the use of annotation for description, Optional, Literal makes this very powerful.
+
+- Second one being Pydantic which is very strict in its implementation where it helps to maintain data validation and data parsing so that the data we are using are correct and safe to use. It works damn good with python.
+
+- Json being another is useful especially when we are using different language in production phase. Json works on all language. Here we have to mention properties of the required topics like for key_themes, the properties would be type(array), items types(str), description, etc.
+ 
+![alt text](GenAI/Users_Perspective/Photo/Structured_output_typedict.png)
+
+![alt text](GenAI/Users_Perspective/Photo/Structured_output_pydantic.png)
