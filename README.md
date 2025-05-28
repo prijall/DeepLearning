@@ -2160,3 +2160,10 @@ Not much today, just intro into langchain and high level overview of application
 ![alt text](GenAI/Users_Perspective/Photo/Structured_output_typedict.png)
 
 ![alt text](GenAI/Users_Perspective/Photo/Structured_output_pydantic.png)
+
+# Day 256
+Learnt and implemented the concept of Parser in Langchain and how it helps in generating output. It works both with and without structured Output and makes the effective use of chaining. During the output of the model, it gives lots of meta-data, parser helps to output the requrired content.
+
+![alt text](GenAI/Users_Perspective/Photo/Parser_StrOutput.png)
+
+![alt text](GenAI/Users_Perspective/Photo/Parser_pydantic.png)
