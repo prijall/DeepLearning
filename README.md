@@ -2167,3 +2167,9 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 ![alt text](GenAI/Users_Perspective/Photo/Parser_StrOutput.png)
 
 ![alt text](GenAI/Users_Perspective/Photo/Parser_pydantic.png)
+
+# Day 257
+- Implemented Runnable chains in Langchain. Studied about Sequential, Parallel and Conditional Chains.
+- Implementing WordPiece Tokenizer from Scratch.
+
+![alt text](GenAI/Users_Perspective/Photo/Conditional_Chains.png)
