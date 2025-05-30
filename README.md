@@ -2173,3 +2173,8 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 - Implementing WordPiece Tokenizer from Scratch.
 
 ![alt text](GenAI/Users_Perspective/Photo/Conditional_Chains.png)
+
+# Day 258
+- Not much today, Studied about Data Loaders in RAG application. Studied Intro portion from RAG paper. Needs to grind more:)
+
+![alt text](GenAI/Users_Perspective/Photo/WebBase_Loader.png)
