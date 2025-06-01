@@ -2178,3 +2178,9 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 - Not much today, Studied about Data Loaders in RAG application. Studied Intro portion from RAG paper. Needs to grind more:)
 
 ![alt text](GenAI/Users_Perspective/Photo/WebBase_Loader.png)
+
+# Day 259
+- Implemented Score Computation portion in WordPiece Tokenizer
+- Tinker with Notebook LM where i gave pdf of RAG and generated podcast, mind maps, FAQS, etc. Will study RAG seriously from tom:)
+
+ ![alt text](LLMs/Photo/WordPiece_Tokenizer_pairScore_Compute.png)
