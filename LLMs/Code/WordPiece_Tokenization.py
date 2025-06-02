@@ -50,9 +50,9 @@ splits={
     word: [c if i==0 else f'##{c}' for i, c in enumerate(word)]
     for word in words_freq.keys()
 }
-print(splits)
+# print(splits)
 
-print('\n')
+# print('\n')
 
 #@Computing pair score:
 def compute_pair_score(splits):
@@ -82,6 +82,41 @@ def compute_pair_score(splits):
 #@ Testing:
 pair_scores=compute_pair_score(splits)
 for i, key in enumerate(pair_scores.keys()):
-    print(f'{key}:{pair_scores[key]}')
+    # print(f'{key}:{pair_scores[key]}')
     if i>=5:
         break
+
+
+#@ Finding the pair with the best score:
+best_pair=''
+max_score=None
+for pair, score in pair_scores.items():
+    if max_score is None or max_score<score:
+     best_pair=pair
+     max_score=score
+
+print(best_pair, max_score)
+
+
+#@ Merging the pairs:
+def merge_pair(a, b, splits):
+    for word in words_freq:
+        split=splits[word]
+        if len(split)==1:
+            continue
+
+        i=0
+        while i<len(split)-1:
+            if split[i]==a and split[i+1]==b:
+                merge=a + b[2:] if b.startswith("##") else a+b
+                split=split[:i] + [merge] + split[i+2:]
+            
+            else:
+                i+=1
+        splits[word]=split
+
+    return splits
+
+
+splits=merge_pair('C', '##h', splits)
+print(splits['Chelsea'])
