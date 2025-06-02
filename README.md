@@ -2184,3 +2184,13 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 - Tinker with Notebook LM where i gave pdf of RAG and generated podcast, mind maps, FAQS, etc. Will study RAG seriously from tom:)
 
  ![alt text](LLMs/Photo/WordPiece_Tokenizer_pairScore_Compute.png)
+
+ # Day 260
+ - Addd code for pair merging in WPE
+
+ ![alt text](LLMs/Photo/Pair_Merging_WPE.png)
+
+ - Document Ingestion for Youtube Chatbot using RAG.
+
+ ![alt text](GenAI/Users_Perspective/Photo/Document_Ingestion_RAG.png)
+
