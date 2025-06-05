@@ -2186,7 +2186,7 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
  ![alt text](LLMs/Photo/WordPiece_Tokenizer_pairScore_Compute.png)
 
  # Day 260
- - Addd code for pair merging in WPE
+ - Added code for pair merging in WPE
 
  ![alt text](LLMs/Photo/Pair_Merging_WPE.png)
 
@@ -2194,3 +2194,7 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 
  ![alt text](GenAI/Users_Perspective/Photo/Document_Ingestion_RAG.png)
 
+# Day 261
+Completed WordPiece Embedding training and tokenizer with fine-grained small size vocabulary.
+
+![alt text](LLMs/Photo/WPE_Completed.png)
