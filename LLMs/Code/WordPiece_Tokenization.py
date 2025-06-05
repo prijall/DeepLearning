@@ -95,7 +95,7 @@ for pair, score in pair_scores.items():
      best_pair=pair
      max_score=score
 
-print(best_pair, max_score)
+# print(best_pair, max_score)
 
 
 #@ Merging the pairs:
@@ -119,4 +119,58 @@ def merge_pair(a, b, splits):
 
 
 splits=merge_pair('C', '##h', splits)
-print(splits['Chelsea'])
+# print(splits['Chelsea'])
+
+
+
+#@ Creating a vocab 
+
+vocab_size=70
+while len(vocab)< vocab_size:
+    scores=compute_pair_score(splits)
+    best_pair, max_score='', None
+    for pair, score in scores.items():
+        if max_score is None or max_score < score:
+            best_pair=pair
+            max_score=score
+    splits=merge_pair(*best_pair, splits)
+
+    new_token=(
+                best_pair[0] + best_pair[1][2:]
+                if best_pair[1].startswith('##')
+                else best_pair[0] + best_pair[1]
+    )
+    vocab.append(new_token)
+
+
+# print(vocab)
+
+#@ encoder:
+
+def encode_word(word):
+    tokens=[]
+    while len(word)>0:
+        i=len(word)
+        while i>0 and word[:i] not in vocab:
+            i-=1
+        if i==0:
+            return ['[UNK]']
+        
+        tokens.append(word[:i])
+        word=word[i:]
+        if len(word)>0:
+            word=f'##{word}'
+    
+    return tokens
+
+
+#@ function that tokenizes the text:
+def tokenize(text):
+    pre_tokenize_result=tokenizer._tokenizer.pre_tokenizer.pre_tokenize_str(text)
+    pre_tokenized_text=[word for word, offset in pre_tokenize_result]
+    encode_words=[encode_word(word) for word in pre_tokenized_text]
+    return sum(encode_words, [])
+
+
+val=tokenize('My name is prijal Khadka')
+print(val)
