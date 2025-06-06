@@ -2198,3 +2198,11 @@ Learnt and implemented the concept of Parser in Langchain and how it helps in ge
 Completed WordPiece Embedding training and tokenizer with fine-grained small size vocabulary.
 
 ![alt text](LLMs/Photo/WPE_Completed.png)
+
+
+# Day 262
+- Added Text Spliting and retreiver for RAG Application.
+
+![alt text](GenAI/Users_Perspective/Photo/Text_Spliting_RAG.png)
+
+![alt text](GenAI/Users_Perspective/Photo/Retrevier_RAG.png)
