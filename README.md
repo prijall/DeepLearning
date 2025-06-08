@@ -2206,3 +2206,9 @@ Completed WordPiece Embedding training and tokenizer with fine-grained small siz
 ![alt text](GenAI/Users_Perspective/Photo/Text_Spliting_RAG.png)
 
 ![alt text](GenAI/Users_Perspective/Photo/Retrevier_RAG.png)
+
+# Day 263
+- Experimenting RAG Application with Docker, dont know if it works or not.
+- Array and hashing bubble sort based question solved.
+
+![alt text](GenAI/Users_Perspective/Photo/Experimenting_RAG.png)
