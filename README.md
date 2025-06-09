@@ -2212,3 +2212,11 @@ Completed WordPiece Embedding training and tokenizer with fine-grained small siz
 - Array and hashing bubble sort based question solved.
 
 ![alt text](GenAI/Users_Perspective/Photo/Experimenting_RAG.png)
+
+# Day 264
+- Improved code on RAG Application.
+- Revised Cross Attention concept and Softmax cross entropy loss using stable softmax.
+
+![alt text](GenAI/Users_Perspective/Photo/Experimenting_RAG_2.png)
+
+![alt text](LLMs/Photo/cross_entropy_rev.png)
