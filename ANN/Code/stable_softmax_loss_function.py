@@ -1,33 +1,33 @@
 import numpy as np
 
-def stable_softmax(x)->float:
+def stable_softmax(x):
     if x.ndim==1:
-        shifted_x=x-np.max(x)
-        exp_val=np.exp(shifted_x)
-        return exp_val/np.sum(exp_val)
+        x_shifted=x-np.max(x)
+        exp_x=np.exp(x_shifted)
+        sum_x=np.sum(exp_x)
+        return exp_x/sum_x
+    
     else:
-        shifted_x=x-np.max(x, axis=1, keepdims=True)
-        exp_val=np.exp(shifted_x)
-        exp_sum=np.sum(exp_val, axis=1, keepdims=True)
-        return exp_val / exp_sum
+        x_shifted=x-np.max(x, axis=1, keepdims=True)
+        exp_x=np.exp(x_shifted)
+        sum_x=np.sum(exp_x)
+        return exp_x/sum_x
     
 
 def softmax_cross_entropy_loss(logits, labels):
-    calculate_probabilities=stable_softmax(logits)
-    print('Calculate Probabilities:', calculate_probabilities)
-    print('\n')
+    compute_probab=stable_softmax(logits)
+    print('Compute Probability:\n', compute_probab)
 
     batch_indices=np.arange(logits.shape[0])
-    corrected_log_probabilities=-np.log(calculate_probabilities[batch_indices, labels])
-    print('Corrected probabilities', corrected_log_probabilities)
-    print('\n')
+    corrected_logprobaabilities=-np.log(compute_probab[batch_indices, labels])
 
-    return np.mean(corrected_log_probabilities)
+    print('correct Log Probabilites:\n', corrected_logprobaabilities)
 
+    return np.mean(corrected_logprobaabilities)
+ 
 
+logits1=np.array([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
+labels1=np.array([0,1])
 
-logits = np.array([[2.0, 1.0, 0.1], [0.5, 2.5, 0.3]])
-labels = np.array([0, 1])
-
-loss=softmax_cross_entropy_loss(logits, labels)
-print('cross entropy loss', f'{loss:.2f}')
+loss=softmax_cross_entropy_loss(logits1, labels1)
+print(f'softmax cross entropy loss:{loss:.2f}\n')
