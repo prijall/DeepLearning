@@ -2220,3 +2220,8 @@ Completed WordPiece Embedding training and tokenizer with fine-grained small siz
 ![alt text](GenAI/Users_Perspective/Photo/Experimenting_RAG_2.png)
 
 ![alt text](LLMs/Photo/cross_entropy_rev.png)
+
+# Day 265
+- revised Complete Decoder architecture from transformer and the use of mask self attention in decoder and its nature of non auto-regressive during training.
+
+![alt text](LLMs/Photo/Decoder_Rev.png)
