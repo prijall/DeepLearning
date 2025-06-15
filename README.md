@@ -2225,3 +2225,17 @@ Completed WordPiece Embedding training and tokenizer with fine-grained small siz
 - revised Complete Decoder architecture from transformer and the use of mask self attention in decoder and its nature of non auto-regressive during training.
 
 ![alt text](LLMs/Photo/Decoder_Rev.png)
+
+# Day 266
+- Sharing what i have been trying to do from last few tries different things, still figuring out tho but learning has been rollercoster.
+-  Read arcticles on vector embeddings/graphs for rag
+  
+PS: couldnt share code as my laptop didnt open:(
+
+![alt text](GenAI/Users_Perspective/Photo/RAG_Application.jpg)
+
+# Day 267
+- Started Reading Paper from GPT-3
+- Revised TF-IDF Intuition and solved daily temperature problems.
+
+![alt text](LLMs/Photo/GPT-3_Intro.png)
