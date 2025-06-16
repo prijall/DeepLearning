@@ -2239,3 +2239,11 @@ PS: couldnt share code as my laptop didnt open:(
 - Revised TF-IDF Intuition and solved daily temperature problems.
 
 ![alt text](LLMs/Photo/GPT-3_Intro.png)
+
+# Day 268
+- Types of learning from GPT3 paper and how traditional fine-tuning from pre-training can cause spurious correlation in inference explanation studied with the help of Notebook LM
+- Revisited the code from the project of MLOps which dealt with the deployment of the pipeline
+  
+![alt text]("C:\Users\myhpl\OneDrive\Pictures\Screenshots\MLOp_Review.png")
+
+![alt text](LLMs/Photo/types_of_learning_GPT3.png)
