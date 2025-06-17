@@ -2247,3 +2247,9 @@ PS: couldnt share code as my laptop didnt open:(
 ![alt text]("C:\Users\myhpl\OneDrive\Pictures\Screenshots\MLOp_Review.png")
 
 ![alt text](LLMs/Photo/types_of_learning_GPT3.png)
+
+# Day 269
+- Thoroughly completed GPT3 paper without going in more detail. Will be re-reading bert for knowledge distillation.
+- Experimenting RAG Application continues hopefully will land up completing it:)
+
+  ![alt text](LLMs/Photo/GPT3_Review.png)
