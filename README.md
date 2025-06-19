@@ -2253,3 +2253,8 @@ PS: couldnt share code as my laptop didnt open:(
 - Experimenting RAG Application continues hopefully will land up completing it:)
 
   ![alt text](LLMs/Photo/GPT3_Review.png)
+
+# Day 270
+- Revised BERT Paper and Code thoroughly:)
+- 
+![alt text](LLMs/Photo/BERT_Revision.png)
