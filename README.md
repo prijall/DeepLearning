@@ -2256,5 +2256,11 @@ PS: couldnt share code as my laptop didnt open:(
 
 # Day 270
 - Revised BERT Paper and Code thoroughly:)
-- 
+
 ![alt text](LLMs/Photo/BERT_Revision.png)
+
+# Day 271
+- Re-started again RAG-Based Application again after failing once:)
+- Revised sudoku solving concept using hashing.
+
+![alt text](GenAI/Users_Perspective/Photo/RAG_CHATBOT_fileloader.png)
