@@ -2264,3 +2264,9 @@ PS: couldnt share code as my laptop didnt open:(
 - Revised sudoku solving concept using hashing.
 
 ![alt text](GenAI/Users_Perspective/Photo/RAG_CHATBOT_fileloader.png)
+
+# Day 272
+ - Added documents splitter for giving additional knowledge to llm
+ - Sentence transformer is used to create an embeddings
+ 
+ ![alt text](GenAI/Users_Perspective/Photo/Embedding_RAG.png)
