@@ -2270,3 +2270,8 @@ PS: couldnt share code as my laptop didnt open:(
  - Sentence transformer is used to create an embeddings
  
  ![alt text](GenAI/Users_Perspective/Photo/Embedding_RAG.png)
+
+ # Day 273
+ - Not much today, added Chroma database for storing vector embeddings and performed similarity search, not a good result tho:(
+  
+  ![alt text](GenAI/Users_Perspective/Photo/similarity_search.png)
