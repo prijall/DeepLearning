@@ -2275,3 +2275,9 @@ PS: couldnt share code as my laptop didnt open:(
  - Not much today, added Chroma database for storing vector embeddings and performed similarity search, not a good result tho:(
   
   ![alt text](GenAI/Users_Perspective/Photo/similarity_search.png)
+
+# Day 274
+- Added Sqlite chat history upload and retriever in chatbot project and also added code in pydantic functions.
+- Binary search revision
+
+![alt text](GenAI/Users_Perspective/Photo/RAG_ChatBot_SQLITE.png)
