@@ -2281,3 +2281,11 @@ PS: couldnt share code as my laptop didnt open:(
 - Binary search revision
 
 ![alt text](GenAI/Users_Perspective/Photo/RAG_ChatBot_SQLITE.png)
+
+# Day 275
+ - completed db working mainly insertion, deletion and retrieving files where cursor function shines
+ - Implementing FASTAPI for the first time so went through the docs(really good)
+
+ ![alt text](GenAI/Users_Perspective/Photo/CHATBOT_FASTAPI_1.png)
+
+ ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_Documents.png)
