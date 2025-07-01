@@ -2289,3 +2289,8 @@ PS: couldnt share code as my laptop didnt open:(
  ![alt text](GenAI/Users_Perspective/Photo/CHATBOT_FASTAPI_1.png)
 
  ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_Documents.png)
+
+ # Day 276
+ - Not much today, learnt vector store using chroma database and enhancing prompt template for powering llms.
+ 
+ ![alt text](GenAI/Users_Perspective/Photo/Chroma_DB.png)
