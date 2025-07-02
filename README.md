@@ -2294,3 +2294,9 @@ PS: couldnt share code as my laptop didnt open:(
  - Not much today, learnt vector store using chroma database and enhancing prompt template for powering llms.
  
  ![alt text](GenAI/Users_Perspective/Photo/Chroma_DB.png)
+
+ # Day 277
+ - Completeed langchain portion and implemented chat interaction endpoint using fastapi
+ - Review for Binary Search
+
+ ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_PART1.png)
