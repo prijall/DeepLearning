@@ -2300,3 +2300,8 @@ PS: couldnt share code as my laptop didnt open:(
  - Review for Binary Search
 
  ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_PART1.png)
+
+ # Day 278
+ - Added endpoint code for file upload with limited format and if the wrong format is uploaded then returns HTTPSException.
+ 
+ ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_Part_2.png)
