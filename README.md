@@ -2305,3 +2305,8 @@ PS: couldnt share code as my laptop didnt open:(
  - Added endpoint code for file upload with limited format and if the wrong format is uploaded then returns HTTPSException.
  
  ![alt text](GenAI/Users_Perspective/Photo/FASTAPI_Part_2.png)
+
+ # Day 279
+ - Completed fastapi code for the project and started building UI using streamlit.
+
+ ![alt text](GenAI/Users_Perspective/Photo/Streamlit_UI_ProjectRag_1.png)
