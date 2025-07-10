@@ -2310,3 +2310,9 @@ PS: couldnt share code as my laptop didnt open:(
  - Completed fastapi code for the project and started building UI using streamlit.
 
  ![alt text](GenAI/Users_Perspective/Photo/Streamlit_UI_ProjectRag_1.png)
+
+ # Day 280
+ - Work in progess(api handling seems to be broken will try to fix in coming days)
+ - revised concepts from calculus and binary searching in depth
+
+ ![alt text](GenAI/Users_Perspective/Photo/Project_Rag_Updates.png)
