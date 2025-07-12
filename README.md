@@ -2316,3 +2316,9 @@ PS: couldnt share code as my laptop didnt open:(
  - revised concepts from calculus and binary searching in depth
 
  ![alt text](GenAI/Users_Perspective/Photo/Project_Rag_Updates.png)
+
+ # Day 281
+ - Read Paper on **LoRA**(abstract and intro part) with the help of NotebookLM.
+ - Review of Probability Concepts
+
+ ![alt text](LLMs/Photo/LoRA_Paper_1.png)
