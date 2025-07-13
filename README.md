@@ -2322,3 +2322,8 @@ PS: couldnt share code as my laptop didnt open:(
  - Review of Probability Concepts
 
  ![alt text](LLMs/Photo/LoRA_Paper_1.png)
+
+ # Day 282
+ - Implemented self attention for Roberta using LoRA and read the paper in more detail.
+ 
+![alt text](LLMs/Photo/Self_Attention_LoRA.png)
