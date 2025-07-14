@@ -2327,3 +2327,9 @@ PS: couldnt share code as my laptop didnt open:(
  - Implemented self attention for Roberta using LoRA and read the paper in more detail.
  
 ![alt text](LLMs/Photo/Self_Attention_LoRA.png)
+
+# Day 283
+- Started TTS Finetuning using Unsloth
+- Continued reading LoRA paper
+
+![alt text](LLMs/Photo/TTS_FineTuning_1.png)
