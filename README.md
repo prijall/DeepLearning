@@ -2333,3 +2333,9 @@ PS: couldnt share code as my laptop didnt open:(
 - Continued reading LoRA paper
 
 ![alt text](LLMs/Photo/TTS_FineTuning_1.png)
+
+# Day 284
+- Added LoRA Adaptors in Unsloth fine-tunining.
+- read paper in more detail
+
+![alt text](LLMs/Photo/LoRA_Adaptor_Unsloth_Finetune.png)
