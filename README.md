@@ -2339,3 +2339,10 @@ PS: couldnt share code as my laptop didnt open:(
 - read paper in more detail
 
 ![alt text](LLMs/Photo/LoRA_Adaptor_Unsloth_Finetune.png)
+
+# Day 285
+- Completed Data Preparation for Unsloth fine-tuning. Here the inputs would be text + audio so that preprocessing should be solid.
+
+![alt text](LLMs/Photo/Data_Prep_UnSloth_1.png)
+
+![alt text](LLMs/Photo/Data_prep_Unsloth_2.png)
