@@ -2346,3 +2346,8 @@ PS: couldnt share code as my laptop didnt open:(
 ![alt text](LLMs/Photo/Data_Prep_UnSloth_1.png)
 
 ![alt text](LLMs/Photo/Data_prep_Unsloth_2.png)
+
+# Day 286
+- Training  complete for fine tuning. super easy due to LoRA,  will test more:)
+
+![alt text](LLMs/Photo/TTS_Training.png)
