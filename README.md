@@ -2351,3 +2351,8 @@ PS: couldnt share code as my laptop didnt open:(
 - Training  complete for fine tuning. super easy due to LoRA,  will test more:)
 
 ![alt text](LLMs/Photo/TTS_Training.png)
+
+# Day 287
+Not much today, Inferencing fine-tuned model, learnt about sampling, randomness, etc with audio result. Fine-Tuning is also a art:)
+
+![alt text](LLMs/Photo/Unsloth_inference_1.png)
