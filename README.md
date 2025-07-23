@@ -2356,3 +2356,8 @@ PS: couldnt share code as my laptop didnt open:(
 Not much today, Inferencing fine-tuned model, learnt about sampling, randomness, etc with audio result. Fine-Tuning is also a art:)
 
 ![alt text](LLMs/Photo/Unsloth_inference_1.png)
+
+# Day 288
+Re-writing GPT from Scratch from Andrej Karpathy as last time there we were too many errors in my code.
+
+![alt text](LLMs/Photo/Rewriting_GPT_MulitHeadAttention.png)
