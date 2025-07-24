@@ -2361,3 +2361,8 @@ Not much today, Inferencing fine-tuned model, learnt about sampling, randomness,
 Re-writing GPT from Scratch from Andrej Karpathy as last time there we were too many errors in my code.
 
 ![alt text](LLMs/Photo/Rewriting_GPT_MulitHeadAttention.png)
+
+# Day 289
+Re-write encoder block for gpt from andrej karpathy gpt-dev. Learnt about Pre-LayerNorm vs Post-LayerNorm.
+
+![alt text](LLMs/Photo/encoder_rev_gpt.png)
