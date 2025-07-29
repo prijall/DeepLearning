@@ -2366,3 +2366,8 @@ Re-writing GPT from Scratch from Andrej Karpathy as last time there we were too 
 Re-write encoder block for gpt from andrej karpathy gpt-dev. Learnt about Pre-LayerNorm vs Post-LayerNorm.
 
 ![alt text](LLMs/Photo/encoder_rev_gpt.png)
+
+# Day 290
+Rewriting gpt bigram model from gpt from scratch by karpathy
+
+![alt text](LLMs/Photo/Bigram_Model_rebuilding.png)
