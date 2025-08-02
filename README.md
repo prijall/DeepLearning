@@ -2371,3 +2371,9 @@ Re-write encoder block for gpt from andrej karpathy gpt-dev. Learnt about Pre-La
 Rewriting gpt bigram model from gpt from scratch by karpathy
 
 ![alt text](LLMs/Photo/Bigram_Model_rebuilding.png)
+
+# Day 291
+- LoRA parameterization on MNIST Dataset along with small size custom Neural Nets.
+- Re-Reading paper
+
+![alt text](LLMs/Photo/LoRA_Parameterization.png)
