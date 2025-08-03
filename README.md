@@ -2377,3 +2377,9 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 - Re-Reading paper
 
 ![alt text](LLMs/Photo/LoRA_Parameterization.png)
+
+# Day 292
+- Completed LoRA Implementation(Some visible results)
+- Worked on RAG Project
+
+![alt text](LLMs/Photo/LORA_Complete.png)
