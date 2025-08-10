@@ -2383,3 +2383,10 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 - Worked on RAG Project
 
 ![alt text](LLMs/Photo/LORA_Complete.png)
+
+# Day 293
+- Read and Implemented Sparse MoE for general understanding.
+
+![alt text](LLMs/Photo/MoE.png)
+
+![alt text](LLMs/Photo/MoE_Architecture.png)
