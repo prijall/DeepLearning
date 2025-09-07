@@ -2390,3 +2390,74 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](LLMs/Photo/MoE.png)
 
 ![alt text](LLMs/Photo/MoE_Architecture.png)
+
+# Day 294
+- Tried training code for MoE from github repo, seems like nothing but has everything.
+- Tried Solving issues in my rag project.
+
+![alt text](LLMs/Photo/MoE_Training.png)
+
+![alt text](GenAI/Users_Perspective/Photo/RAG_Proj_Review.png)
+
+# Day 295
+-  Added expert training in iteration with github codes(understood nothing, will do again)
+-  Implemented FastAPI basics to the project
+-  Practised some questions
+
+![alt text](LLMs/Photo/MoE_Iteration_training.png)
+
+![alt text](GenAI/Users_Perspective/Photo/RAG_Proj_FastAPI_Review.png)
+
+
+# Day 296
+- Started basics for agentic AI with MCP server(for understanding purpose)
+- lec 1 of prob&stat bootcamp
+
+![alt text](GenAI/Agents/Photos/DB_For_MCP.png)
+
+![alt text](MathsForDL/PhotoMaths/Vid_1_prob.png)
+
+# Day 297
+- Added Helper function enabling agent selection and handling user request.
+- lec 2 for probability bootcamp
+
+![alt text](GenAI/Agents/Photos/MCP_DB_Helper_Func.png)
+
+![alt text](MathsForDL/PhotoMaths/Vid_2_prob.png)
+
+  # Day 298
+- Completed Basic Understanding for MCP based AI Agent now will try for project.
+- Vid 3 from probability bootcamp
+
+![alt text](GenAI/Agents/Photos/MCP_Based_DB_Complete.png)
+
+![alt text](MathsForDL/PhotoMaths/Vid_3_Prob_bootcamp.png)
+
+# Day 299 
+- Revision more on tensor while writing code for encoder GPT(visualization seems to be my main issue here)
+- Lec Vid 4 from prob bootcamp
+- Read Blog from Chip Huyen
+
+# Day 300
+- Re-Reading GPT paper again and some articles as my preliminary intuition about the architecture were slightly naive which is troublesome.
+- Vid 5 from probability bootcamp
+
+# Day 301
+🌱A fresh Start
+-  Lots  of theory revision from past few days, will be starting coding from tom.
+- Did some probability from the bootcamp
+
+# Day 302 
+- Studied about KV Caching for speed inferencing. Will try coding up tom
+- tudied about the concept of Low of total probability.
+
+# Day 303
+- Tried Implementing KV Cache for GPT model for one token at a time(majorly) but for decoding multiple tokens at once, we still need masking.
+- Bayes Theorem in detail from prob bootcamp
+
+# Day 304 
+- Explored More on KV Caching...
+
+# Day 305 
+- Overview of Reinforcement Learning(not sure tho)
+- Prob bootcamp
