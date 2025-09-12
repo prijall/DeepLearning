@@ -2438,26 +2438,54 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 - Lec Vid 4 from prob bootcamp
 - Read Blog from Chip Huyen
 
+![alt text](LLMs/Photo/ChipHuyens_MLOPs.png)
+
+![alt text](MathsForDL/PhotoMaths/Vid_4_prob.png)
+
 # Day 300
 - Re-Reading GPT paper again and some articles as my preliminary intuition about the architecture were slightly naive which is troublesome.
 - Vid 5 from probability bootcamp
+
+![alt text](MathsForDL/PhotoMaths/Video_5_probability_bootcamp.png)
 
 # Day 301
 🌱A fresh Start
 -  Lots  of theory revision from past few days, will be starting coding from tom.
 - Did some probability from the bootcamp
 
+![alt text](MathsForDL/PhotoMaths/Prob_Binomial_Distribution.png)
+
+![alt text](MathsForDL/PhotoMaths/Prob_MultiNomial_distribution.png)
+
 # Day 302 
 - Studied about KV Caching for speed inferencing. Will try coding up tom
 - tudied about the concept of Low of total probability.
+
+![alt text](MathsForDL/PhotoMaths/Prob_Conditional_distribution.png)
 
 # Day 303
 - Tried Implementing KV Cache for GPT model for one token at a time(majorly) but for decoding multiple tokens at once, we still need masking.
 - Bayes Theorem in detail from prob bootcamp
 
+![alt text](LLMs/Photo/Implementing_KV_Caching_1.png)
+
+![alt text](LLMs/Photo/Implementing_KV_Caching_2.png)
+
+![alt text](MathsForDL/PhotoMaths/Prob_Bayes_theorem.png)
+
+
 # Day 304 
 - Explored More on KV Caching...
+
+![alt text](LLMs/Photo/Testing_KV_Caching.png)
+
+![alt text](LLMs/Photo/KV_Caching_Result.png)
+
 
 # Day 305 
 - Overview of Reinforcement Learning(not sure tho)
 - Prob bootcamp
+
+![alt text](MathsForDL/PhotoMaths/Prob_Independence.png)
+
+![alt text](Reinforcement_Learning/Photos/Reinforcement_Learning_Review.png)
