@@ -2489,3 +2489,11 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](MathsForDL/PhotoMaths/Prob_Independence.png)
 
 ![alt text](Reinforcement_Learning/Photos/Reinforcement_Learning_Review.png)
+
+# Day 306
+- Started with Basic RL with solving N Arm Bandits
+- Did random variables from probability
+
+![alt text](Reinforcement_Learning/Photos/N_Arm_Bandit_1.png)
+
+![alt text](Reinforcement_Learning/Photos/Updating_Arms_Result.png)
