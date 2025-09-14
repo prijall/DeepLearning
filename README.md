@@ -2497,3 +2497,11 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](Reinforcement_Learning/Photos/N_Arm_Bandit_1.png)
 
 ![alt text](Reinforcement_Learning/Photos/Updating_Arms_Result.png)
+
+# Day 307
+- Studied and implemented softmax selection policy which leads agent to be more precise than random exploitation-exploration
+- Tried Implementing toy contextual bandits environment where actually agent have state spaces
+
+![alt text](Reinforcement_Learning/Photos/Softmax_Selection_policy.png)
+
+![alt text](Reinforcement_Learning/Photos/Contextual_Bandits_Environment.png)
