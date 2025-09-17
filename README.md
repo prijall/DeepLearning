@@ -2505,3 +2505,11 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](Reinforcement_Learning/Photos/Softmax_Selection_policy.png)
 
 ![alt text](Reinforcement_Learning/Photos/Contextual_Bandits_Environment.png)
+
+# Day 308
+- Built mini project using agentic ai for deep research(still remaining tho)
+- Studied about various policies in RL and intro to Q-learning.
+
+![alt text](Reinforcement_Learning/Photos/Q_learning_intro.png)
+
+![alt text](GenAI/Agents/Photos/Deep_Research_Agent.png)
