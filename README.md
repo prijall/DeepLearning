@@ -2513,3 +2513,14 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](Reinforcement_Learning/Photos/Q_learning_intro.png)
 
 ![alt text](GenAI/Agents/Photos/Deep_Research_Agent.png)
+
+# Day 309
+- Completed Deep Researcher Based Agent.  Only issue is that of memory of agents
+
+![alt text](GenAI/Agents/Photos/Deep_Researcher_Agent_Project.png)
+
+- Tried Implementing Q learning NN for 4x4 grid game
+
+![alt text](Reinforcement_Learning/Photos/Q_Learning_training.png)
+
+![alt text](Reinforcement_Learning/Photos/Q_Learning_Train_Result.png)
