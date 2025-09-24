@@ -2524,3 +2524,10 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 ![alt text](Reinforcement_Learning/Photos/Q_Learning_training.png)
 
 ![alt text](Reinforcement_Learning/Photos/Q_Learning_Train_Result.png)
+
+# Day 310
+- Started personal project related to embeddings and tokenizations(pet project)
+- Studied Binomial, Bernouli and Normal distribution
+- Been practising CI/CD pipeline integration
+
+![alt text](MathsForDL/PhotoMaths/Binomal_to_Normal.png)
