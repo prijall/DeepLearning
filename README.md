@@ -2531,3 +2531,8 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 - Been practising CI/CD pipeline integration
 
 ![alt text](MathsForDL/PhotoMaths/Binomal_to_Normal.png)
+
+# Day 311
+- Not much today, Implementing BPE while work done till creating vocab, pair and merging pairs. This time will push more than just implementing and training BPE
+
+![alt text](LLMs/Photo/BPE_part1.png)
