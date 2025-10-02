@@ -2536,3 +2536,10 @@ Rewriting gpt bigram model from gpt from scratch by karpathy
 - Not much today, Implementing BPE while work done till creating vocab, pair and merging pairs. This time will push more than just implementing and training BPE
 
 ![alt text](LLMs/Photo/BPE_part1.png)
+
+# Day 312
+- Completed BPE training from scratch which included token indexing and training embeddings.
+- Read Articles from thinkymachines about LoRA without Regret and revised few concepts.
+
+![alt text](LLMs/Photo/Tokenization_with_embedding_project_Complete.png)
+
